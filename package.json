@@ -1,0 +1,36 @@
+{
+  "name": "MyAwesomeProject",
+  "version": "0.0.0",
+  "description": "Description about my awesome project.",
+  "main": "./dist/myawesomeproject.js",
+  "scripts": {
+    "test": "istanbul test --report html -x 'vendor/**' --hook-run-in-context _mocha",
+    "test-travis": "istanbul cover -x 'vendor/**' --hook-run-in-context _mocha -- -R spec;A=$?;cat coverage/lcov.info | coveralls;exit $A",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amazing/project.git"
+  },
+  "author": "Amazing author",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amazing/project/issues"
+  },
+  "homepage": "https://github.com/amazing/project",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "istanbul": "*",
+    "gulp": "~3",
+    "gulp-util": "~2",
+    "coveralls": "~2",
+    "gulp-uglify": "~0",
+    "webpack": "~0",
+    "gulp-watch": "~0",
+    "gulp-if": "~0",
+    "gulp-plumber": "~0",
+    "through": "~2",
+    "gulp-rename": "~0"
+  }
+}
