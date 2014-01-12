@@ -1,36 +1,40 @@
 {
-  "name": "MyAwesomeProject",
-  "version": "0.0.0",
-  "description": "Description about my awesome project.",
-  "main": "./dist/myawesomeproject.js",
+  "name": "gulp-spawn-shim",
+  "version": "0.0.1",
+  "description": "Thin wrapper (shim) of Node.js's child_process.spawn() with respect to gulp (vinyl file streams) by binding to stdin, stdout, and stderr.",
+  "main": "index.js",
   "scripts": {
-    "test": "istanbul test --report html -x 'vendor/**' --hook-run-in-context _mocha",
-    "test-travis": "istanbul cover -x 'vendor/**' --hook-run-in-context _mocha -- -R spec;A=$?;cat coverage/lcov.info | coveralls;exit $A",
-    "webpack": "webpack"
+    "test": "istanbul test --report html -x 'vendor/**' _mocha",
+    "test-travis": "istanbul cover _mocha -- -R spec;A=$?;cat coverage/lcov.info | coveralls;exit $A"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/amazing/project.git"
+    "url": "https://github.com/Dashed/gulp-spawn-shim.git"
   },
-  "author": "Amazing author",
+  "keywords": [
+    "gulpplugin",
+    "spawn",
+    "cli",
+    "shell",
+    "exec"
+  ],
+  "author": "Alberto Leal (https://github.com/dashed)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amazing/project/issues"
+    "url": "https://github.com/Dashed/gulp-spawn-shim/issues"
   },
-  "homepage": "https://github.com/amazing/project",
+  "homepage": "https://github.com/Dashed/gulp-spawn-shim",
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
     "istanbul": "*",
-    "gulp": "~3",
-    "gulp-util": "~2",
     "coveralls": "~2",
-    "gulp-uglify": "~0",
-    "webpack": "~0",
-    "gulp-watch": "~0",
-    "gulp-if": "~0",
-    "gulp-plumber": "~0",
-    "through": "~2",
-    "gulp-rename": "~0"
+    "gulp-rename": "~0.2.1",
+    "gulp": "~3.3.1"
+  },
+  "dependencies": {
+    "event-stream": "~3.1.0",
+    "async-queue-stream": "~0",
+    "gulp-util": "~2.2.9"
   }
 }
