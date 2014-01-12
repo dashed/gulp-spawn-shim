@@ -3,10 +3,12 @@ spawn = require('child_process').spawn,
 path = require("path"),
 fs = require('fs'),
 domain = require('domain'),
+es = require('event-stream'),
 
 tmp = require('tmp'),
 _queue = require('async-queue-stream'),
-gutil = require('gulp-util');
+gutil = require('gulp-util'),
+through = require('through');
 
 
 function gulp_spawn_shim(_opts) {
@@ -46,24 +48,27 @@ function gulp_spawn_shim(_opts) {
 
     };
 
+
+
     var _write = function(file, cb) {
+
+        var err_catcher = domain.create();
+
 
         // pass along
         if (file.isNull()) return cb(null, file);
 
         config_args(file);
 
-        // create domain
-        var err_catcher = domain.create();
+        err_catcher.once('error', function(err) {
 
-        err_catcher.on('error', function(err) {
             console.log('CAUGHT ERROR: ' + err);
+            console.log('FILE: ' + file.path);
             return cb(err);
         });
 
 
         var child = void 0;
-
         child = spawn(opts.cmd, opts.args, opts.options);
 
         // catch a lot of errors
@@ -81,74 +86,74 @@ function gulp_spawn_shim(_opts) {
         });
 
         var publish = function(f) {
-            if(err.length <= 0)
+            if(err.length <= 0) {
                 err = null;
+            } else {
+                err = new Error(err);
+            }
+
             return cb(err, f);
         };
 
 
         if (file.isStream()) {
 
-            var es = require('event-stream');
-
             // really fucking lame
-            var stdout = es.pipeline(file.contents,
-                                    child.stdin,
-                                    child.stdout);
 
-            err_catcher.add(stdout);
-            // .on('error', function() {console.log("q")});
 
-            // file.contents
-            // .on('error', function() {console.log("p")});
+            // var stdout = es.pipeline(file.contents,
+            //                         child.stdin,
+            //                         child.stdout);
 
-            // child.stdin
-            // .on('error', function() {console.log("p")});
-
-            // child.stdout
-            // .on('error', function() {console.log("p")});
-
-            // stdout.once('data', function() {
+            file.contents.pipe(child.stdin);
 
 
 
+            // file.contents = child.stdout;
+            // return cb(null, file);
 
-            // });
-            // console.log(data)
+            // // stdout.on('data', function(data) {
+            // //     file.contents.write(data);
+
+            // // });
+
+
             tmp.file(function _tempFileCreated(err, tmp_path, fd) {
-                if (err) throw err;
+                if (err) err_catcher.emit('error', err);
 
                 // console.log(Object.keys());
                 if(child.stdout.readable === false) {
                     tmp.setGracefulCleanup();
-                    // console.log("HERE");
-                    return;
+                    // console.log('LOL')
+                    // err_catcher.emit('error', new Error('not readable'));
+                    return cb();
                 }
 
                 // read from tmp_file and write into it
                 var tmp_file = fs.createWriteStream(tmp_path);
 
-                stdout
-                    .on('error', function() {
-                        console.log('bullshit');
-                    })
-                    .on('end', function(){
-
-                        file.contents = fs.createReadStream(tmp_path);
-
-                        console.log('published: '+ file.path);
-                        return publish(file);
-                    });
-
-                stdout
+                child.stdout
                     .pipe(tmp_file);
 
+                child.stdout
+                    .once('end', function(){
 
+                        var read_stream = fs.createReadStream(tmp_path);
 
-              // console.log("File: ", path);
-              // console.log("Filedescriptor: ", fd);
-              // tmp.setGracefulCleanup();
+                        read_stream.on('end', function() {
+                            tmp.setGracefulCleanup();
+                            console.log('clean up: ' + path.basename(file.path));
+                        });
+
+                        file.contents = read_stream;
+
+                        console.log('published: '+ file.path);
+                        return cb(null, file);
+                    });
+
             });
+
+
 
 
 
@@ -158,6 +163,8 @@ function gulp_spawn_shim(_opts) {
             // return this.emit('error', new gutil.PluginError('gulp-pandoc', 'Streaming not supported.'));
 
         } else if (file.isBuffer()) {
+
+            console.log('why are u here?')
 
             var output = new Buffer(0);
 
