@@ -84,7 +84,7 @@ function gulp_spawn_shim(_opts) {
             if(err) {
                 bus.removeAllListeners();
             }
-            console.log('publish');
+            console.log('publish:' + path.basename(file.path));
 
             return cb(err, file);
         });
@@ -139,7 +139,6 @@ function gulp_spawn_shim(_opts) {
             /**
              * Available events:
              *
-             * publish
              * stdout-data
              * stdout-end
              * tmp-file-create
@@ -153,21 +152,58 @@ function gulp_spawn_shim(_opts) {
             // Attempt to write to stdin
             file.contents
                 .pipe(child.stdin)
-                .on('end', function() {
-                    console.log('ended!');
+
+                // divert to domain
+                .on('error', function() {})
+
+                .on('finish', function() {
+                    // console.log('ended!');
                 });
 
 
+            // 1. Create tmp file
+            tmp.file(function _tempFileCreated(err, tmp_path, fd) {
+                if (err) return bus.emit('publish', err);
+
+                if(child.stdout.readable === false) {
+                    return bus.emit('publish'), bus.emit('tmp-file-clean');
+                }
+
+                var tmp_file = fs.createWriteStream(tmp_path);
+
+                // 2. Attempt to write to tmp file
+                child.stdout.pipe(tmp_file);
+
+                // tmp_file.on('end', function() {
+                //     console.log('ended')
+                // })
+
+                var written_tmp = false;
+                child.stdout
+                    .once('readable', function() {
+                        // bus.emit('tmp-file-create');
+                    })
+                    .once('data', function() {
+                        written_tmp = true;
+                        console.log("DID WRITE:" + path.basename(file.path));
+                    })
+                    .on('end', function() {
+
+                        if(written_tmp === false) {
+
+                            return bus.emit('publish');
+                        }
+
+                        file.contents = fs.createReadStream(tmp_path);
+
+                        return bus.emit('publish', void 0, file);
+                    });
+
+            });
 
 
 
-            child.stdout
-                .once('readable', function() {
-                    bus.emit('tmp-file-create');
-                })
-                .on('end', function() {
-                    return bus.emit('stdout-end');
-                });
+            return;
 
             // var readable = function(count, callback) {
             //     var self = this;
@@ -184,8 +220,34 @@ function gulp_spawn_shim(_opts) {
                 tmp.file(function _tempFileCreated(err, tmp_path, fd) {
                     if (err) return bus.emit('publish', err);
 
-                    if(child.stdout.readable === false)
+                    if(child.stdout.readable === false) {
                         return bus.emit('publish'), bus.emit('tmp-file-clean');
+                    }
+
+                    // write into tmp file
+                    var tmp_file = fs.createWriteStream(tmp_path);
+                    err_catcher.add(tmp_file);
+
+                    child.stdout
+                        .pipe(tmp_file);
+
+                    child.stdout
+                        .on('end', function() {
+
+                            var read_stream = fs.createReadStream(tmp_path);
+
+                            read_stream.on('end', function() {
+                                tmp.setGracefulCleanup();
+                                console.log('clean up: ' + path.basename(file.path));
+                            });
+
+                            file.contents = read_stream;
+
+                            console.log('published: '+ path.basename(file.path));
+
+                            return bus.emit('publish', void 0, file);
+
+                        });
 
                 });
             });
@@ -193,29 +255,6 @@ function gulp_spawn_shim(_opts) {
 
 
             return;
-
-
-            // var stdout = es.pipeline(file.contents,
-            //                         child.stdin,
-            //                         child.stdout);
-
-        // err_catcher.add(child);
-        // err_catcher.add(child.stdin);
-        // err_catcher.add(child.stdout);
-        // err_catcher.add(child.stderr);
-        // err_catcher.add(file.contents);
-
-
-
-
-            // file.contents = child.stdout;
-            // return cb(null, file);
-
-            // // stdout.on('data', function(data) {
-            // //     file.contents.write(data);
-
-            // // });
-
 
 
             tmp.file(function _tempFileCreated(err, tmp_path, fd) {
