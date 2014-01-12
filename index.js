@@ -4,6 +4,7 @@ path = require("path"),
 fs = require('fs'),
 domain = require('domain'),
 es = require('event-stream'),
+events = require('events'),
 
 tmp = require('tmp'),
 _queue = require('async-queue-stream'),
@@ -48,23 +49,50 @@ function gulp_spawn_shim(_opts) {
 
     };
 
+    var super_bus = new events.EventEmitter();
 
+    //ENOENT
 
     var _write = function(file, cb) {
-
-        var err_catcher = domain.create();
-
 
         // pass along
         if (file.isNull()) return cb(null, file);
 
+        /**
+         * Available events:
+         *
+         * publish
+         *
+         *
+         * stdout-data
+         * stdout-end
+         * tmp-file-create
+         * tmp-file-clean
+         */
+        var bus = new events.EventEmitter();
+
+        bus.on('publish', function(err, file) {
+            if(err) {
+                bus.removeAllListeners();
+            }
+            console.log('publish');
+
+            return cb(err, file);
+        });
+
+
         config_args(file);
 
-        err_catcher.once('error', function(err) {
+        var err_catcher = domain.create();
 
+        err_catcher.once('error', function(err) {
+            // Broken pipe
+            if (err.code == "EPIPE") {
+                return bus.emit('publish');
+            }
             console.log('CAUGHT ERROR: ' + err);
             console.log('FILE: ' + file.path);
-            return cb(err);
+            bus.emit('publish', err);
         });
 
 
@@ -78,34 +106,99 @@ function gulp_spawn_shim(_opts) {
         err_catcher.add(child.stderr);
         err_catcher.add(file.contents);
 
+
         // error handling
-        var err = '';
+        var _stderr = '';
 
         child.stderr.on('data', function (data) {
-            err += data;
+            _stderr += data;
+        }).on('end', function() {
+            if(_stderr.length > 0)
+                return super_bus.emit('stderr', _stderr);
         });
-
-        var publish = function(f) {
-            if(err.length <= 0) {
-                err = null;
-            } else {
-                err = new Error(err);
-            }
-
-            return cb(err, f);
-        };
 
 
         if (file.isStream()) {
 
-            // really fucking lame
+
+            /**
+             * Available events:
+             *
+             * publish
+             * stdout-data
+             * stdout-end
+             * tmp-file-create
+             * tmp-file-clean
+             */
+
+            bus.on('tmp-file-clean', function() {
+                tmp.setGracefulCleanup();
+            });
+
+            // Attempt to write to stdin
+            file.contents
+                .pipe(child.stdin)
+                .on('end', function() {
+                    console.log('ended!');
+                });
+
+
+
+            // child.on('close', function(num) {
+
+            //     if(num != 0) {
+            //         if(_stderr.length > 0) {
+            //             return cb(new Error(_stderr));
+            //         } else {
+            //             return cb(new Error("Program exit with code " + num));
+            //         }
+            //     }
+            // });
+
+            child.stdout
+                .once('readable', function() {
+                    bus.emit('tmp-file-create');
+                })
+                .on('end', function() {
+                    return bus.emit('stdout-end');
+                });
+
+            // var readable = function(count, callback) {
+            //     var self = this;
+            // };
+
+            // var writable = es.readable(readable);
+
+            bus.on('stdout-end', function() {
+                // writable.emit('end');
+            });
+
+            bus.on('tmp-file-create', function() {
+
+                tmp.file(function _tempFileCreated(err, tmp_path, fd) {
+                    if (err) return bus.emit('publish', err);
+
+                    if(child.stdout.readable === false)
+                        return bus.emit('publish'), bus.emit('tmp-file-clean');
+
+                });
+            });
+
+
+
+            return;
 
 
             // var stdout = es.pipeline(file.contents,
             //                         child.stdin,
             //                         child.stdout);
 
-            file.contents.pipe(child.stdin);
+        // err_catcher.add(child);
+        // err_catcher.add(child.stdin);
+        // err_catcher.add(child.stdout);
+        // err_catcher.add(child.stderr);
+        // err_catcher.add(file.contents);
+
 
 
 
@@ -118,13 +211,14 @@ function gulp_spawn_shim(_opts) {
             // // });
 
 
+
             tmp.file(function _tempFileCreated(err, tmp_path, fd) {
                 if (err) err_catcher.emit('error', err);
 
                 // console.log(Object.keys());
                 if(child.stdout.readable === false) {
                     tmp.setGracefulCleanup();
-                    // console.log('LOL')
+
                     // err_catcher.emit('error', new Error('not readable'));
                     return cb();
                 }
@@ -134,6 +228,12 @@ function gulp_spawn_shim(_opts) {
 
                 child.stdout
                     .pipe(tmp_file);
+
+                child.on('close', function(num) {
+                    console.log(_stderr);
+
+                    console.log('exit: ' + num);
+                });
 
                 child.stdout
                     .once('end', function(){
@@ -184,7 +284,14 @@ function gulp_spawn_shim(_opts) {
 
     };
 
-    return _queue(_write);
+    var stream = _queue(_write);
+
+    super_bus.on('stderr', function(stderr) {
+        // console.log('post stderr: ' + stderr);
+        stream.emit('stderr', stderr);
+    });
+
+    return stream;
 
 }
 

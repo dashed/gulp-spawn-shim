@@ -145,9 +145,9 @@ describe('gulp-spawn-shim', function() {
         it("should output correct file in gulp stream mode", function(done) {
 
             var opts = {};
-            opts.cmd = 'sort';
+            opts.cmd = 'falses';
             opts.args = [];
-            opts.args.push('-k2 ');
+            opts.args.push('-k2');
 
 
             // process(true, opts, done);
@@ -157,19 +157,18 @@ describe('gulp-spawn-shim', function() {
                 // if(!file)
                 //     return cb();
 
-                // console.log('queued: ' + path.basename(file.path));
+                console.log('queued: ' + path.basename(file.path));
 
+                // file.contents.on('data', function(data) {
+                //     console.log("read data: " + path.basename(file.path));
 
-                file.contents.on('data', function(data) {
-                    console.log("read data: " + path.basename(file.path));
-
-                }).once('end', function(){
-                    console.log("done read data: " + path.basename(file.path));
-                    callback();
-                    // cb();
-                }).on('error', function() {
-                    console.log("ERRORRRR")
-                });
+                // }).once('end', function(){
+                //     console.log("done read data: " + path.basename(file.path));
+                //     callback();
+                //     // cb();
+                // }).on('error', function() {
+                //     console.log("ERRORRRR")
+                // });
 
 
                 // console.log(data.path);
@@ -192,13 +191,17 @@ describe('gulp-spawn-shim', function() {
             gulp.src(rawFixtures, {buffer: false})
                 .pipe(spawn(opts))
                     // never expect error here
-                    .once('failure', function() {
-                        console.log("DURRR");
-                        done();
+                    .on('failure', function(err) {
+                        console.log("FAILURE: " + err);
+                        // done();
                     })
+                    .on('stderr', function(stderr) {
+                        console.log(stderr);
+                    })
+                // .on('error', console.log)
                     // .on('failure', cleanup)
                     // .on('error', console.log)
-                .pipe(check)
+                // .pipe(check)
                 .once('end', function() {
                     console.log('DONE?!')
                     done();
