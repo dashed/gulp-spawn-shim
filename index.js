@@ -49,6 +49,12 @@ function gulp_spawn_shim(_opts) {
 
     };
 
+    /**
+     * Custom events for stream:
+     * - stderr
+     * - exit (exit code)
+     *
+     */
     var super_bus = new events.EventEmitter();
 
     //ENOENT
@@ -57,6 +63,8 @@ function gulp_spawn_shim(_opts) {
 
         // pass along
         if (file.isNull()) return cb(null, file);
+
+        var err_catcher = domain.create();
 
         /**
          * Available events:
@@ -71,7 +79,8 @@ function gulp_spawn_shim(_opts) {
          */
         var bus = new events.EventEmitter();
 
-        bus.on('publish', function(err, file) {
+        // properly invoke callback once
+        bus.once('publish', function(err, file) {
             if(err) {
                 bus.removeAllListeners();
             }
@@ -83,11 +92,11 @@ function gulp_spawn_shim(_opts) {
 
         config_args(file);
 
-        var err_catcher = domain.create();
-
+        // handle stream errors
         err_catcher.once('error', function(err) {
+
             // Broken pipe
-            if (err.code == "EPIPE") {
+            if (err.code == "EPIPE" || err.code == "ENOENT") {
                 return bus.emit('publish');
             }
             console.log('CAUGHT ERROR: ' + err);
@@ -107,7 +116,7 @@ function gulp_spawn_shim(_opts) {
         err_catcher.add(file.contents);
 
 
-        // error handling
+        // capture spawn.stderr
         var _stderr = '';
 
         child.stderr.on('data', function (data) {
@@ -115,6 +124,12 @@ function gulp_spawn_shim(_opts) {
         }).on('end', function() {
             if(_stderr.length > 0)
                 return super_bus.emit('stderr', _stderr);
+        });
+
+        // capture spawn exit code
+        child.on('close', function(num) {
+
+            return super_bus.emit('exit', num);
         });
 
 
@@ -144,16 +159,7 @@ function gulp_spawn_shim(_opts) {
 
 
 
-            // child.on('close', function(num) {
 
-            //     if(num != 0) {
-            //         if(_stderr.length > 0) {
-            //             return cb(new Error(_stderr));
-            //         } else {
-            //             return cb(new Error("Program exit with code " + num));
-            //         }
-            //     }
-            // });
 
             child.stdout
                 .once('readable', function() {
@@ -287,8 +293,11 @@ function gulp_spawn_shim(_opts) {
     var stream = _queue(_write);
 
     super_bus.on('stderr', function(stderr) {
-        // console.log('post stderr: ' + stderr);
         stream.emit('stderr', stderr);
+    });
+
+    super_bus.on('exit', function(exit) {
+        stream.emit('exit', exit);
     });
 
     return stream;
