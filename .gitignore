@@ -32,3 +32,5 @@ coverage
 # coveralls.io #
 ################
 .coveralls.yml
+
+ignore
