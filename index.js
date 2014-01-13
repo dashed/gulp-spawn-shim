@@ -112,7 +112,7 @@ function gulp_spawn_shim(_opts) {
 
         var child = spawn(opts.cmd, opts.args, opts.options);
 
-        // catch a lot of errors
+        // attach streams to handle errors
         err_catcher.add(child);
         err_catcher.add(child.stdin);
         err_catcher.add(child.stdout);
@@ -147,16 +147,6 @@ function gulp_spawn_shim(_opts) {
              * tmp-file-create
              */
 
-            // Attempt to write to stdin
-            file.contents
-                .pipe(child.stdin)
-
-                // divert to domain
-                .on('error', function() {})
-
-                .on('finish', function() {
-                    // console.log('ended!');
-                });
 
             tmp.setGracefulCleanup();
 
@@ -164,12 +154,28 @@ function gulp_spawn_shim(_opts) {
             tmp.file(function _tempFileCreated(err, tmp_path, fd) {
                 if (err) return bus.emit('publish', err);
 
-                if(child.stdout.readable === false) {
-                    tmp.setGracefulCleanup();
-                    return bus.emit('publish');
-                }
+                // Attempt to write to stdin
+                file.contents
+                    .on('data', function(data) {
+                        child.stdin.write(data);
+                    })
+                    .once('end', function() {
+                        // console.log('breakpoint: ' + path.basename(file.path));
+                        child.stdin.end();
+                    })
+                    // .pipe(child.stdin)
+
+                    // divert to domain
+                    .on('error', function() {})
+
+                    .on('finish', function() {
+                        // console.log('ended!');
+                    });
 
 
+                // if(child.stdout.readable === false) {
+                //     return bus.emit('publish');
+                // }
 
                 var tmp_file = fs.createWriteStream(tmp_path);
 
@@ -189,7 +195,10 @@ function gulp_spawn_shim(_opts) {
                         // REMOVE
                         // console.log("DID WRITE:" + path.basename(file.path));
                     })
-                    .on('end', function() {
+                    // 3. Publish file when tmp file was written or not
+                    .once('end', function() {
+
+                        tmp_file.end();
 
                         if(written_tmp === false) {
                             return bus.emit('publish');
