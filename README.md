@@ -1,6 +1,7 @@
 gulp-spawn-shim
 =======================
 
+[![NPM version][npm-image]][npm-url]
 [![Build Status](https://travis-ci.org/Dashed/gulp-spawn-shim.png?branch=master)](https://travis-ci.org/Dashed/gulp-spawn-shim)
 [![Coverage Status](https://coveralls.io/repos/Dashed/gulp-spawn-shim/badge.png?branch=master)](https://coveralls.io/r/Dashed/gulp-spawn-shim?branch=master)
 [![Dependency Status](https://david-dm.org/Dashed/gulp-spawn-shim.png)](https://david-dm.org/Dashed/gulp-spawn-shim)
