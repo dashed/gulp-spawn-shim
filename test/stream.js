@@ -28,6 +28,7 @@ describe('When gulp.src in stream mode,', function() {
             input.done = done;
             input.src = helper.rawFixtures;
             input.opts = opts;
+            input.buffer = false;
 
             input.check = queue(function(___, callback) {
                 input.file_call++;
@@ -55,6 +56,7 @@ describe('When gulp.src in stream mode,', function() {
             input.done = done;
             input.src = helper.rawFixtures;
             input.opts = opts;
+            input.buffer = false;
 
             input.check = queue(function(___, callback) {
                 input.file_call++;
@@ -89,6 +91,7 @@ describe('When gulp.src in stream mode,', function() {
             input.check = check;
             input.done = done;
             input.src = helper.rawFixtures;
+            input.buffer = false;
 
             input.check = queue(function(file, callback) {
 

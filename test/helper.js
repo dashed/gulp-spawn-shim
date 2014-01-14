@@ -117,7 +117,7 @@ helper.process = function(input_obj, check_obj) {
     threshold++;
 
 
-    gulp.src(input_obj.src, {buffer: false})
+    gulp.src(input_obj.src, {buffer: input_obj.buffer})
         .pipe(spawn(input_obj.opts))
             .on('failure', function(err) {
                 // failure_call++;
