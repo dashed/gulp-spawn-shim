@@ -106,14 +106,16 @@ describe('When gulp.src in buffer mode,', function() {
 
     });
 
-    describe("with cmd that takes stdin and posts to stdout,", function() {
+    describe.only("with cmd that takes stdin and posts to stdout,", function() {
 
         it("should output correct file", function(done) {
 
             var opts = {};
-            opts.cmd = 'sort';
+            // opts.cmd = 'sort';
+            opts.cmd = 'sed';
             opts.args = [];
-            opts.args.push('-k2');
+            // opts.args.push('-k2');
+            opts.args.push("s/a/b/g");
 
             var input = {};
             input.file_call = 0;
@@ -128,6 +130,9 @@ describe('When gulp.src in buffer mode,', function() {
                     helper.get_buffer_checksum(file.contents, function(real_checksum) {
 
                         input.file_call++;
+
+                        console.log(real_checksum);
+                        console.log(actual_checksum);
 
                         expect(real_checksum)
                             .to.equal(actual_checksum);
