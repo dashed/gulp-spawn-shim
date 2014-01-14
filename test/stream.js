@@ -1,8 +1,4 @@
 var
-// node.js
-crypto = require('crypto'),
-path = require('path'),
-fs = require('fs'),
 
 // test
 chai = require('chai'),
@@ -11,8 +7,8 @@ should = chai.should(),
 expect = chai.expect,
 
 // misc
-spawn = require('../'),
-gulp = require('gulp'),
+// spawn = require('../'),
+// gulp = require('gulp'),
 // es = require('event-stream'),
 queue = require('async-queue-stream'),
 // through = require('through'),
@@ -20,38 +16,87 @@ helper = require('./helper');
 
 describe('When gulp.src in stream mode,', function() {
 
-    var
-    opts = {},
-    file_call = 0,
-    failure_call = 0,
-    stderr_call = 0,
-    exit_call = 0,
-    exit_sum = 0;
+    describe("with cmd that doesn't use stdin/stdout,", function() {
 
-    beforeEach(function() {
-        opts = {};
-        file_call = 0;
-        failure_call = 0;
-        stderr_call = 0;
-        exit_call = 0;
-        exit_sum = 0;
+        it("with cmd true, should pass files and post exit 0", function(done) {
+
+            var opts = {};
+            opts.cmd = 'true';
+
+            var input = {};
+            input.file_call = 0;
+            input.done = done;
+            input.src = helper.rawFixtures;
+            input.opts = opts;
+
+            input.check = queue(function(___, callback) {
+                input.file_call++;
+                return callback();
+            });
+
+
+            var check = {};
+            check.file_call = 0;
+            check.exit_call = 3;
+            check.exit_code = 0;
+            check.stderr_call = 0;
+
+            helper.process.call(this, input, check);
+
+        });
+
+        it("with cmd false, should pass files and post exit -1", function(done) {
+
+            var opts = {};
+            opts.cmd = 'false';
+
+            var input = {};
+            input.file_call = 0;
+            input.done = done;
+            input.src = helper.rawFixtures;
+            input.opts = opts;
+
+            input.check = queue(function(___, callback) {
+                input.file_call++;
+                return callback();
+            });
+
+
+            var check = {};
+            check.file_call = 0;
+            check.exit_call = 3;
+            check.exit_code = 1;
+            check.stderr_call = 0;
+
+            helper.process.call(this, input, check);
+
+        });
+
     });
 
     describe("with cmd that takes stdin and posts to stdout,", function() {
 
         it("should output correct file", function(done) {
 
+            var opts = {};
             opts.cmd = 'sort';
             opts.args = [];
             opts.args.push('-k2');
 
-            var check = queue(function(file, callback) {
+            var input = {};
+            input.file_call = 0;
+            input.opts = opts;
+            input.check = check;
+            input.done = done;
+            input.src = helper.rawFixtures;
+
+            input.check = queue(function(file, callback) {
 
                 helper.get_actual_checksum(file, function(actual_checksum) {
 
                     helper.get_stream_checksum(file.contents, function(real_checksum) {
 
-                        file_call++;
+                        input.file_call++;
                         expect(real_checksum)
                             .to.equal(actual_checksum);
 
@@ -60,33 +105,14 @@ describe('When gulp.src in stream mode,', function() {
                 });
             });
 
+            var check = {};
+            check.file_call = 3;
+            check.exit_call = 3;
+            check.exit_code = 0;
+            check.stderr_call = 0;
 
-            gulp.src(helper.rawFixtures, {buffer: false})
-                .pipe(spawn(opts))
-                    .on('failure', function(err) {
-                        failure_call++;
-                    })
-                    .on('stderr', function(stderr) {
-                        stderr_call++;
-                    })
-                    .on('exit', function(exit) {
-                        exit_call++;
-                    })
-                .pipe(check)
-                .once('end', function() {
+            helper.process.call(this, input, check);
 
-                    helper.pass(done, function() {
-                        // should occur
-                        expect(file_call).to.equal(3);
-                        expect(exit_call).to.equal(3);
-                        expect(exit_sum).to.equal(0);
-
-                        // should never occur
-                        expect(failure_call).to.equal(0);
-                        expect(stderr_call).to.equal(0);
-                    });
-
-                });
         });
     });
 });

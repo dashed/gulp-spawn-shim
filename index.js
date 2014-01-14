@@ -136,7 +136,7 @@ function gulp_spawn_shim(_opts) {
                 file.contents
                     .pipe(child.stdin)
                     .once('error', function(err) {
-                        // return bus.emit('publish', err);
+                        return bus.emit('publish', err);
                     });
 
 
