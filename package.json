@@ -1,6 +1,6 @@
 {
   "name": "gulp-spawn-shim",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Thin wrapper (shim) of Node.js's child_process.spawn() with respect to gulp (vinyl file streams) by binding to stdin, stdout, and stderr.",
   "main": "index.js",
   "scripts": {
