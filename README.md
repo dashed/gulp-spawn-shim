@@ -1,172 +1,95 @@
-javascript-seed-project
-=========================
+gulp-spawn-shim
+=======================
 
-Seed git repo for JavaScript-based projects. Just clone and code.
+Thin wrapper (shim) of Node.js's [child_process.spawn()](http://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options) with respect to gulp (vinyl file streams) by binding to stdin, stdout, and stderr.
 
-Inspired by projects like [ultimate-seed](https://github.com/pilwon/ultimate-seed) and [angular-seed](https://github.com/angular/angular-seed). Unlike these seeds, this seed aims to be as generic and light as possible without catering to a partular application niche (e.g. angularjs-based apps).
+Supports both streaming and buffer modes (for vinyl) specified in the [gulp](https://github.com/gulpjs/gulp) plugin guidelines.
 
-With this seed, you should be able to:
+**Note:** Gulp stream objects known as [vinyl](https://github.com/wearefractal/vinyl) objects.
 
-1. Develop in JavaScript
-3. Test in JavaScript
-4. Build and bundle to JavaScript
+An alternative to this plugin is [gulp-spawn](https://github.com/hparra/gulp-spawn).
 
-Cycle steps one through three, before finally getting to step four. Build and repeat as necessary.
 
-**Note:** Ported from [coffeescript-seed-project](https://github.com/Dashed/coffeescript-seed-project)
+## Install
 
-Included
-========
+1. Install [Node.js](http://nodejs.org/)
 
-* [webpack](https://github.com/webpack/webpack) - bundler for modules to be compatible for browser
-* [mocha](https://github.com/visionmedia/mocha) + [chai.js](http://chaijs.com/) = test framework + assertion framework
-* [istanbul](https://github.com/gotwarlost/istanbul) - JS code coverage
-* [travis-ci](https://travis-ci.org/) - continuous integration service for testing
-* [node-coveralls](https://github.com/cainus/node-coveralls) - LCOV posting to [coveralls.io](https://coveralls.io) for public code coverage analysis
-* [gulp](http://gulpjs.com/) - build system
-    * [through](https://github.com/dominictarr/through) - through stream wrapper
-    * [gulp-util](https://github.com/gulpjs/gulp-util) - utility belt for gulpfile.js
-    * [gulp-plumber](https://github.com/floatdrop/gulp-plumber) - monkey-patch Stream.pipe
-    * [gulp-watch](https://github.com/floatdrop/gulp-watch) - pipe-able gulp.watch()
-    * [gulp-if](https://github.com/robrich/gulp-if) - conditional pipe
-    * [gulp-rename](https://github.com/hparra/gulp-rename) - rename files
-    * [gulp-uglify](https://github.com/terinjokes/gulp-uglify) - minify
+2.  Run: `npm install gulp-spawn-shim`
 
+## API
 
+### gspawn(options)
 
-Set up
-======
+**Arguments**
 
-1. Clone this git repo. Run `npm install` to download `devDependencies`.
+* `options` -- an object containing options for gulp-spawn-shim
 
-2.  Personalize `LICENSE`, `package.json`, and this `README` file as you see fit for your project.
+[child_process.spawn](nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options) parameters:
 
-    See [npm docs](https://npmjs.org/doc/json.html) for more on `package.json`.
+* `options.cmd` - ***(String)*** cmd parameter of [child_process.spawn](nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options). **Required**
 
+* `options.args` - ***(Array)*** args parameter of [child_process.spawn](nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options). ***Default:*** Empty array
 
-## gulp
+* `options.options` - ***(Object)*** options parameter of [child_process.spawn](nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options). ***Default:*** undefined
 
-Customize `gulpfile.js` as necessary. See [gulp docs](https://github.com/gulpjs/gulp).
+args templates -- these are options to replace placeholder with file information in args (e.g. `cmd -o filename.pdf`):
 
-## webpack
+* `opts.template` -- object containing args template info. ***Default:*** Object.
 
-Customize `webpack.config.js` as necessary. Configuration are pretty much like command-line args to webpack.
+**Note:** Template placeholders are done via [gulp-util.template()](https://github.com/gulpjs/gulp-util), which itself uses [lodash templates](http://lodash.com/docs#template).
 
-Through the config, webpack will compile an unoptimized build via an entry file and place it within the `./dist/` folder.
+* `opts.basename` -- placeholder for file's basename. ***Default:*** `"<%= basename %>"`.
 
-Preset:
+* `opts.extname` -- placeholder for file's extension name. ***Default:*** `"<%= extname %>"`.
 
-* `entry` - file to start bundling from
-* `output.filename` - name of the unoptimized compiled file
-* `output.library` - name of exported library (e.g. `MyAwesomeProject()`)
-* `output.libraryTarget` - exporting library to global scope. In this case, preset to [`umd`](https://github.com/ForbesLindesay/umd) (Universal Module Definition), which enables library to be exported to browser, CommonJS,
+* `opts.filename` -- placeholder for file's name. ***Default:*** `"<%= filename %>"`.
 
-See [webpack docs](https://github.com/webpack/docs).
+### Events
 
-## travis-ci
+gulp-spawn-shim emit several events, some from the plugin itself, and other from child_process.spawn().
 
-Customize `.travis.yml` to your liking (e.g node envs). See [travis-ci docs](http://about.travis-ci.org/docs/user/languages/javascript-with-nodejs/).
+* `failure` -- Default error handler for internal plugin errors.
 
-Note that the `script:` attribute is particularly important. This tells travis-ci what to run in the command-line.
+   Since this plugin uses [async-queue-stream](https://github.com/Dashed/async-queue-stream/) internally, the default error is `failure` instead of the standard stream `error` event. Therefore, **this plugin does not stop processing files when a file coerce a plugin error**.
 
-travis-ci would execute the following: `npm run test-travis`
+   Handler signature: `.on('failure', function(err) {})`
 
-**Note:** mocha running in travis-ci uses `-R spec` (or `--reporter spec`) option which will override any such setting in the `./test/mocha.opts` file.
+* `stderr` -- stderr output from child_process.spawn(). stderr output is textual.
 
-## coveralls.io
+   Handler signature: `.on('stderr', function(stderr) {})`
 
-Like Travis-CI, Coveralls.io has its own dotfile: `.coveralls.yml`
+* `exit` -- exit code from child_process.spawn(). exit code passed is a number.
 
-Though not required, it's useful to trigger the coveralls code coverage service from the local environment.
+   Handler signature: `.on('exit', function(exit) {})`
 
-To use it:
-
-1. Rename `.coveralls.yml_default` to `.coveralls.yml`
-
-2. Replace `REPO_TOKEN_HERE` within `.coveralls.yml` with the actual repo token from [coveralls.io](https://coveralls.io).
-
-3. To trigger coveralls code coverage task, run `npm run test-travis`
-
-**Note:** The option `repo_token` (found on your repository's page on Coveralls) is used to specify which project on Coveralls your local source code project maps to. This is only needed for private repos and should be kept secret -- **anyone could use it to submit coverage data on your repo's behalf**! For your convenience, `.coveralls.yml` is already in `.gitignore`.
-
-See [coveralls.io docs](https://coveralls.io/docs/supported_continuous_integration).
-
-## mocha.opts
-
-Mocha will attempt to load `./test/mocha.opts`, which contain command-line options. These are concatenate to Mocha command-line args as its running (via `process.argv`). Note that Mocha command-line args will take precedence.
-
-Personalize `./test/mocha.opts` as you see fit.
-
-Type `mocha -h` for possible options.
-
-## .gitignore
-
-Minorly customized from [Node.gitignore](https://github.com/github/gitignore/blob/master/Node.gitignore) provided by GitHub.
-
-
-Development Workflow
-====================
-
-1.  Run `gulp`.
-
-    TODO: Add Mocha test tasks
-
-2.  Add/edit JavaScript source files within `./src/` folder.
-
-    You may structure your project in whatever module definition (AMD, CommonJS, etc) that [webpack](https://github.com/webpack/webpack) supports.
-
-**Note:** Optionally run webpack via, `npm run webpack`, to watch and bundle as necessary.
-
-## Testing
-
-1. Write tests in JavaScript within the `./test/` folder.
-
-2.  Run test(s): `npm test` ( or `mocha`, but `npm test` is recommended)
-
-    **Note:** `npm test` indirectly uses mocha via instanbul.
-
-3.  Code coverage report: `npm test --coverage`
-
-    This generates HTML code coverage report within `./coverage/` folder.
-
-See [mocha docs](https://github.com/visionmedia/mocha), [chai.js style guide](http://chaijs.com/guide/), and [chai.js API docs](http://chaijs.com/api/).
-
-Since chai.js is included, you're free to use BDD/TDD style.
-
-If you prefer to write tests in CoffeeScript, feel free to edit `./test/mocha.opts`. See [coffeescript-seed-project](https://github.com/Dashed/coffeescript-seed-project) for set up example.
-
-
-## Code Coverage
-
-Code coverage is provided by [instanbul](https://github.com/gotwarlost/istanbul). It will analyze your JavaScript code from `./src/` folder against tests within `./test/`, and report which parts of your code in source files **are not referenced** in the mocha tests.
-
-
-Run `npm test --coverage` for instanbul to generate the HTML report within `./coverage/` folder.
-
-### coveralls.io
-
-Refer to earlier parts of this document under "Set Up", to be able to publish LCOV reports to coveralls.io for public code coverage from a local environment. It's not really useful since there are local code-coverage report generation.
-
-There is a separate test/code-coverage command for travis-ci (`npm run test-travis`), which is useful for pushing LCOV reports to coveralls.io during a travis-ci test.
-
-Build
+Usage
 =====
 
-1. Run webpack: `npm run webpack`
+```js
+var
+spawn = require('gulp-spawn-shim'),
+opts = {};
 
-2.  Run `gulp prod` to build the distributable.
+opts.cmd = 'pandoc';
+opts.args = ['-t', 'html'];
 
-    This places a minified js file in `./dist/` folder.
+gulp.src('./notes/**/*.md')
+    .pipe(spawn(opts))
+    .pipe(gulp.desct(...));
+```
 
-To Do
-=====
+## Under the hood
 
+1. As vinyl objects are passed to gulp-spawn-shim, contents of the file (e.g. `file.contents`) are piped to ***stdin*** of the child_process.spawn() instance.
 
-* Consider using gulp-mocha in tandem with gulp-watch.
+2. Any ***stdout*** are piped back to `file.contents`.
+
+   **Note:** If there is no ***stdout***, gulp-spawn-shim will not push the file to the next stream -- and thus the file will be **dropped silently**.
+
+3. Any misc. events such as ***stderr*** and ***exit codes*** are emitted appropriately.
+
 
 License
 =======
 
-Public domain. See LICENSE.
-
-**Note:** Replace LICENSE with your project's license; also change license attribute in package.json.
+MIT. See LICENSE.
