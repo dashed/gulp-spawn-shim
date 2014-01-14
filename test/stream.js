@@ -130,10 +130,13 @@ describe('When gulp.src in stream mode,', function() {
             input.check = queue(function(file, callback) {
 
                 helper.get_actual_checksum(file, function(actual_checksum) {
-
                     helper.get_stream_checksum(file.contents, function(real_checksum) {
 
                         input.file_call++;
+
+                        console.log(real_checksum);
+                        console.log(actual_checksum);
+
                         expect(real_checksum)
                             .to.equal(actual_checksum);
 
