@@ -156,7 +156,7 @@ describe('When gulp.src in stream mode,', function() {
         });
     });
 
-    describe.only("with invalid cmd,", function() {
+    describe("with invalid cmd,", function() {
 
         it("should pass all files", function(done) {
 
@@ -172,7 +172,7 @@ describe('When gulp.src in stream mode,', function() {
             input.opts = opts;
             input.buffer = true;
 
-            input.check = queue(function(file, callback) {
+            input.check = queue(function(___, callback) {
                 input.file_call++;
                 return callback();
             });
