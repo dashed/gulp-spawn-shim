@@ -1,6 +1,9 @@
 gulp-spawn-shim
 =======================
 
+[![Build Status](https://travis-ci.org/Dashed/gulp-spawn-shim.png?branch=v0.0.2)](https://travis-ci.org/Dashed/gulp-spawn-shim)
+[![Coverage Status](https://coveralls.io/repos/Dashed/gulp-spawn-shim/badge.png?branch=master)](https://coveralls.io/r/Dashed/gulp-spawn-shim?branch=master)
+
 Thin wrapper (shim) of Node.js's [child_process.spawn()](http://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options) with respect to gulp (vinyl file streams) by binding to stdin, stdout, and stderr.
 
 Supports both streaming and buffer modes (for vinyl) specified in the [gulp](https://github.com/gulpjs/gulp) plugin guidelines.
