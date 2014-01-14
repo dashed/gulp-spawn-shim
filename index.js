@@ -10,6 +10,7 @@ _queue = require('async-queue-stream'),
 gutil = require('gulp-util');
 
 function gulp_spawn_shim(_opts) {
+    'use strict';
 
     var opts = _opts || {};
 
