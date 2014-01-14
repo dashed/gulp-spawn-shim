@@ -116,7 +116,7 @@ helper.process = function(input_obj, check_obj) {
     // done event
     threshold++;
 
-    console.log('threshold:' + threshold);
+    // console.log('threshold:' + threshold);
 
     gulp.src(input_obj.src, {buffer: input_obj.buffer})
         .pipe(spawn(input_obj.opts))
@@ -148,7 +148,7 @@ helper.process = function(input_obj, check_obj) {
             })
         .pipe(input_obj.check)
         .once('end', function() {
-            console.log('DONE');
+            // console.log('DONE');
             bus.emit('done');
         });
 
@@ -162,7 +162,7 @@ helper.process = function(input_obj, check_obj) {
         if(done_calls < threshold)
             return;
 
-        console.log('DONE2');
+        // console.log('DONE2');
 
         helper.pass(input_obj.done, function() {
 
