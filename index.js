@@ -104,7 +104,15 @@ function gulp_spawn_shim(_opts) {
         err_catcher.add(child.stderr);
         err_catcher.add(file.contents);
 
+        child
+            .once('error', function(err) {
+                return bus.emit('publish', err);
+            });
 
+        child.stdin
+            .once('error', function(err) {
+                return bus.emit('publish', err);
+            });
 
         // capture spawn.stderr
         var _stderr = '';
@@ -124,8 +132,6 @@ function gulp_spawn_shim(_opts) {
 
         if (file.isStream()) {
 
-
-
             tmp.setGracefulCleanup();
 
             // 1. Create tmp file
@@ -139,7 +145,6 @@ function gulp_spawn_shim(_opts) {
                     .once('error', function(err) {
                         return bus.emit('publish', err);
                     });
-
 
                 var tmp_file = fs.createWriteStream(tmp_path);
 
@@ -181,6 +186,7 @@ function gulp_spawn_shim(_opts) {
             });
 
             child.stdin.write(file.contents);
+
             child.stdin.end();
             return;
         }

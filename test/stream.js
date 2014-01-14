@@ -150,4 +150,46 @@ describe('When gulp.src in stream mode,', function() {
 
         });
     });
+
+    describe("with invalid cmd,", function() {
+
+        it("should pass all files", function(done) {
+
+            var opts = {};
+            opts.cmd = 'doesnotexist';
+            opts.args = [];
+            opts.args.push('-k2');
+
+            var input = {};
+            input.file_call = 0;
+            input.done = done;
+            input.src = helper.rawFixtures;
+            input.opts = opts;
+            input.buffer = true;
+
+            input.check = queue(function(file, callback) {
+
+                helper.get_buffer_checksum(file.contents, function(real_checksum) {
+
+                    helper.get_actual_checksum(file, function(actual_checksum) {
+                        input.file_call++;
+
+                        expect(real_checksum)
+                            .to.equal(actual_checksum);
+
+                        return callback();
+                    });
+                });
+            });
+
+            var check = {};
+            check.file_call = 0;
+            check.exit_call = 3;
+            check.exit_code = -1;
+            check.stderr_call = 0;
+
+            helper.process.call(this, input, check);
+
+        });
+    });
 });
