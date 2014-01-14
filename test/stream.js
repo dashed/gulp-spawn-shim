@@ -112,6 +112,8 @@ describe('When gulp.src in stream mode,', function() {
 
         it("should output correct file", function(done) {
 
+            this.timeout(4000);
+
             var opts = {};
             // opts.cmd = 'sort';
             opts.cmd = 'sed';
