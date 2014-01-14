@@ -3,13 +3,13 @@ spawn = require('child_process').spawn,
 path = require("path"),
 fs = require('fs'),
 domain = require('domain'),
-es = require('event-stream'),
+// es = require('event-stream'),
 events = require('events'),
 
 tmp = require('tmp'),
 _queue = require('async-queue-stream'),
-gutil = require('gulp-util'),
-through = require('through');
+gutil = require('gulp-util');
+// through = require('through');
 
 function gulp_spawn_shim(_opts) {
 
@@ -31,7 +31,7 @@ function gulp_spawn_shim(_opts) {
     opts.template = _opts.template || {};
     opts.template.basename = _opts.template.basename || "<%= basename %>";
     opts.template.extname = _opts.template.extname || "<%= extname %>";
-    opts.template.filename = _opts.template.extname || "<%= filename %>";
+    opts.template.filename = _opts.template.filename || "<%= filename %>";
 
     // micro-template args
     var config_args = function(file) {
@@ -68,13 +68,7 @@ function gulp_spawn_shim(_opts) {
 
         /**
          * Available events:
-         *
          * publish
-         *
-         *
-         * stdout-data
-         * stdout-end
-         * tmp-file-create
          */
         var bus = new events.EventEmitter();
 
@@ -83,13 +77,6 @@ function gulp_spawn_shim(_opts) {
             if(err) {
                 bus.removeAllListeners();
             }
-
-            if(_file) {
-                console.log('publish:' + path.basename(file.path));
-            } else {
-                console.log('did not publish:' + path.basename(file.path));
-            }
-
 
             return cb(err, _file);
         });
@@ -138,16 +125,6 @@ function gulp_spawn_shim(_opts) {
 
         if (file.isStream()) {
 
-
-            /**
-             * Available events:
-             *
-             * stdout-data
-             * stdout-end
-             * tmp-file-create
-             */
-
-
             tmp.setGracefulCleanup();
 
             // 1. Create tmp file
@@ -155,49 +132,29 @@ function gulp_spawn_shim(_opts) {
                 if (err) return bus.emit('publish', err);
 
                 // Attempt to write to stdin
+
                 file.contents
-                    .on('data', function(data) {
-                        child.stdin.write(data);
-                    })
-                    .once('end', function() {
-                        // console.log('breakpoint: ' + path.basename(file.path));
-                        child.stdin.end();
-                    })
-                    // .pipe(child.stdin)
-
-                    // divert to domain
-                    .on('error', function() {})
-
-                    .on('finish', function() {
-                        // console.log('ended!');
+                    .pipe(child.stdin)
+                    .once('error', function(err) {
+                        // return bus.emit('publish', err);
                     });
 
-
-                // if(child.stdout.readable === false) {
-                //     return bus.emit('publish');
-                // }
 
                 var tmp_file = fs.createWriteStream(tmp_path);
 
 
                 // child.stdout.pipe(tmp_file);
 
-                // tmp_file.on('end', function() {
-                //     console.log('ended')
-                // })
 
                 var written_tmp = false;
                 child.stdout
                     // 2. Attempt to write to tmp file
                     .on('data', function(data) {
-                        written_tmp = true;
                         tmp_file.write(data);
-                        // REMOVE
-                        // console.log("DID WRITE:" + path.basename(file.path));
+                        written_tmp = true;
                     })
                     // 3. Publish file when tmp file was written or not
                     .once('end', function() {
-
                         tmp_file.end();
 
                         if(written_tmp === false) {
@@ -206,14 +163,13 @@ function gulp_spawn_shim(_opts) {
 
                         file.contents = fs.createReadStream(tmp_path);
 
-                        // REMOVE
-                        file.contents.on('end', function() {
-                            console.log('closed tmp file:' + path.basename(file.path));
-                        });
+                        // // REMOVE
+                        // file.contents.on('end', function() {
+                        //     console.log('closed tmp file:' + path.basename(file.path));
+                        // });
 
                         return bus.emit('publish', void 0, file);
                     });
-
             });
 
             return;
@@ -249,7 +205,6 @@ function gulp_spawn_shim(_opts) {
     });
 
     return stream;
-
 }
 
 module.exports = gulp_spawn_shim.bind({});

@@ -28,8 +28,6 @@ actual = '_actual';
 
 describe('gulp-spawn-shim', function() {
 
-
-
     describe("when given invalid params", function() {
 
         var opts, fn;
@@ -41,7 +39,6 @@ describe('gulp-spawn-shim', function() {
                 spawn(opts);
             };
         });
-
 
         it("should throw error when given empty plain object for options", function() {
             // no given cmd
@@ -68,68 +65,69 @@ describe('gulp-spawn-shim', function() {
 
     });
 
-    describe.only("when given source files with correct cmd", function() {
 
-        var opts;
 
-        // var get_actual_checksum = function(file, cb) {
-        //     var
-        //     basename = path.basename(file.path),
-        //     extname = path.extname(basename),
-        //     filename = path.basename(basename, extname);
-        //     actual_filename = filename + actual + extname,
-        //     actual_path = path.join(actualFixtures, actual_filename),
+    // describe.only("when given source files in gulp stream mode,", function() {
 
-        //     shasum_actual = crypto.createHash('sha1');
+    //     describe.only("with cmd that takes stdin and posts to stdout,", function() {
+    //         it("should output correct file", function(done) {
 
-        //     // get checksum of actual fixture
-        //     fs.createReadStream(actual_path)
-        //     .on('data', function(data) {
-        //         shasum_actual.update(data);
-        //     })
-        //     .once('end', function() {
-        //         cb(shasum_actual.digest('hex'));
-        //     });
-        // };
+    //             /**
+    //              * Commands to test
+    //              *
+    //              * ./fixtures/stderr
+    //              * false/true
+    //              * sort
+    //              */
 
-        // var compare_digest = function(d1, d2) {
-        //     expect(d1 === d2).to.be.true;
-        // }
+    //             var opts = {};
+    //             opts.cmd = 'sort';
+    //             // opts.cmd = path.join(__dirname, opts.cmd);
+    //             opts.args = [];
+    //             opts.args.push('-k2');
 
-        // var _process = function(buffer, opts, done) {
-        //     gulp.src(rawFixtures, {buffer: true})
-        //         .pipe(spawn(opts))
-        //         .pipe(es.through(function(file){
+    //             var call = 0;
 
-        //             var shasum_processed = crypto.createHash('sha1');
-        //             var shasum_actual = crypto.createHash('sha1');
+    //             var check = queue(function(file, callback) {
 
-        //             shasum_processed.update(file.contents);
+    //                 get_actual_checksum(file, function(actual_checksum) {
 
-        //             var actual_path = get_actual_path(file);
+    //                     var shasum_real = crypto.createHash('sha1');
 
-        //             // get checksum of actual fixture
-        //             fs.createReadStream(actual_path)
-        //             .on('data', function(data) {
-        //                 shasum_actual.update(data);
-        //             })
-        //             .once('end', function() {
+    //                     file.contents.on('data', function(data) {
+    //                         shasum_real.update(data);
+    //                     }).once('end', function() {
 
-        //                 var d1 = shasum_actual.digest('hex');
-        //                 var d2 = shasum_processed.digest('hex');
-        //                 expect(d1 == d2).to.be.true;
+    //                         call++;
 
-        //             });
-        //         }))
-        //         .once('end', function(){
-        //             done();
-        //         });
-        // };
+    //                         expect(shasum_real.digest('hex'))
+    //                             .to.equal(actual_checksum);
+    //                         return callback();
+    //                     });
+    //                 });
+    //             });
 
-        beforeEach(function() {
-
-            shasum = crypto.createHash('sha1');
-        });
+    //             gulp.src(rawFixtures, {buffer: false})
+    //                 .pipe(spawn(opts))
+    //                     // never expect error here
+    //                     .on('failure', function(err) {
+    //                         // console.log("FAILURE: " + err);
+    //                         // done();
+    //                     })
+    //                     .on('stderr', function(stderr) {
+    //                         // console.log('stderr: ' + stderr);
+    //                     })
+    //                     .on('exit', function(exit) {
+    //                         // console.log('exit: <' + exit + '>');
+    //                     })
+    //                 .pipe(check)
+    //                 .once('end', function() {
+    //                     // console.log('DONE?!')
+    //                     expect(call).to.equal(3);
+    //                     done();
+    //                 });
+    //         });
+    //     });
 
         // it("should output correct file in gulp buffer mode", function(done) {
 
@@ -142,91 +140,10 @@ describe('gulp-spawn-shim', function() {
 
         // });
 
-        it("should output correct file in gulp stream mode", function(done) {
-
-            /**
-             * Commands to test
-             *
-             * ./fixtures/stderr
-             * false/true
-             * sort
-             *
-             *
-             */
-
-            var opts = {};
-            opts.cmd = 'sort';
-            // opts.cmd = path.join(__dirname, opts.cmd);
-            opts.args = [];
-            opts.args.push('-k2');
 
 
-            // process(true, opts, done);
+        // it("should exit correctly for cmd that doesn't use stdout/stdin in gulp stream mode", function(done) {
 
-            var check = queue(function(file, callback) {
-
-                // if(!file)
-                //     return cb();
-
-                console.log('queued: ' + path.basename(file.path));
-
-                // callback();
-
-                file.contents.on('data', function(data) {
-                    console.log("read data: " + path.basename(file.path));
-
-                }).once('end', function(){
-                    console.log("done read data: " + path.basename(file.path));
-                    callback();
-                    // cb();
-                }).on('error', function() {
-                    console.log("ERRORRRR")
-                });
-
-
-                // console.log(data.path);
-
-                // data.contents
-                // .pipe(es.through(function() {
-                //     // this.emit('data', data);
-
-                //     // console.log(data.path);
-
-                // }))
-                // .on('close', function(){
-                //     cb();
-                // });
-
-            });
-
-
-
-            gulp.src(rawFixtures, {buffer: false})
-                .pipe(spawn(opts))
-                    // never expect error here
-                    .on('failure', function(err) {
-                        console.log("FAILURE: " + err);
-                        // done();
-                    })
-                    .on('stderr', function(stderr) {
-                        // console.log('stderr: ' + stderr);
-                    })
-                    .on('exit', function(exit) {
-                        // console.log('exit: ' + exit);
-                    })
-                    .on('error', function() {
-                        console.log('LOOL')
-                    })
-                // .on('error', console.log)
-                    // .on('failure', cleanup)
-                    // .on('error', console.log)
-                .pipe(check)
-                .once('end', function() {
-                    console.log('DONE?!')
-                    done();
-                });
-
-
-        });
-    });
+        // });
+    // });
 });
