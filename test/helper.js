@@ -64,7 +64,6 @@ helper.get_stream_checksum = function(stream, cb) {
         shasum_stream.update(data);
     })
     .once('end', function() {
-
         return cb(shasum_stream.digest('hex'));
     });
 };

@@ -124,9 +124,9 @@ describe('When gulp.src in buffer mode,', function() {
 
             input.check = queue(function(file, callback) {
 
-                helper.get_buffer_checksum(file.contents, function(real_checksum) {
+                helper.get_actual_checksum(file, function(actual_checksum) {
+                    helper.get_buffer_checksum(file.contents, function(real_checksum) {
 
-                    helper.get_actual_checksum(file, function(actual_checksum) {
                         input.file_call++;
 
                         expect(real_checksum)
