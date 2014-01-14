@@ -4,7 +4,7 @@
   "description": "Thin wrapper (shim) of Node.js's child_process.spawn() with respect to gulp (vinyl file streams) by binding to stdin, stdout, and stderr.",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul test --report html -x 'vendor/**' _mocha",
+    "test": "istanbul test --report html _mocha",
     "test-travis": "istanbul cover _mocha -- -R spec;A=$?;cat coverage/lcov.info | coveralls;exit $A"
   },
   "repository": {
