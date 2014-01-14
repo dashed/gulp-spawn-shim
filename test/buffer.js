@@ -106,7 +106,7 @@ describe('When gulp.src in buffer mode,', function() {
 
     });
 
-    describe.only("with cmd that takes stdin and posts to stdout,", function() {
+    describe("with cmd that takes stdin and posts to stdout,", function() {
 
         it("should output correct file", function(done) {
 

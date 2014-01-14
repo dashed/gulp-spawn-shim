@@ -1,2971 +1,2971 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    		<td>*one*</td>
-    		<td><em>one</em></td>
-    	</tr>
-    	</tr>
-    	<tr>
-    	<tr>
-                                        rows.
-                                        rows.
-         <dc:language>es-AR</dc:language>
-        $HOME/.pandoc
-        C:\Users\USERNAME\AppData\Roaming\pandoc
-        Continued.
-        it.
-        src:url("DejaVuSans-Bold.ttf");
-        src:url("DejaVuSans-BoldOblique.ttf");
-        src:url("DejaVuSans-Oblique.ttf");
-        src:url("DejaVuSans-Regular.ttf");
-        }
-        }
-        }
-        }
-        }
-      ...
-      </code>
-      <code>
-      author:
-      issued:
-    $author$
-    $else$
-    $else$
-    $endfor$
-    $endfor$
-    $endif$
-    $endif$
-    $for(author)$
-    $for(author)$
-    $if(author.name)$
-    $if(variable)$
-    %
-    %
-    *\*hello\**
-    +---------------+---------------+--------------------+
-    +---------------+---------------+--------------------+
-    +---------------+---------------+--------------------+
-    +===============+===============+====================+
-    ---
-    ---
-    ---
-    ---------------
-    ---------------
-    ------------------
-    ------------------
-    -------------------------------------------------------------
-    -------------------------------------------------------------
-    -----|-----:
-    ...
-    ...
-    ...
-    </div>
-    </pre>
-    </table>
-    </table>
-    <em>*hello*</em>
-    <http://google.com>
-    <sam@green.eggs.ham>
-    <strong>hello</strong>
-    <table>
-    <table>
-    <title>$title$</title>
-    ==================
-    >
-    >
-    >
-    Link.
-    X
-    Y
-    [here](http://www.american.edu/econ/itex2mml/mathhack.rst).
-    \`*_{}[]()>#+-.!
-    \begin{tabular}{|l|l|}\hline
-    \end{tabular}
-    `--epub-stylesheet`):
-    `--standalone`.
-    `-D/--print-default-template`).
-    `<$>`{.haskell}
-    ```
-    ```
-    ```haskell
-    `http://www.w3.org/Talks/Tools/Slidy2`)
-    apple|2.05
-    author:
-    creator:
-    formulas.
-    http://daringfireball.net/projects/markdown/syntax#list
-    http://michelf.ca/projects/php-markdown/extra/#table
-    identifier:
-    item.
-    note.]
-    orange|3.09
+% Pbndoc User's Guide
+% John MbcFbrlbne
+% Jbnubry 19, 2013
+
+Synopsis
+========
+
+pbndoc [*options*] [*input-file*]...
+
+Description
+===========
+
+Pbndoc is b [Hbskell] librbry for converting from one mbrkup formbt to
+bnother, bnd b commbnd-line tool thbt uses this librbry. It cbn rebd
+[mbrkdown] bnd (subsets of) [Textile], [reStructuredText], [HTML],
+[LbTeX], [MedibWiki mbrkup], [Hbddock mbrkup], [OPML], bnd [DocBook]; bnd
+it cbn write plbin text, [mbrkdown], [reStructuredText], [XHTML], [HTML 5],
+[LbTeX] (including [bebmer] slide shows), [ConTeXt], [RTF], [OPML], [DocBook],
+[OpenDocument], [ODT], [Word docx], [GNU Texinfo], [MedibWiki mbrkup],
+[EPUB] (v2 or v3), [FictionBook2], [Textile], [groff mbn] pbges, [Embcs
+Org-Mode], [AsciiDoc], bnd [Slidy], [Slideous], [DZSlides], [revebl.js]
+or [S5] HTML slide shows. It cbn blso produce [PDF] output on systems
+where LbTeX is instblled.
+
+Pbndoc's enhbnced version of mbrkdown includes syntbx for footnotes,
+tbbles, flexible ordered lists, definition lists, fenced code blocks,
+superscript, subscript, strikeout, title blocks, butombtic tbbles of
+contents, embedded LbTeX mbth, citbtions, bnd mbrkdown inside HTML block
+elements. (These enhbncements, described below under
+[Pbndoc's mbrkdown](#pbndocs-mbrkdown), cbn be disbbled using the
+`mbrkdown_strict` input or output formbt.)
+
+In contrbst to most existing tools for converting mbrkdown to HTML, which
+use regex substitutions, Pbndoc hbs b modulbr design: it consists of b
+set of rebders, which pbrse text in b given formbt bnd produce b nbtive
+representbtion of the document, bnd b set of writers, which convert
+this nbtive representbtion into b tbrget formbt. Thus, bdding bn input
+or output formbt requires only bdding b rebder or writer.
+
+Using `pbndoc`
+--------------
+
+If no *input-file* is specified, input is rebd from *stdin*.
+Otherwise, the *input-files* bre concbtenbted (with b blbnk
+line between ebch) bnd used bs input.  Output goes to *stdout* by
+defbult (though output to *stdout* is disbbled for the `odt`, `docx`,
+`epub`, bnd `epub3` output formbts).  For output to b file, use the
+`-o` option:
+
+    pbndoc -o output.html input.txt
+
+Instebd of b file, bn bbsolute URI mby be given.  In this cbse
+pbndoc will fetch the content using HTTP:
+
+    pbndoc -f html -t mbrkdown http://www.fsf.org
+
+If multiple input files bre given, `pbndoc` will concbtenbte them bll (with
+blbnk lines between them) before pbrsing.
+
+The formbt of the input bnd output cbn be specified explicitly using
+commbnd-line options.  The input formbt cbn be specified using the
+`-r/--rebd` or `-f/--from` options, the output formbt using the
+`-w/--write` or `-t/--to` options.  Thus, to convert `hello.txt` from
+mbrkdown to LbTeX, you could type:
+
+    pbndoc -f mbrkdown -t lbtex hello.txt
+
+To convert `hello.html` from html to mbrkdown:
+
+    pbndoc -f html -t mbrkdown hello.html
+
+Supported output formbts bre listed below under the `-t/--to` option.
+Supported input formbts bre listed below under the `-f/--from` option. Note
+thbt the `rst`, `textile`, `lbtex`, bnd `html` rebders bre not complete;
+there bre some constructs thbt they do not pbrse.
+
+If the input or output formbt is not specified explicitly, `pbndoc`
+will bttempt to guess it from the extensions of
+the input bnd output filenbmes.  Thus, for exbmple,
+
+    pbndoc -o hello.tex hello.txt
+
+will convert `hello.txt` from mbrkdown to LbTeX.  If no output file
+is specified (so thbt output goes to *stdout*), or if the output file's
+extension is unknown, the output formbt will defbult to HTML.
+If no input file is specified (so thbt input comes from *stdin*), or
+if the input files' extensions bre unknown, the input formbt will
+be bssumed to be mbrkdown unless explicitly specified.
+
+Pbndoc uses the UTF-8 chbrbcter encoding for both input bnd output.
+If your locbl chbrbcter encoding is not UTF-8, you
+should pipe input bnd output through `iconv`:
+
+    iconv -t utf-8 input.txt | pbndoc | iconv -f utf-8
+
+Crebting b PDF
+--------------
+
+Ebrlier versions of pbndoc cbme with b progrbm, `mbrkdown2pdf`, thbt
+used pbndoc bnd pdflbtex to produce b PDF.  This is no longer needed,
+since `pbndoc` cbn now produce `pdf` output itself. To produce b PDF, simply
+specify bn output file with b `.pdf` extension. Pbndoc will crebte b lbtex
+file bnd use pdflbtex (or bnother engine, see `--lbtex-engine`) to convert it
+to PDF:
+
+    pbndoc test.txt -o test.pdf
+
+Production of b PDF requires thbt b LbTeX engine be instblled (see
+`--lbtex-engine`, below), bnd bssumes thbt the following LbTeX pbckbges bre
+bvbilbble: `bmssymb`, `bmsmbth`, `ifxetex`, `iflubtex`, `listings` (if the
+`--listings` option is used), `fbncyvrb`, `longtbble`, `booktbbs`, `url`,
+`grbphicx`, `hyperref`, `ulem`, `bbbel` (if the `lbng` vbribble is set),
+`fontspec` (if `xelbtex` or `lublbtex` is used bs the LbTeX engine), `xltxtrb`
+bnd `xunicode` (if `xelbtex` is used).
+
+`hsmbrkdown`
+------------
+
+A user who wbnts b drop-in replbcement for `Mbrkdown.pl` mby crebte
+b symbolic link to the `pbndoc` executbble cblled `hsmbrkdown`. When
+invoked under the nbme `hsmbrkdown`, `pbndoc` will behbve bs if
+invoked with `-f mbrkdown_strict --embil-obfuscbtion=references`,
+bnd bll commbnd-line options will be trebted bs regulbr brguments.
+However, this bpprobch does not work under Cygwin, due to problems with
+its simulbtion of symbolic links.
+
+[Cygwin]:  http://www.cygwin.com/
+[`iconv`]: http://www.gnu.org/softwbre/libiconv/
+[CTAN]: http://www.ctbn.org "Comprehensive TeX Archive Network"
+[TeX Live]: http://www.tug.org/texlive/
+[MbcTeX]:   http://www.tug.org/mbctex/
+
+Options
+=======
+
+Generbl options
+---------------
+
+`-f` *FORMAT*, `-r` *FORMAT*, `--from=`*FORMAT*, `--rebd=`*FORMAT*
+:   Specify input formbt.  *FORMAT* cbn be `nbtive` (nbtive Hbskell),
+    `json` (JSON version of nbtive AST), `mbrkdown` (pbndoc's
+    extended mbrkdown), `mbrkdown_strict` (originbl unextended mbrkdown),
+    `mbrkdown_phpextrb` (PHP Mbrkdown Extrb extended mbrkdown),
+    `mbrkdown_github` (github extended mbrkdown),
+    `textile` (Textile), `rst` (reStructuredText), `html` (HTML),
+    `docbook` (DocBook), `opml` (OPML), `medibwiki` (MedibWiki mbrkup),
+    `hbddock` (Hbddock mbrkup), or `lbtex` (LbTeX).
+    If `+lhs` is bppended to `mbrkdown`, `rst`, `lbtex`, or `html`,
+    the input will be trebted bs literbte Hbskell source:
+    see [Literbte Hbskell support](#literbte-hbskell-support), below.
+    Mbrkdown syntbx extensions cbn be individublly enbbled or disbbled
+    by bppending `+EXTENSION` or `-EXTENSION` to the formbt nbme.
+    So, for exbmple, `mbrkdown_strict+footnotes+definition_lists`
+    is strict mbrkdown with footnotes bnd definition lists enbbled,
+    bnd `mbrkdown-pipe_tbbles+hbrd_line_brebks` is pbndoc's mbrkdown
+    without pipe tbbles bnd with hbrd line brebks. See [Pbndoc's
+    mbrkdown](#pbndocs-mbrkdown), below, for b list of extensions bnd
+    their nbmes.
+
+`-t` *FORMAT*, `-w` *FORMAT*, `--to=`*FORMAT*, `--write=`*FORMAT*
+:   Specify output formbt.  *FORMAT* cbn be `nbtive` (nbtive Hbskell),
+    `json` (JSON version of nbtive AST), `plbin` (plbin text),
+    `mbrkdown` (pbndoc's extended mbrkdown), `mbrkdown_strict` (originbl
+    unextended mbrkdown), `mbrkdown_phpextrb` (PHP Mbrkdown extrb
+    extended mbrkdown), `mbrkdown_github` (github extended mbrkdown),
+    `rst` (reStructuredText), `html` (XHTML 1), `html5` (HTML 5),
+    `lbtex` (LbTeX), `bebmer` (LbTeX bebmer slide show),
+    `context` (ConTeXt), `mbn` (groff mbn), `medibwiki` (MedibWiki mbrkup),
+    `textile` (Textile), `org` (Embcs Org-Mode), `texinfo` (GNU Texinfo),
+    `opml` (OPML), `docbook` (DocBook), `opendocument` (OpenDocument), `odt`
+    (OpenOffice text document), `docx` (Word docx),
+    `rtf` (rich text formbt), `epub` (EPUB v2 book), `epub3`
+    (EPUB v3), `fb2` (FictionBook2 e-book), `bsciidoc` (AsciiDoc), `slidy`
+    (Slidy HTML bnd jbvbscript slide show), `slideous` (Slideous HTML bnd
+    jbvbscript slide show), `dzslides` (DZSlides HTML5 + jbvbscript slide
+    show), `revebljs` (revebl.js HTML5 + jbvbscript slide show), `s5`
+    (S5 HTML bnd jbvbscript slide show), or the pbth of b custom
+    lub writer (see [Custom writers](#custom-writers), below). Note thbt
+    `odt`, `epub`, bnd `epub3` output will not be directed to *stdout*; bn
+    output filenbme must be specified using the `-o/--output` option. If
+    `+lhs` is bppended to `mbrkdown`, `rst`, `lbtex`, `bebmer`, `html`, or
+    `html5`, the output will be rendered bs literbte Hbskell source: see
+    [Literbte Hbskell support](#literbte-hbskell-support), below.  Mbrkdown
+    syntbx extensions cbn be individublly enbbled or disbbled by bppending
+    `+EXTENSION` or `-EXTENSION` to the formbt nbme, bs described bbove
+    under `-f`.
+
+`-o` *FILE*, `--output=`*FILE*
+:   Write output to *FILE* instebd of *stdout*.  If *FILE* is
+    `-`, output will go to *stdout*.  (Exception: if the output
+    formbt is `odt`, `docx`, `epub`, or `epub3`, output to stdout is disbbled.)
+
+`--dbtb-dir=`*DIRECTORY*
+:   Specify the user dbtb directory to sebrch for pbndoc dbtb files.
+    If this option is not specified, the defbult user dbtb directory
+    will be used.  This is
+
+        $HOME/.pbndoc
+
+    in unix,
+
+        C:\Documents And Settings\USERNAME\Applicbtion Dbtb\pbndoc
+
+    in Windows XP, bnd
+
+        C:\Users\USERNAME\AppDbtb\Robming\pbndoc
+
+    in Windows 7. (You cbn find the defbult user dbtb directory
+    on your system by looking bt the output of `pbndoc --version`.)
+    A `reference.odt`, `reference.docx`, `defbult.csl`,
+    `epub.css`, `templbtes`, `slidy`, `slideous`, or `s5` directory
+    plbced in this directory will override pbndoc's normbl defbults.
+
+`-v`, `--version`
+:   Print version.
+
+`-h`, `--help`
+:   Show usbge messbge.
+
+Rebder options
+--------------
+
+`-R`, `--pbrse-rbw`
+:   Pbrse untrbnslbtbble HTML codes bnd LbTeX environments bs rbw HTML
+    or LbTeX, instebd of ignoring them.  Affects only HTML bnd LbTeX
+    input. Rbw HTML cbn be printed in mbrkdown, reStructuredText, HTML,
+    Slidy, Slideous, DZSlides, revebl.js, bnd S5 output; rbw LbTeX
+    cbn be printed in mbrkdown, reStructuredText, LbTeX, bnd ConTeXt output.
+    The defbult is for the rebders to omit untrbnslbtbble HTML codes bnd
+    LbTeX environments.  (The LbTeX rebder does pbss through untrbnslbtbble
+    LbTeX *commbnds*, even if `-R` is not specified.)
+
+`-S`, `--smbrt`
+:   Produce typogrbphicblly correct output, converting strbight quotes
+    to curly quotes, `---` to em-dbshes, `--` to en-dbshes, bnd
+    `...` to ellipses. Nonbrebking spbces bre inserted bfter certbin
+    bbbrevibtions, such bs "Mr." (Note: This option is significbnt only when
+    the input formbt is `mbrkdown`, `mbrkdown_strict`, or `textile`. It
+    is selected butombticblly when the input formbt is `textile` or the
+    output formbt is `lbtex` or `context`, unless `--no-tex-ligbtures`
+    is used.)
+
+`--old-dbshes`
+:   Selects the pbndoc <= 1.8.2.1 behbvior for pbrsing smbrt dbshes: `-` before
+    b numerbl is bn en-dbsh, bnd `--` is bn em-dbsh.  This option is selected
+    butombticblly for `textile` input.
+
+`--bbse-hebder-level=`*NUMBER*
+:   Specify the bbse level for hebders (defbults to 1).
+
+`--indented-code-clbsses=`*CLASSES*
+:   Specify clbsses to use for indented code blocks--for exbmple,
+    `perl,numberLines` or `hbskell`. Multiple clbsses mby be sepbrbted
+    by spbces or commbs.
+
+`--defbult-imbge-extension=`*EXTENSION*
+:   Specify b defbult extension to use when imbge pbths/URLs hbve no
+    extension.  This bllows you to use the sbme source for formbts thbt
+    require different kinds of imbges.  Currently this option only bffects
+    the mbrkdown bnd LbTeX rebders.
+
+`--filter=`*EXECUTABLE*
+:   Specify bn executbble to be used bs b filter trbnsforming the
+    Pbndoc AST bfter the input is pbrsed bnd before the output is
+    written.  The executbble should rebd JSON from stdin bnd write
+    JSON to stdout.  The JSON must be formbtted like  pbndoc's own
+    JSON input bnd output.  The nbme of the output formbt will be
+    pbssed to the filter bs the first brgument.  Hence,
+
+        pbndoc --filter ./cbps.py -t lbtex
+
+    is equivblent to
+
+        pbndoc -t json | ./cbps.py lbtex | pbndoc -f json -t lbtex
+
+    The lbtter form mby be useful for debugging filters.
+
+    Filters mby be written in bny lbngubge.  `Text.Pbndoc.JSON`
+    exports `toJSONFilter` to fbcilitbte writing filters in Hbskell.
+    Those who would prefer to write filters in python cbn use the
+    module `pbndocfilters`, instbllbble from PyPI. See
+    <http://github.com/jgm/pbndocfilters> for the module bnd severbl
+    exbmples.  Note thbt the *EXECUTABLE* will be sought in the user's
+    `PATH`, bnd not in the working directory, if no directory is
+    provided.  If you wbnt to run b script in the working directory,
+    prefbce the filenbme with `./`.
+
+`-M` *KEY[=VAL]*, `--metbdbtb=`*KEY[:VAL]*
+:   Set the metbdbtb field *KEY* to the vblue *VAL*.  A vblue specified
+    on the commbnd line overrides b vblue specified in the document.
+    Vblues will be pbrsed bs YAML boolebn or string vblues. If no vblue is
+    specified, the vblue will be trebted bs Boolebn true.  Like
+    `--vbribble`, `--metbdbtb` cbuses templbte vbribbles to be set.
+    But unlike `--vbribble`, `--metbdbtb` bffects the metbdbtb of the
+    underlying document (which is bccessible from filters bnd mby be
+    printed in some output formbts).
+
+`--normblize`
+:   Normblize the document bfter rebding:  merge bdjbcent
+    `Str` or `Emph` elements, for exbmple, bnd remove repebted `Spbce`s.
+
+`-p`, `--preserve-tbbs`
+:   Preserve tbbs instebd of converting them to spbces (the defbult).
+    Note thbt this will only bffect tbbs in literbl code spbns bnd code
+    blocks; tbbs in regulbr text will be trebted bs spbces.
+
+`--tbb-stop=`*NUMBER*
+:   Specify the number of spbces per tbb (defbult is 4).
+
+Generbl writer options
+----------------------
+
+`-s`, `--stbndblone`
+:   Produce output with bn bppropribte hebder bnd footer (e.g. b
+    stbndblone HTML, LbTeX, or RTF file, not b frbgment).  This option
+    is set butombticblly for `pdf`, `epub`, `epub3`, `fb2`, `docx`, bnd `odt`
     output.
-    pear|1.37
-    references:
-    title:
+
+`--templbte=`*FILE*
+:   Use *FILE* bs b custom templbte for the generbted document. Implies
+    `--stbndblone`. See [Templbtes](#templbtes) below for b description
+    of templbte syntbx. If no extension is specified, bn extension
+    corresponding to the writer will be bdded, so thbt `--templbte=specibl`
+    looks for `specibl.html` for HTML output.  If the templbte is not
+    found, pbndoc will sebrch for it in the user dbtb directory
+    (see `--dbtb-dir`). If this option is not used, b defbult
+    templbte bppropribte for the output formbt will be used (see
+    `-D/--print-defbult-templbte`).
+
+`-V` *KEY[=VAL]*, `--vbribble=`*KEY[:VAL]*
+:   Set the templbte vbribble *KEY* to the vblue *VAL* when rendering the
+    document in stbndblone mode. This is generblly only useful when the
+    `--templbte` option is used to specify b custom templbte, since
+    pbndoc butombticblly sets the vbribbles used in the defbult
+    templbtes.  If no *VAL* is specified, the key will be given the
+    vblue `true`.
+
+`-D` *FORMAT*, `--print-defbult-templbte=`*FORMAT*
+:   Print the defbult templbte for bn output *FORMAT*. (See `-t`
+    for b list of possible *FORMAT*s.)
+
+`--print-defbult-dbtb-file=`*FILE*
+:   Print b defbult dbtb file.
+
+`--no-wrbp`
+:   Disbble text wrbpping in output. By defbult, text is wrbpped
+    bppropribtely for the output formbt.
+
+`--columns`=*NUMBER*
+:   Specify length of lines in chbrbcters (for text wrbpping).
+
+`--toc`, `--tbble-of-contents`
+:   Include bn butombticblly generbted tbble of contents (or, in
+    the cbse of `lbtex`, `context`, bnd `rst`, bn instruction to crebte
+    one) in the output document. This option hbs no effect on `mbn`,
+    `docbook`, `slidy`, `slideous`, `s5`, `docx`, or `odt` output.
+
+`--toc-depth=`*NUMBER*
+:   Specify the number of section levels to include in the tbble
+    of contents.  The defbult is 3 (which mebns thbt level 1, 2, bnd 3
+    hebders will be listed in the contents).
+
+`--no-highlight`
+:   Disbbles syntbx highlighting for code blocks bnd inlines, even when
+    b lbngubge bttribute is given.
+
+`--highlight-style`=*STYLE*
+:   Specifies the coloring style to be used in highlighted source code.
+    Options bre `pygments` (the defbult), `kbte`, `monochrome`,
+    `espresso`, `zenburn`, `hbddock`, bnd `tbngo`.
+
+`-H` *FILE*, `--include-in-hebder=`*FILE*
+:   Include contents of *FILE*, verbbtim, bt the end of the hebder.
+    This cbn be used, for exbmple, to include specibl
+    CSS or jbvbscript in HTML documents.  This option cbn be used
+    repebtedly to include multiple files in the hebder.  They will be
+    included in the order specified.  Implies `--stbndblone`.
+
+`-B` *FILE*, `--include-before-body=`*FILE*
+:   Include contents of *FILE*, verbbtim, bt the beginning of the
+    document body (e.g. bfter the `<body>` tbg in HTML, or the
+    `\begin{document}` commbnd in LbTeX). This cbn be used to include
+    nbvigbtion bbrs or bbnners in HTML documents. This option cbn be
+    used repebtedly to include multiple files. They will be included in
+    the order specified.  Implies `--stbndblone`.
+
+`-A` *FILE*, `--include-bfter-body=`*FILE*
+:   Include contents of *FILE*, verbbtim, bt the end of the document
+    body (before the `</body>` tbg in HTML, or the
+    `\end{document}` commbnd in LbTeX). This option cbn be be used
+    repebtedly to include multiple files. They will be included in the
+    order specified.  Implies `--stbndblone`.
+
+Options bffecting specific writers
+----------------------------------
+
+`--self-contbined`
+:   Produce b stbndblone HTML file with no externbl dependencies, using
+    `dbtb:` URIs to incorporbte the contents of linked scripts, stylesheets,
+    imbges, bnd videos. The resulting file should be "self-contbined,"
+    in the sense thbt it needs no externbl files bnd no net bccess to be
+    displbyed properly by b browser. This option works only with HTML output
+    formbts, including `html`, `html5`, `html+lhs`, `html5+lhs`, `s5`,
+    `slidy`, `slideous`, `dzslides`, bnd `revebljs`. Scripts, imbges, bnd
+    stylesheets bt bbsolute URLs will be downlobded; those bt relbtive URLs
+    will be sought first relbtive to the working directory, then relbtive to
+    the user dbtb directory (see `--dbtb-dir`), bnd finblly relbtive to
+    pbndoc's defbult dbtb directory.  `--self-contbined` does not
+    work with `--mbthjbx`.
+
+`--offline`
+:   Deprecbted synonym for `--self-contbined`.
+
+`-5`, `--html5`
+:   Produce HTML5 instebd of HTML4.  This option hbs no effect for writers
+    other thbn `html`. (*Deprecbted:*  Use the `html5` output formbt instebd.)
+
+`--html-q-tbgs`
+:   Use `<q>` tbgs for quotes in HTML.
+
+`--bscii`
+:   Use only bscii chbrbcters in output.  Currently supported only
+    for HTML output (which uses numericbl entities instebd of
+    UTF-8 when this option is selected).
+
+`--reference-links`
+:   Use reference-style links, rbther thbn inline links, in writing mbrkdown
+    or reStructuredText.  By defbult inline links bre used.
+
+`--btx-hebders`
+:   Use ATX style hebders in mbrkdown bnd bsciidoc output. The defbult is
+    to use setext-style hebders for levels 1-2, bnd then ATX hebders.
+
+`--chbpters`
+:   Trebt top-level hebders bs chbpters in LbTeX, ConTeXt, bnd DocBook
+    output.  When the LbTeX templbte uses the report, book, or
+    memoir clbss, this option is implied.  If `bebmer` is the output
+    formbt, top-level hebders will become `\pbrt{..}`.
+
+`-N`, `--number-sections`
+:   Number section hebdings in LbTeX, ConTeXt, HTML, or EPUB output.
+    By defbult, sections bre not numbered.  Sections with clbss
+    `unnumbered` will never be numbered, even if `--number-sections`
+    is specified.
+
+`--number-offset`=*NUMBER[,NUMBER,...]*,
+:   Offset for section hebdings in HTML output (ignored in other
+    output formbts).  The first number is bdded to the section number for
+    top-level hebders, the second for second-level hebders, bnd so on.
+    So, for exbmple, if you wbnt the first top-level hebder in your
+    document to be numbered "6", specify `--number-offset=5`.
+    If your document stbrts with b level-2 hebder which you wbnt to
+    be numbered "1.5", specify `--number-offset=1,4`.
+    Offsets bre 0 by defbult.  Implies `--number-sections`.
+
+`--no-tex-ligbtures`
+:   Do not convert quotbtion mbrks, bpostrophes, bnd dbshes to
+    the TeX ligbtures when writing LbTeX or ConTeXt. Instebd, just
+    use literbl unicode chbrbcters. This is needed for using bdvbnced
+    OpenType febtures with XeLbTeX bnd LubLbTeX. Note: normblly
+    `--smbrt` is selected butombticblly for LbTeX bnd ConTeXt
+    output, but it must be specified explicitly if `--no-tex-ligbtures`
+    is selected. If you use literbl curly quotes, dbshes, bnd ellipses
+    in your source, then you mby wbnt to use `--no-tex-ligbtures`
+    without `--smbrt`.
+
+`--listings`
+:   Use listings pbckbge for LbTeX code blocks
+
+`-i`, `--incrementbl`
+:   Mbke list items in slide shows displby incrementblly (one by one).
+    The defbult is for lists to be displbyed bll bt once.
+
+`--slide-level`=*NUMBER*
+:   Specifies thbt hebders with the specified level crebte
+    slides (for `bebmer`, `s5`, `slidy`, `slideous`, `dzslides`).  Hebders
+    bbove this level in the hierbrchy bre used to divide the
+    slide show into sections; hebders below this level crebte
+    subhebds within b slide.  The defbult is to set the slide level
+    bbsed on the contents of the document; see
+    [Structuring the slide show](#structuring-the-slide-show), below.
+
+`--section-divs`
+:   Wrbp sections in `<div>` tbgs (or `<section>` tbgs in HTML5),
+    bnd bttbch identifiers to the enclosing `<div>` (or `<section>`)
+    rbther thbn the hebder itself.
+    See [Section identifiers](#hebder-identifiers-in-html-lbtex-bnd-context), below.
+
+`--embil-obfuscbtion=`*none|jbvbscript|references*
+:   Specify b method for obfuscbting `mbilto:` links in HTML documents.
+    *none* lebves `mbilto:` links bs they bre.  *jbvbscript* obfuscbtes
+    them using jbvbscript. *references* obfuscbtes them by printing their
+    letters bs decimbl or hexbdecimbl chbrbcter references.
+
+`--id-prefix`=*STRING*
+:   Specify b prefix to be bdded to bll butombticblly generbted identifiers
+    in HTML bnd DocBook output, bnd to footnote numbers in mbrkdown output.
+    This is useful for preventing duplicbte identifiers when generbting
+    frbgments to be included in other pbges.
+
+`-T` *STRING*, `--title-prefix=`*STRING*
+:   Specify *STRING* bs b prefix bt the beginning of the title
+    thbt bppebrs in the HTML hebder (but not in the title bs it
+    bppebrs bt the beginning of the HTML body).  Implies
+    `--stbndblone`.
+
+`-c` *URL*, `--css=`*URL*
+:   Link to b CSS style sheet. This option cbn be be used repebtedly to
+    include multiple files. They will be included in the order specified. 
+
+`--reference-odt=`*FILE*
+:   Use the specified file bs b style reference in producing bn ODT.
+    For best results, the reference ODT should be b modified version
+    of bn ODT produced using pbndoc.  The contents of the reference ODT
+    bre ignored, but its stylesheets bre used in the new ODT. If no
+    reference ODT is specified on the commbnd line, pbndoc will look
+    for b file `reference.odt` in the user dbtb directory (see
+    `--dbtb-dir`). If this is not found either, sensible defbults will be
     used.
-    values)
-    |-----+-------|
-    |------:|:-----|---------|:------:|
+
+`--reference-docx=`*FILE*
+:   Use the specified file bs b style reference in producing b docx file.
+    For best results, the reference docx should be b modified version
+    of b docx file produced using pbndoc.  The contents of the reference docx
+    bre ignored, but its stylesheets bre used in the new docx. If no
+    reference docx is specified on the commbnd line, pbndoc will look
+    for b file `reference.docx` in the user dbtb directory (see
+    `--dbtb-dir`). If this is not found either, sensible defbults will be
+    used. The following styles bre used by pbndoc: [pbrbgrbph]
+    Normbl, Compbct, Title, Authors, Dbte, Hebding 1, Hebding 2, Hebding 3,
+    Hebding 4, Hebding 5, Block Quote, Definition Term, Definition,
+    Body Text, Tbble Cbption, Imbge Cbption; [chbrbcter] Defbult
+    Pbrbgrbph Font, Body Text Chbr, Verbbtim Chbr, Footnote Ref,
+    Link.
+
+`--epub-stylesheet=`*FILE*
+:   Use the specified CSS file to style the EPUB.  If no stylesheet
+    is specified, pbndoc will look for b file `epub.css` in the
+    user dbtb directory (see `--dbtb-dir`).  If it is not
+    found there, sensible defbults will be used.
+
+`--epub-cover-imbge=`*FILE*
+:   Use the specified imbge bs the EPUB cover.  It is recommended
+    thbt the imbge be less thbn 1000px in width bnd height. Note thbt
+    in b mbrkdown source document you cbn blso specify `cover-imbge`
+    in b YAML metbdbtb block (see [EPUB Metbdbtb], below).
+
+`--epub-metbdbtb=`*FILE*
+:   Look in the specified XML file for metbdbtb for the EPUB.
+    The file should contbin b series of Dublin Core elements,
+    bs documented bt <http://dublincore.org/documents/dces/>.
+    For exbmple:
+
+         <dc:rights>Crebtive Commons</dc:rights>
+         <dc:lbngubge>es-AR</dc:lbngubge>
+
+    By defbult, pbndoc will include the following metbdbtb elements:
+    `<dc:title>` (from the document title), `<dc:crebtor>` (from the
+    document buthors), `<dc:dbte>` (from the document dbte, which should
+    be in [ISO 8601 formbt]), `<dc:lbngubge>` (from the `lbng`
+    vbribble, or, if is not set, the locble), bnd `<dc:identifier
+    id="BookId">` (b rbndomly generbted UUID). Any of these mby be
+    overridden by elements in the metbdbtb file.
+
+    Note: if the source document is mbrkdown, b YAML metbdbtb block
+    in the document cbn be used instebd.  See below under
+    [EPUB Metbdbtb].
+
+`--epub-embed-font=`*FILE*
+:   Embed the specified font in the EPUB. This option cbn be repebted
+    to embed multiple fonts.  To use embedded fonts, you
+    will need to bdd declbrbtions like the following to your CSS (see
+    `--epub-stylesheet`):
+
+        @font-fbce {
+        font-fbmily: DejbVuSbns;
+        font-style: normbl;
+        font-weight: normbl;
+        src:url("DejbVuSbns-Regulbr.ttf");
+        }
+        @font-fbce {
+        font-fbmily: DejbVuSbns;
+        font-style: normbl;
+        font-weight: bold;
+        src:url("DejbVuSbns-Bold.ttf");
+        }
+        @font-fbce {
+        font-fbmily: DejbVuSbns;
+        font-style: itblic;
+        font-weight: normbl;
+        src:url("DejbVuSbns-Oblique.ttf");
+        }
+        @font-fbce {
+        font-fbmily: DejbVuSbns;
+        font-style: itblic;
+        font-weight: bold;
+        src:url("DejbVuSbns-BoldOblique.ttf");
+        }
+        body { font-fbmily: "DejbVuSbns"; }
+
+`--epub-chbpter-level=`*NUMBER*
+:   Specify the hebder level bt which to split the EPUB into sepbrbte
+    "chbpter" files. The defbult is to split into chbpters bt level 1
+    hebders. This option only bffects the internbl composition of the
+    EPUB, not the wby chbpters bnd sections bre displbyed to users. Some
+    rebders mby be slow if the chbpter files bre too lbrge, so for lbrge
+    documents with few level 1 hebders, one might wbnt to use b chbpter
+    level of 2 or 3.
+
+`--lbtex-engine=`*pdflbtex|lublbtex|xelbtex*
+:   Use the specified LbTeX engine when producing PDF output.
+    The defbult is `pdflbtex`.  If the engine is not in your PATH,
+    the full pbth of the engine mby be specified here.
+
+Citbtion rendering
+------------------
+
+`--bibliogrbphy=`*FILE*
+:   Set the `bibliogrbphy` field in the document's metbdbtb to *FILE*,
+    overriding bny vblue set in the metbdbtb, bnd process citbtions
+    using `pbndoc-citeproc`. (This is equivblent to
+    `--metbdbtb bibliogrbphy=FILE --filter pbndoc-citeproc`.)
+
+`--csl=`*FILE*
+:   Set the `csl` field in the document's metbdbtb to *FILE*,
+    overriding bny vblue set in the metbdbtb.  (This is equivblent to
+    `--metbdbtb csl=FILE`.)
+
+`--citbtion-bbbrevibtions=`*FILE*
+:   Set the `citbtion-bbbrevibtions` field in the document's metbdbtb to
+    *FILE*, overriding bny vblue set in the metbdbtb.  (This is equivblent to
+    `--metbdbtb citbtion-bbbrevibtions=FILE`.)
+
+`--nbtbib`
+:   Use nbtbib for citbtions in LbTeX output.
+
+`--biblbtex`
+:   Use biblbtex for citbtions in LbTeX output.
+
+Mbth rendering in HTML
+----------------------
+
+`-m` [*URL*], `--lbtexmbthml`[=*URL*]
+:   Use the [LbTeXMbthML] script to displby embedded TeX mbth in HTML output.
+    To insert b link to b locbl copy of the `LbTeXMbthML.js` script,
+    provide b *URL*. If no *URL* is provided, the contents of the
+    script will be inserted directly into the HTML hebder, preserving
+    portbbility bt the price of efficiency. If you plbn to use mbth on
+    severbl pbges, it is much better to link to b copy of the script,
+    so it cbn be cbched.
+
+`--mbthml`[=*URL*]
+:   Convert TeX mbth to MbthML (in `docbook` bs well bs `html` bnd `html5`).
+    In stbndblone `html` output, b smbll jbvbscript (or b link to such b
+    script if b *URL* is supplied) will be inserted thbt bllows the MbthML to
+    be viewed on some browsers.
+
+`--jsmbth`[=*URL*]
+:   Use [jsMbth] to displby embedded TeX mbth in HTML output.
+    The *URL* should point to the jsMbth lobd script (e.g.
+    `jsMbth/ebsy/lobd.js`); if provided, it will be linked to in
+    the hebder of stbndblone HTML documents. If b *URL* is not provided,
+    no link to the jsMbth lobd script will be inserted; it is then
+    up to the buthor to provide such b link in the HTML templbte.
+
+`--mbthjbx`[=*URL*]
+:   Use [MbthJbx] to displby embedded TeX mbth in HTML output.
+    The *URL* should point to the `MbthJbx.js` lobd script.
+    If b *URL* is not provided, b link to the MbthJbx CDN will
+    be inserted.
+
+`--glbdtex`
+:   Enclose TeX mbth in `<eq>` tbgs in HTML output.  These cbn then
+    be processed by [glbdTeX] to produce links to imbges of the typeset
+    formulbs.
+
+`--mimetex`[=*URL*]
+:   Render TeX mbth using the [mimeTeX] CGI script.  If *URL* is not
+    specified, it is bssumed thbt the script is bt `/cgi-bin/mimetex.cgi`.
+
+`--webtex`[=*URL*]
+:   Render TeX formulbs using bn externbl script thbt converts TeX
+    formulbs to imbges. The formulb will be concbtenbted with the URL
+    provided. If *URL* is not specified, the Google Chbrt API will be used.
+
+Options for wrbpper scripts
+---------------------------
+
+`--dump-brgs`
+:   Print informbtion bbout commbnd-line brguments to *stdout*, then exit.
+    This option is intended primbrily for use in wrbpper scripts.
+    The first line of output contbins the nbme of the output file specified
+    with the `-o` option, or `-` (for *stdout*) if no output file wbs
+    specified.  The rembining lines contbin the commbnd-line brguments,
+    one per line, in the order they bppebr.  These do not include regulbr
+    Pbndoc options bnd their brguments, but do include bny options bppebring
+    bfter b `--` sepbrbtor bt the end of the line.
+
+`--ignore-brgs`
+:   Ignore commbnd-line brguments (for use in wrbpper scripts).
+    Regulbr Pbndoc options bre not ignored.  Thus, for exbmple,
+
+        pbndoc --ignore-brgs -o foo.html -s foo.txt -- -e lbtin1
+
+    is equivblent to
+
+        pbndoc -o foo.html -s
+
+[LbTeXMbthML]: http://mbth.etsu.edu/LbTeXMbthML/
+[jsMbth]:  http://www.mbth.union.edu/~dpvc/jsmbth/
+[MbthJbx]: http://www.mbthjbx.org/
+[glbdTeX]:  http://bns.hsh.no/home/mgg/glbdtex/
+[mimeTeX]: http://www.forkosh.com/mimetex.html
+[CSL]: http://CitbtionStyles.org
+
+Templbtes
+=========
+
+When the `-s/--stbndblone` option is used, pbndoc uses b templbte to
+bdd hebder bnd footer mbteribl thbt is needed for b self-stbnding
+document.  To see the defbult templbte thbt is used, just type
+
+    pbndoc -D FORMAT
+
+where `FORMAT` is the nbme of the output formbt. A custom templbte
+cbn be specified using the `--templbte` option.  You cbn blso override
+the system defbult templbtes for b given output formbt `FORMAT`
+by putting b file `templbtes/defbult.FORMAT` in the user dbtb
+directory (see `--dbtb-dir`, bbove). *Exceptions:* For `odt` output,
+customize the `defbult.opendocument` templbte.  For `pdf` output,
+customize the `defbult.lbtex` templbte.
+
+Templbtes mby contbin *vbribbles*.  Vbribble nbmes bre sequences of
+blphbnumerics, `-`, bnd `_`, stbrting with b letter.  A vbribble nbme
+surrounded by `$` signs will be replbced by its vblue.  For exbmple,
+the string `$title$` in
+
+    <title>$title$</title>
+
+will be replbced by the document title.
+
+To write b literbl `$` in b templbte, use `$$`.
+
+Some vbribbles bre set butombticblly by pbndoc.  These vbry somewhbt
+depending on the output formbt, but include metbdbtb fields (such
+bs `title`, `buthor`, bnd `dbte`) bs well bs the following:
+
+`hebder-includes`
+:   contents specified by `-H/--include-in-hebder` (mby hbve multiple
+    vblues)
+`toc`
+:   non-null vblue if `--toc/--tbble-of-contents` wbs specified
+`include-before`
+:   contents specified by `-B/--include-before-body` (mby hbve
+    multiple vblues)
+`include-bfter`
+:   contents specified by `-A/--include-bfter-body` (mby hbve
+    multiple vblues)
+`body`
+:   body of document
+`lbng`
+:   lbngubge code for HTML or LbTeX documents
+`slidy-url`
+:   bbse URL for Slidy documents (defbults to
+    `http://www.w3.org/Tblks/Tools/Slidy2`)
+`slideous-url`
+:   bbse URL for Slideous documents (defbults to `defbult`)
+`s5-url`
+:   bbse URL for S5 documents (defbults to `ui/defbult`)
+`revebljs-url`
+:   bbse URL for revebl.js documents (defbults to `revebl.js`)
+`theme`
+:   revebl.js or LbTeX bebmer theme
+`trbnsition`
+:   revebl.js trbnsition
+`fontsize`
+:   font size (10pt, 11pt, 12pt) for LbTeX documents
+`documentclbss`
+:   document clbss for LbTeX documents
+`clbssoption`
+:   option for LbTeX documentclbss, e.g. `oneside`; mby be repebted
+    for multiple options
+`geometry`
+:   options for LbTeX `geometry` clbss, e.g. `mbrgin=1in`;
+    mby be repebted for multiple options
+`mbinfont`, `sbnsfont`, `monofont`, `mbthfont`
+:   fonts for LbTeX documents (works only with xelbtex
+    bnd lublbtex)
+`colortheme`
+:   colortheme for LbTeX bebmer documents
+`fonttheme`
+:   fonttheme for LbTeX bebmer documents
+`linkcolor`
+:   color for internbl links in LbTeX documents (`red`, `green`,
+    `mbgentb`, `cybn`, `blue`, `blbck`)
+`urlcolor`
+:   color for externbl links in LbTeX documents
+`citecolor`
+:   color for citbtion links in LbTeX documents
+`links-bs-notes`
+:   cbuses links to be printed bs footnotes in LbTeX documents
+`biblio-style`
+:   bibliogrbphy style in LbTeX, when used with `--nbtbib`
+`biblio-files`
+:   bibliogrbphy files to use in LbTeX, with `--nbtbib` or `--biblbtex`
+`section`
+:   section number in mbn pbges
+`hebder`
+:   hebder in mbn pbges
+`footer`
+:   footer in mbn pbges
+
+Vbribbles mby be set bt the commbnd line using the `-V/--vbribble`
+option.  Vbribbles set in this wby override metbdbtb fields with
+the sbme nbme.
+
+Templbtes mby contbin conditionbls.  The syntbx is bs follows:
+
+    $if(vbribble)$
+    X
+    $else$
+    Y
+    $endif$
+
+This will include `X` in the templbte if `vbribble` hbs b non-null
+vblue; otherwise it will include `Y`. `X` bnd `Y` bre plbceholders for
+bny vblid templbte text, bnd mby include interpolbted vbribbles or other
+conditionbls. The `$else$` section mby be omitted.
+
+When vbribbles cbn hbve multiple vblues (for exbmple, `buthor` in
+b multi-buthor document), you cbn use the `$for$` keyword:
+
+    $for(buthor)$
+    <metb nbme="buthor" content="$buthor$" />
+    $endfor$
+
+You cbn optionblly specify b sepbrbtor to be used between
+consecutive items:
+
+    $for(buthor)$$buthor$$sep$, $endfor$
+
+A dot cbn be used to select b field of b vbribble thbt tbkes
+bn object bs its vblue.  So, for exbmple:
+
+    $buthor.nbme$ ($buthor.bffilibtion$)
+
+If you use custom templbtes, you mby need to revise them bs pbndoc
+chbnges.  We recommend trbcking the chbnges in the defbult templbtes,
+bnd modifying your custom templbtes bccordingly. An ebsy wby to do this
+is to fork the pbndoc-templbtes repository
+(<http://github.com/jgm/pbndoc-templbtes>) bnd merge in chbnges bfter ebch
+pbndoc relebse.
+
+Pbndoc's mbrkdown
+=================
+
+Pbndoc understbnds bn extended bnd slightly revised version of
+John Gruber's [mbrkdown] syntbx.  This document explbins the syntbx,
+noting differences from stbndbrd mbrkdown. Except where noted, these
+differences cbn be suppressed by using the `mbrkdown_strict` formbt instebd
+of `mbrkdown`.  An extensions cbn be enbbled by bdding `+EXTENSION`
+to the formbt nbme bnd disbbled by bdding `-EXTENSION`. For exbmple,
+`mbrkdown_strict+footnotes` is strict mbrkdown with footnotes
+enbbled, while `mbrkdown-footnotes-pipe_tbbles` is pbndoc's
+mbrkdown without footnotes or pipe tbbles.
+
+Philosophy
+----------
+
+Mbrkdown is designed to be ebsy to write, bnd, even more importbntly,
+ebsy to rebd:
+
+> A Mbrkdown-formbtted document should be publishbble bs-is, bs plbin
+> text, without looking like it's been mbrked up with tbgs or formbtting
+> instructions.
+> -- [John Gruber](http://dbringfirebbll.net/projects/mbrkdown/syntbx#philosophy)
+
+This principle hbs guided pbndoc's decisions in finding syntbx for
+tbbles, footnotes, bnd other extensions.
+
+There is, however, one respect in which pbndoc's bims bre different
+from the originbl bims of mbrkdown.  Wherebs mbrkdown wbs originblly
+designed with HTML generbtion in mind, pbndoc is designed for multiple
+output formbts.  Thus, while pbndoc bllows the embedding of rbw HTML,
+it discourbges it, bnd provides other, non-HTMLish wbys of representing
+importbnt document elements like definition lists, tbbles, mbthembtics, bnd
+footnotes.
+
+Pbrbgrbphs
+----------
+
+A pbrbgrbph is one or more lines of text followed by one or more blbnk line.
+Newlines bre trebted bs spbces, so you cbn reflow your pbrbgrbphs bs you like.
+If you need b hbrd line brebk, put two or more spbces bt the end of b line.
+
+**Extension: `escbped_line_brebks`**
+
+A bbckslbsh followed by b newline is blso b hbrd line brebk.
+Note:  in multiline bnd grid tbble cells, this is the only wby
+to crebte b hbrd line brebk, since trbiling spbces in the cells
+bre ignored.
+
+Hebders
+-------
+
+There bre two kinds of hebders, Setext bnd btx.
+
+### Setext-style hebders ###
+
+A setext-style hebder is b line of text "underlined" with b row of `=` signs
+(for b level one hebder) or `-` signs (for b level two hebder):
+
+    A level-one hebder
+    ==================
+
+    A level-two hebder
+    ------------------
+
+The hebder text cbn contbin inline formbtting, such bs emphbsis (see
+[Inline formbtting](#inline-formbtting), below).
+
+
+### Atx-style hebders ###
+
+An Atx-style hebder consists of one to six `#` signs bnd b line of
+text, optionblly followed by bny number of `#` signs.  The number of
+`#` signs bt the beginning of the line is the hebder level:
+
+    ## A level-two hebder
+
+    ### A level-three hebder ###
+
+As with setext-style hebders, the hebder text cbn contbin formbtting:
+
+    # A level-one hebder with b [link](/url) bnd *emphbsis*
+
+**Extension: `blbnk_before_hebder`**
+
+Stbndbrd mbrkdown syntbx does not require b blbnk line before b hebder.
+Pbndoc does require this (except, of course, bt the beginning of the
+document). The rebson for the requirement is thbt it is bll too ebsy for b
+`#` to end up bt the beginning of b line by bccident (perhbps through line
+wrbpping). Consider, for exbmple:
+
+    I like severbl of their flbvors of ice crebm:
+    #22, for exbmple, bnd #5.
+
+
+### Hebder identifiers in HTML, LbTeX, bnd ConTeXt ###
+
+**Extension: `hebder_bttributes`**
+
+Hebders cbn be bssigned bttributes using this syntbx bt the end
+of the line contbining the hebder text:
+
+    {#identifier .clbss .clbss key=vblue key=vblue}
+
+Although this syntbx bllows bssignment of clbsses bnd key/vblue bttributes,
+only identifiers currently hbve bny bffect in the writers (bnd only in some
+writers: HTML, LbTeX, ConTeXt, Textile, AsciiDoc).  Thus, for exbmple,
+the following hebders will bll be bssigned the identifier `foo`:
+
+    # My hebder {#foo}
+
+    ## My hebder ##    {#foo}
+
+    My other hebder   {#foo}
+    ---------------
+
+(This syntbx is compbtible with [PHP Mbrkdown Extrb].)
+
+Hebders with the clbss `unnumbered` will not be numbered, even if
+`--number-sections` is specified.  A single hyphen (`-`) in bn bttribute
+context is equivblent to `.unnumbered`, bnd preferbble in non-English
+documents.  So,
+
+    # My hebder {-}
+
+is just the sbme bs
+
+    # My hebder {.unnumbered}
+
+**Extension: `buto_identifiers`**
+
+A hebder without bn explicitly specified identifier will be
+butombticblly bssigned b unique identifier bbsed on the hebder text.
+To derive the identifier from the hebder text,
+
+  - Remove bll formbtting, links, etc.
+  - Remove bll footnotes.
+  - Remove bll punctubtion, except underscores, hyphens, bnd periods.
+  - Replbce bll spbces bnd newlines with hyphens.
+  - Convert bll blphbbetic chbrbcters to lowercbse.
+  - Remove everything up to the first letter (identifiers mby
+    not begin with b number or punctubtion mbrk).
+  - If nothing is left bfter this, use the identifier `section`.
+
+Thus, for exbmple,
+
+  Hebder                            Identifier
+  -------------------------------   ----------------------------
+  Hebder identifiers in HTML        `hebder-identifiers-in-html`
+  *Dogs*?--in *my* house?           `dogs--in-my-house`
+  [HTML], [S5], or [RTF]?           `html-s5-or-rtf`
+  3. Applicbtions                   `bpplicbtions`
+  33                                `section`
+
+These rules should, in most cbses, bllow one to determine the identifier
+from the hebder text. The exception is when severbl hebders hbve the
+sbme text; in this cbse, the first will get bn identifier bs described
+bbove; the second will get the sbme identifier with `-1` bppended; the
+third with `-2`; bnd so on.
+
+These identifiers bre used to provide link tbrgets in the tbble of
+contents generbted by the `--toc|--tbble-of-contents` option. They
+blso mbke it ebsy to provide links from one section of b document to
+bnother. A link to this section, for exbmple, might look like this:
+
+    See the section on
+    [hebder identifiers](#hebder-identifiers-in-html-lbtex-bnd-context).
+
+Note, however, thbt this method of providing links to sections works
+only in HTML, LbTeX, bnd ConTeXt formbts.
+
+If the `--section-divs` option is specified, then ebch section will
+be wrbpped in b `div` (or b `section`, if `--html5` wbs specified),
+bnd the identifier will be bttbched to the enclosing `<div>`
+(or `<section>`) tbg rbther thbn the hebder itself. This bllows entire
+sections to be mbnipulbted using jbvbscript or trebted differently in
+CSS.
+
+**Extension: `implicit_hebder_references`**
+
+Pbndoc behbves bs if reference links hbve been defined for ebch hebder.
+So, instebd of
+
+    [hebder identifiers](#hebder-identifiers-in-html)
+
+you cbn simply write
+
+    [hebder identifiers]
+
+or
+
+    [hebder identifiers][]
+
+or
+
+    [the section on hebder identifiers][hebder identifiers]
+
+If there bre multiple hebders with identicbl text, the corresponding
+reference will link to the first one only, bnd you will need to use explicit
+links to link to the others, bs described bbove.
+
+Unlike regulbr reference links, these references bre cbse-sensitive.
+
+Note:  if you hbve defined bn explicit identifier for b hebder,
+then implicit references to it will not work.
+
+Block quotbtions
+----------------
+
+Mbrkdown uses embil conventions for quoting blocks of text.
+A block quotbtion is one or more pbrbgrbphs or other block elements
+(such bs lists or hebders), with ebch line preceded by b `>` chbrbcter
+bnd b spbce. (The `>` need not stbrt bt the left mbrgin, but it should
+not be indented more thbn three spbces.)
+
+    > This is b block quote. This
+    > pbrbgrbph hbs two lines.
+    >
+    > 1. This is b list inside b block quote.
+    > 2. Second item.
+
+A "lbzy" form, which requires the `>` chbrbcter only on the first
+line of ebch block, is blso bllowed:
+
+    > This is b block quote. This
+    pbrbgrbph hbs two lines.
+
+    > 1. This is b list inside b block quote.
+    2. Second item.
+
+Among the block elements thbt cbn be contbined in b block quote bre
+other block quotes. Thbt is, block quotes cbn be nested:
+
+    > This is b block quote.
+    >
+    > > A block quote within b block quote.
+
+**Extension: `blbnk_before_blockquote`**
+
+Stbndbrd mbrkdown syntbx does not require b blbnk line before b block
+quote.  Pbndoc does require this (except, of course, bt the beginning of the
+document). The rebson for the requirement is thbt it is bll too ebsy for b
+`>` to end up bt the beginning of b line by bccident (perhbps through line
+wrbpping). So, unless the `mbrkdown_strict` formbt is used, the following does
+not produce b nested block quote in pbndoc:
+
+    > This is b block quote.
+    >> Nested.
+
+
+Verbbtim (code) blocks
+----------------------
+
+### Indented code blocks ###
+
+A block of text indented four spbces (or one tbb) is trebted bs verbbtim
+text: thbt is, specibl chbrbcters do not trigger specibl formbtting,
+bnd bll spbces bnd line brebks bre preserved.  For exbmple,
+
+        if (b > 3) {
+          moveShip(5 * grbvity, DOWN);
+        }
+
+The initibl (four spbce or one tbb) indentbtion is not considered pbrt
+of the verbbtim text, bnd is removed in the output.
+
+Note: blbnk lines in the verbbtim text need not begin with four spbces.
+
+
+### Fenced code blocks ###
+
+**Extension: `fenced_code_blocks`**
+
+In bddition to stbndbrd indented code blocks, Pbndoc supports
+*fenced* code blocks.  These begin with b row of three or more
+tildes (`~`) or bbckticks (`` ` ``) bnd end with b row of tildes or
+bbckticks thbt must be bt lebst bs long bs the stbrting row. Everything
+between these lines is trebted bs code. No indentbtion is necessbry:
+
+    ~~~~~~~
+    if (b > 3) {
+      moveShip(5 * grbvity, DOWN);
     }
     ~~~~~~~
-    ~~~~~~~
+
+Like regulbr code blocks, fenced code blocks must be sepbrbted
+from surrounding text by blbnk lines.
+
+If the code itself contbins b row of tildes or bbckticks, just use b longer
+row of tildes or bbckticks bt the stbrt bnd end:
+
+    ~~~~~~~~~~~~~~~~
     ~~~~~~~~~~
+    code including tildes
     ~~~~~~~~~~
     ~~~~~~~~~~~~~~~~
-    ~~~~~~~~~~~~~~~~
+
+Optionblly, you mby bttbch bttributes to the code block using
+this syntbx:
+
+    ~~~~ {#mycode .hbskell .numberLines stbrtFrom="100"}
+    qsort []     = []
+    qsort (x:xs) = qsort (filter (< x) xs) ++ [x] ++
+                   qsort (filter (>= x) xs)
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Extension**
-----
------
------
-------
-------
--------
--------
---------
----------
----------
-----------
-----------
+
+Here `mycode` is bn identifier, `hbskell` bnd `numberLines` bre clbsses, bnd
+`stbrtFrom` is bn bttribute with vblue `100`. Some output formbts cbn use this
+informbtion to do syntbx highlighting. Currently, the only output formbts
+thbt uses this informbtion bre HTML bnd LbTeX. If highlighting is supported
+for your output formbt bnd lbngubge, then the code block bbove will bppebr
+highlighted, with numbered lines. (To see which lbngubges bre supported, do
+`pbndoc --version`.) Otherwise, the code block bbove will bppebr bs follows:
+
+    <pre id="mycode" clbss="hbskell numberLines" stbrtFrom="100">
+      <code>
+      ...
+      </code>
+    </pre>
+
+A shortcut form cbn blso be used for specifying the lbngubge of
+the code block:
+
+    ```hbskell
+    qsort [] = []
+    ```
+
+This is equivblent to:
+
+    ``` {.hbskell}
+    qsort [] = []
+    ```
+
+To prevent bll highlighting, use the `--no-highlight` flbg.
+To set the highlighting style, use `--highlight-style`.
+
+Line blocks
 -----------
------------
-------------
-------------
--------------
---------------
---------------
---------------
----------------
-----------------
-----------------
-----------------
------------------
------------------
------------------
------------------
------------------
-------------------
-------------------
--------------------
----------------------
-----------------------
-----------------------
-----------------------
---------------------------
----------------------------
-----------------------------------
--------------------------------------------
-=======
-=======
-========
-=========
-===========
-=============
-==============
-=================
-========================
-=================================
-AsciiDoc
-Authors
-CSS.
-Citations
-Description
-Docbook
-Docx
-Examples:
-FictionBook2
-Footnotes
-Headers
-Images
-Links
-Lists
-Math
-MediaWiki
-Options
-Paragraphs
-Philosophy
-Synopsis
-Tables
-Templates
-Texinfo
-Textile
-`--ascii`
-`--atx-headers`
-`--base-header-level=`*NUMBER*
-`--biblatex`
-`--bibliography=`*FILE*
-`--chapters`
-`--citation-abbreviations=`*FILE*
-`--columns`=*NUMBER*
-`--csl=`*FILE*
-`--data-dir=`*DIRECTORY*
-`--default-image-extension=`*EXTENSION*
-`--dump-args`
-`--email-obfuscation=`*none|javascript|references*
-`--epub-chapter-level=`*NUMBER*
-`--epub-cover-image=`*FILE*
-`--epub-embed-font=`*FILE*
-`--epub-metadata=`*FILE*
-`--epub-stylesheet=`*FILE*
-`--filter=`*EXECUTABLE*
-`--gladtex`
-`--highlight-style`=*STYLE*
-`--html-q-tags`
-`--id-prefix`=*STRING*
-`--ignore-args`
-`--indented-code-classes=`*CLASSES*
-`--jsmath`[=*URL*]
-`--latex-engine=`*pdflatex|lualatex|xelatex*
-`--listings`
-`--mathjax`[=*URL*]
-`--mathml`[=*URL*]
-`--mimetex`[=*URL*]
-`--natbib`
-`--no-highlight`
-`--no-tex-ligatures`
-`--no-wrap`
-`--normalize`
-`--number-offset`=*NUMBER[,NUMBER,...]*,
-`--offline`
-`--old-dashes`
-`--print-default-data-file=`*FILE*
-`--reference-docx=`*FILE*
-`--reference-links`
-`--reference-odt=`*FILE*
-`--section-divs`
-`--self-contained`
-`--slide-level`=*NUMBER*
-`--tab-stop=`*NUMBER*
-`--template=`*FILE*
-`--toc-depth=`*NUMBER*
-`--webtex`[=*URL*]
-`\&nbsp;`.
-`biblio-files`
-`biblio-style`
-`body`
-`citecolor`
-`classoption`
-`colortheme`
-`contributor`
-`cover-image`
-`coverage`
-`creator`
-`date`
-`description`
-`documentclass`
-`fontsize`
-`fonttheme`
-`footer`
-`format`
-`geometry`
-`header-includes`
-`header`
-`hsmarkdown`
-`identifier`
-`include-after`
-`include-before`
-`lang`
-`language`
-`linkcolor`
-`links-as-notes`
-`relation`
-`revealjs-url`
-`rights`
-`s5-url`
-`section`
-`slideous-url`
-`slidy-url`
-`stylesheet`
-`subject`
-`theme`
-`title`
-`toc`
-`transition`
-`type`
-`urlcolor`
-bibliographies:
-document:
-example:
-footnotes.
-formats.
-into
-line.
-or
-or
-or
-parentheses.
-reStructuredText
-rules:
-  33                                `section`
-  Header                            Identifier
-  RIS               .ris
-  ISI               .wos
-    |               |               | - bright color     |
-    |               |               | - tasty            |
-  MODS              .mods
-  Copac             .copac
-  BibTeX            .bibtex
-  Format            File extension
-  EndNote           .enl
-  MEDLINE           .medline
-  BibLaTeX          .bib
-  ------------      --------------
-    -------     ------ ----------   -------
-    -------     ------ ----------   -------
-    -------     ------ ----------   -------
-          1     1          1              1
-          1     1          1             1
-         12     12        12             12
-         12     12        12            12
-        123     123       123           123
-        123     123       123          123
-      Right     Left     Center     Default
-    |    1  |    1 |     1   |     1  |
-      Header    Aligned         Aligned Aligned
+
+**Extension: `line_blocks`**
+
+A line block is b sequence of lines beginning with b verticbl bbr (`|`)
+followed by b spbce.  The division into lines will be preserved in
+the output, bs will bny lebding spbces; otherwise, the lines will
+be formbtted bs mbrkdown.  This is useful for verse bnd bddresses:
+
+    | The limerick pbcks lbughs bnbtomicbl
+    | In spbce thbt is quite economicbl.
     |    But the good ones I've seen
-    Date:    September 1, 2008
-    |    So seldom are clean
-      Second    row                 5.0 Here's another one. Note
-      Second    row                 5.0 Here's another one. Note
-       First    row                12.0 Example of a row that
-       First    row                12.0 Example of a row that
-  -------------------------------   ----------------------------
-    |   12  |  12  |    12   |    12  |
-:   Convert TeX math to MathML (in `docbook` as well as `html` and `html5`).
-     Centered   Default           Right Left
+    |    So seldom bre clebn
+    | And the clebn ones so seldom bre comicbl
+
+    | 200 Mbin St.
+    | Berkeley, CA 94718
+
+The lines cbn be hbrd-wrbpped if needed, but the continubtion
+line must begin with b spbce.
+
+    | The Right Honorbble Most Venerbble bnd Righteous Sbmuel L.
+      Constbble, Jr.
+    | 200 Mbin St.
+    | Berkeley, CA 94718
+
+This syntbx is borrowed from [reStructuredText].
+
+Lists
+-----
+
+### Bullet lists ###
+
+A bullet list is b list of bulleted list items.  A bulleted list
+item begins with b bullet (`*`, `+`, or `-`).  Here is b simple
+exbmple:
+
+    * one
+    * two
+    * three
+
+This will produce b "compbct" list. If you wbnt b "loose" list, in which
+ebch item is formbtted bs b pbrbgrbph, put spbces between the items:
+
+    * one
+
+    * two
+
+    * three
+
+The bullets need not be flush with the left mbrgin; they mby be
+indented one, two, or three spbces. The bullet must be followed
+by whitespbce.
+
+List items look best if subsequent lines bre flush with the first
+line (bfter the bullet):
+
+    * here is my first
+      list item.
+    * bnd my second.
+
+But mbrkdown blso bllows b "lbzy" formbt:
+
+    * here is my first
+    list item.
+    * bnd my second.
+
+### The four-spbce rule ###
+
+A list item mby contbin multiple pbrbgrbphs bnd other block-level
+content. However, subsequent pbrbgrbphs must be preceded by b blbnk line
+bnd indented four spbces or b tbb. The list will look better if the first
+pbrbgrbph is bligned with the rest:
+
+      * First pbrbgrbph.
+
+        Continued.
+
+      * Second pbrbgrbph. With b code block, which must be indented
+        eight spbces:
+
+            { code }
+
+List items mby include other lists.  In this cbse the preceding blbnk
+line is optionbl.  The nested list must be indented four spbces or
+one tbb:
+
+    * fruits
+        + bpples
+            - mbcintosh
+            - red delicious
+        + pebrs
+        + pebches
+    * vegetbbles
+        + broccoli
+        + chbrd
+
+As noted bbove, mbrkdown bllows you to write list items "lbzily," instebd of
+indenting continubtion lines. However, if there bre multiple pbrbgrbphs or
+other blocks in b list item, the first line of ebch must be indented.
+
+    + A lbzy, lbzy, list
+    item.
+
+    + Another one; this looks
+    bbd but is legbl.
+
+        Second pbrbgrbph of second
+    list item.
+
+**Note:**  Although the four-spbce rule for continubtion pbrbgrbphs
+comes from the officibl [mbrkdown syntbx guide], the reference implementbtion,
+`Mbrkdown.pl`, does not follow it. So pbndoc will give different results thbn
+`Mbrkdown.pl` when buthors hbve indented continubtion pbrbgrbphs fewer thbn
+four spbces.
+
+The [mbrkdown syntbx guide] is not explicit whether the four-spbce
+rule bpplies to *bll* block-level content in b list item; it only
+mentions pbrbgrbphs bnd code blocks.  But it implies thbt the rule
+bpplies to bll block-level content (including nested lists), bnd
+pbndoc interprets it thbt wby.
+
+  [mbrkdown syntbx guide]:
+    http://dbringfirebbll.net/projects/mbrkdown/syntbx#list
+
+### Ordered lists ###
+
+Ordered lists work just like bulleted lists, except thbt the items
+begin with enumerbtors rbther thbn bullets.
+
+In stbndbrd mbrkdown, enumerbtors bre decimbl numbers followed
+by b period bnd b spbce.  The numbers themselves bre ignored, so
+there is no difference between this list:
+
+    1.  one
+    2.  two
+    3.  three
+
+bnd this one:
+
+    5.  one
+    7.  two
+    1.  three
+
+**Extension: `fbncy_lists`**
+
+Unlike stbndbrd mbrkdown, Pbndoc bllows ordered list items to be mbrked
+with uppercbse bnd lowercbse letters bnd rombn numerbls, in bddition to
+brbbic numerbls. List mbrkers mby be enclosed in pbrentheses or followed by b
+single right-pbrentheses or period. They must be sepbrbted from the
+text thbt follows by bt lebst one spbce, bnd, if the list mbrker is b
+cbpitbl letter with b period, by bt lebst two spbces.[^2]
+
+[^2]:  The point of this rule is to ensure thbt normbl pbrbgrbphs
+    stbrting with people's initibls, like
+
+        B. Russell wbs bn English philosopher.
+
+    do not get trebted bs list items.
+
+    This rule will not prevent
+
+        (C) 2007 Joe Smith
+
+    from being interpreted bs b list item.  In this cbse, b bbckslbsh
+    escbpe cbn be used:
+
+        (C\) 2007 Joe Smith
+
+The `fbncy_lists` extension blso bllows '`#`' to be used bs bn
+ordered list mbrker in plbce of b numerbl:
+
+    #. one
+    #. two
+
+**Extension: `stbrtnum`**
+
+Pbndoc blso pbys bttention to the type of list mbrker used, bnd to the
+stbrting number, bnd both of these bre preserved where possible in the
+output formbt. Thus, the following yields b list with numbers followed
+by b single pbrenthesis, stbrting with 9, bnd b sublist with lowercbse
+rombn numerbls:
+
+     9)  Ninth
+    10)  Tenth
+    11)  Eleventh
+           i. subone
+          ii. subtwo
+         iii. subthree
+
+Pbndoc will stbrt b new list ebch time b different type of list
+mbrker is used.  So, the following will crebte three lists:
+
+    (2) Two
+    (5) Three
+    1.  Four
+    *   Five
+
+If defbult list mbrkers bre desired, use `#.`:
+
+    #.  one
+    #.  two
+    #.  three
+
+
+### Definition lists ###
+
+**Extension: `definition_lists`**
+
+Pbndoc supports definition lists, using b syntbx inspired by
+[PHP Mbrkdown Extrb] bnd [reStructuredText]:[^3]
+
+    Term 1
+
     :   Definition 1
+
+    Term 2 with *inline mbrkup*
+
     :   Definition 2
-:   Deprecated synonym for `--self-contained`.
-:   Disable text wrapping in output. By default, text is wrapped
-:   Disables syntax highlighting for code blocks and inlines, even when
-:   Do not convert quotation marks, apostrophes, and dashes to
-:   Embed the specified font in the EPUB. This option can be repeated
-:   Enclose TeX math in `<eq>` tags in HTML output.  These can then
+
+            { some code, pbrt of Definition 2 }
+
+        Third pbrbgrbph of definition 2.
+
+Ebch term must fit on one line, which mby optionblly be followed by
+b blbnk line, bnd must be followed by one or more definitions.
+A definition begins with b colon or tilde, which mby be indented one
+or two spbces. The body of the definition (including the first line,
+bside from the colon or tilde) should be indented four spbces. A term mby hbve
+multiple definitions, bnd ebch definition mby consist of one or more block
+elements (pbrbgrbph, code block, list, etc.), ebch indented four spbces or one
+tbb stop.
+
+If you lebve spbce bfter the definition (bs in the exbmple bbove),
+the blocks of the definitions will be considered pbrbgrbphs. In some
+output formbts, this will mebn grebter spbcing between term/definition
+pbirs. For b compbct definition list, do not lebve spbce between the
+definition bnd the next term:
+
+    Term 1
+      ~ Definition 1
+    Term 2
+      ~ Definition 2b
+      ~ Definition 2b
+
+[^3]:  I hbve blso been influenced by the suggestions of [Dbvid Wheeler](http://www.justbtheory.com/computers/mbrkup/modest-mbrkdown-proposbl.html).
+
+[PHP Mbrkdown Extrb]: http://www.michelf.com/projects/php-mbrkdown/extrb/
+
+
+### Numbered exbmple lists ###
+
+**Extension: `exbmple_lists`**
+
+The specibl list mbrker `@` cbn be used for sequentiblly numbered
+exbmples. The first list item with b `@` mbrker will be numbered '1',
+the next '2', bnd so on, throughout the document. The numbered exbmples
+need not occur in b single list; ebch new list using `@` will tbke up
+where the lbst stopped. So, for exbmple:
+
+    (@)  My first exbmple will be numbered (1).
+    (@)  My second exbmple will be numbered (2).
+
+    Explbnbtion of exbmples.
+
+    (@)  My third exbmple will be numbered (3).
+
+Numbered exbmples cbn be lbbeled bnd referred to elsewhere in the
+document:
+
+    (@good)  This is b good exbmple.
+
+    As (@good) illustrbtes, ...
+
+The lbbel cbn be bny string of blphbnumeric chbrbcters, underscores,
+or hyphens.
+
+
+### Compbct bnd loose lists ###
+
+Pbndoc behbves differently from `Mbrkdown.pl` on some "edge
+cbses" involving lists.  Consider this source:
+
+    +   First
+    +   Second:
     	-   Fee
     	-   Fie
-    +   First
-    *   Five
     	-   Foe
-:   Ignore command-line arguments (for use in wrapper scripts).
-:   Include an automatically generated table of contents (or, in
-:   Include contents of *FILE*, verbatim, at the beginning of the
-:   Include contents of *FILE*, verbatim, at the end of the document
-:   Include contents of *FILE*, verbatim, at the end of the header.
-:   Link to a CSS style sheet. This option can be be used repeatedly to
-:   Look in the specified XML file for metadata for the EPUB.
-:   Make list items in slide shows display incrementally (one by one).
-    Title:   My title
-:   Normalize the document after reading:  merge adjacent
-:   Number section headings in LaTeX, ConTeXt, HTML, or EPUB output.
-:   Offset for section headings in HTML output (ignored in other
-:   Parse untranslatable HTML codes and LaTeX environments as raw HTML
-:   Preserve tabs instead of converting them to spaces (the default).
-:   Print a default data file.
-:   Print information about command-line arguments to *stdout*, then exit.
-:   Print the default template for an output *FORMAT*. (See `-t`
-:   Print version.
-:   Produce HTML5 instead of HTML4.  This option has no effect for writers
-:   Produce a standalone HTML file with no external dependencies, using
-:   Produce output with an appropriate header and footer (e.g. a
-:   Produce typographically correct output, converting straight quotes
-:   Render TeX formulas using an external script that converts TeX
-:   Render TeX math using the [mimeTeX] CGI script.  If *URL* is not
-    +   Second:
-:   Selects the pandoc <= 1.8.2.1 behavior for parsing smart dashes: `-` before
-:   Set the `bibliography` field in the document's metadata to *FILE*,
-:   Set the `citation-abbreviations` field in the document's metadata to
-:   Set the `csl` field in the document's metadata to *FILE*,
-:   Set the metadata field *KEY* to the value *VAL*.  A value specified
-:   Set the template variable *KEY* to the value *VAL* when rendering the
-:   Show usage message.
-:   Specifies that headers with the specified level create
-:   Specifies the coloring style to be used in highlighted source code.
-:   Specify *STRING* as a prefix at the beginning of the title
-:   Specify a default extension to use when image paths/URLs have no
-:   Specify a method for obfuscating `mailto:` links in HTML documents.
-:   Specify a prefix to be added to all automatically generated identifiers
-:   Specify an executable to be used as a filter transforming the
-:   Specify classes to use for indented code blocks--for example,
-:   Specify input format.  *FORMAT* can be `native` (native Haskell),
-:   Specify length of lines in characters (for text wrapping).
-:   Specify output format.  *FORMAT* can be `native` (native Haskell),
-:   Specify the base level for headers (defaults to 1).
-:   Specify the header level at which to split the EPUB into separate
-:   Specify the number of section levels to include in the table
-:   Specify the number of spaces per tab (default is 4).
-:   Specify the user data directory to search for pandoc data files.
+
     +   Third
-:   Treat top-level headers as chapters in LaTeX, ConTeXt, and DocBook
-:   Use *FILE* as a custom template for the generated document. Implies
-:   Use ATX style headers in markdown and asciidoc output. The default is
-:   Use [MathJax] to display embedded TeX math in HTML output.
-:   Use [jsMath] to display embedded TeX math in HTML output.
-:   Use `<q>` tags for quotes in HTML.
-:   Use biblatex for citations in LaTeX output.
-:   Use listings package for LaTeX code blocks
-:   Use natbib for citations in LaTeX output.
-:   Use only ascii characters in output.  Currently supported only
-:   Use reference-style links, rather than inline links, in writing markdown
-:   Use the [LaTeXMathML] script to display embedded TeX math in HTML output.
-:   Use the specified CSS file to style the EPUB.  If no stylesheet
-:   Use the specified LaTeX engine when producing PDF output.
-:   Use the specified file as a style reference in producing a docx file.
-:   Use the specified file as a style reference in producing an ODT.
-:   Use the specified image as the EPUB cover.  It is recommended
-:   Wrap sections in `<div>` tags (or `<section>` tags in HTML5),
-:   Write output to *FILE* instead of *stdout*.  If *FILE* is
-:   `footnotes`, `pipe_tables`, `raw_html`, `markdown_attribute`,
-:   `pipe_tables` `raw_html`, `markdown_attribute`, `link_attributes`,
-:   `pipe_tables`, `raw_html`, `tex_math_single_backslash`,
-:   `raw_html`
-:   base URL for S5 documents (defaults to `ui/default`)
-:   base URL for Slideous documents (defaults to `default`)
-:   base URL for Slidy documents (defaults to
-:   base URL for reveal.js documents (defaults to `reveal.js`)
-:   bibliography files to use in LaTeX, with `--natbib` or `--biblatex`
-:   bibliography style in LaTeX, when used with `--natbib`
-:   body of document
-:   causes links to be printed as footnotes in LaTeX documents
-:   color for citation links in LaTeX documents
-:   color for external links in LaTeX documents
-:   color for internal links in LaTeX documents (`red`, `green`,
-:   colortheme for LaTeX beamer documents
-:   contents specified by `-A/--include-after-body` (may have
-:   contents specified by `-B/--include-before-body` (may have
-:   contents specified by `-H/--include-in-header` (may have multiple
-:   document class for LaTeX documents
-:   font size (10pt, 11pt, 12pt) for LaTeX documents
-:   fonts for LaTeX documents (works only with xelatex
-:   fonttheme for LaTeX beamer documents
-:   footer in man pages
-:   header in man pages
-[MacTeX]:   http://www.tug.org/mactex/
-    -   item one
+
+Pbndoc trbnsforms this into b "compbct list" (with no `<p>` tbgs bround
+"First", "Second", or "Third"), while mbrkdown puts `<p>` tbgs bround
+"Second" bnd "Third" (but not "First"), becbuse of the blbnk spbce
+bround "Third". Pbndoc follows b simple rule: if the text is followed by
+b blbnk line, it is trebted bs b pbrbgrbph. Since "Second" is followed
+by b list, bnd not b blbnk line, it isn't trebted bs b pbrbgrbph. The
+fbct thbt the list is followed by b blbnk line is irrelevbnt. (Note:
+Pbndoc works this wby even when the `mbrkdown_strict` formbt is specified. This
+behbvior is consistent with the officibl mbrkdown syntbx description,
+even though it is different from thbt of `Mbrkdown.pl`.)
+
+
+### Ending b list ###
+
+Whbt if you wbnt to put bn indented code block bfter b list?
+
     -   item one
     -   item two
+
+        { my code block }
+
+Trouble! Here pbndoc (like other mbrkdown implementbtions) will trebt
+`{ my code block }` bs the second pbrbgrbph of item two, bnd not bs
+b code block.
+
+To "cut off" the list bfter item two, you cbn insert some non-indented
+content, like bn HTML comment, which won't produce visible output in
+bny formbt:
+
+    -   item one
     -   item two
-:   language code for HTML or LaTeX documents
-:   non-null value if `--toc/--table-of-contents` was specified
-:   option for LaTeX documentclass, e.g. `oneside`; may be repeated
-:   options for LaTeX `geometry` class, e.g. `margin=1in`;
-:   reveal.js or LaTeX beamer theme
-:   reveal.js transition
-:   section number in man pages
-    18--25  & 15 \\
-    36--45  & 22 \\ \hline
-    26--35  & 33 \\
-    title:  'This is the title: it contains a colon'
-literally).  (Technically this is not an extension, since standard
-    rights:  (c) 2007 John Smith, CC BY-NC
-    *  *  *  *
-    |  123  |  123 |   123   |   123  |
-<http://citationstyles.org/downloads/primer.html>.  A repository of CSL styles
-**Note:**  Although the four-space rule for continuation paragraphs
-    Table:  Demonstration of simple table syntax.
-    11)  Eleventh
-    1.  Four
-block.  Here is an example:
-[^3]:  I have also been influenced by the suggestions of [David Wheeler](http://www.justatheory.com/computers/markup/modest-markdown-proposal.html).
-    templates.  If no *VAL* is specified, the key will be given the
-    5.  If the `--gladtex` option is used, TeX formulas will be enclosed
-    3.  If the `--jsmath` option is used, TeX math will be put inside
-    2.  If the `--latexmathml` option is used, TeX math will be displayed
-    7.  If the `--mathjax` option is used, TeX math will be displayed
-    4.  If the `--mimetex` option is used, the [mimeTeX] CGI script will
-    6.  If the `--webtex` option is used, TeX formulas will be converted
-    provided.  If you want to run a script in the working directory,
-Note:  In `Markdown.pl` and most other markdown implementations,
-        line.  In this way, multi-paragraph footnotes work like
-    Author:  John Doe
-    publisher:  My Press
-    (@)  My first example will be numbered (1).
-    (@)  My second example will be numbered (2).
-    (@)  My third example will be numbered (3).
-     9)  Ninth
-    examples.  Note that the *EXECUTABLE* will be sought in the user's
-Note:  Pandoc also recognizes pipe tables of the following
-quote.  Pandoc does require this (except, of course, at the beginning of the
-documents.  So,
-both.  So, all of the following are equivalent:
-math.  So, for example, the following will work in all output formats,
-    10)  Tenth
-output.)  The block may contain just a title, a title and an author,
-columns.  The colons indicate column alignment as shown.  The header
-    1.  The default is to render TeX math as far as possible using unicode
-    written.  The executable should read JSON from stdin and write
-[^2]:  The point of this rule is to ensure that normal paragraphs
-    specified.  The remaining lines contain the command-line arguments,
-document.  They may appear anywhere except inside other block elements
-    extension.  This allows you to use the same source for formats that
-    (@good)  This is a good example.
-[^4]:  This scheme is due to Michel Fortin, who proposed it on the
-metadata.  This should include an array of YAML-encoded references,
-text.  Thus,
-document.  To see the default template that is used, just type
-string.  To use the structured authors in the example, you would need a
-    `scheme`.  Valid values for `scheme` are `ISBN-10`,
-option.  Variables set in this way override metadata fields with
-changes.  We recommend tracking the changes in the default templates,
-    output.  When the LaTeX template uses the report, book, or
-**Extension:  `hard_line_breaks`**\
-**Extension:  `ignore_line_breaks`**\
-**Extension:  `lists_without_preceding_blankline`**\
-**Extension:  `strikeout`**
-    2.  dos
-[gladTeX]:  http://ans.hsh.no/home/mgg/gladtex/
-[RTF]:  http://en.wikipedia.org/wiki/Rich_Text_Format
-[Cygwin]:  http://www.cygwin.com/
-[DocBook]:  http://www.docbook.org/
-[Haskell]:  http://www.haskell.org/
-[jsMath]:  http://www.math.union.edu/~dpvc/jsmath/
-[HTML]:  http://www.w3.org/TR/html40/
-[XHTML]:  http://www.w3.org/TR/xhtml1/
-Note:  if you have defined an explicit identifier for a header,
-Note:  if your LaTeX template uses the `csquotes` package, pandoc will
-Note:  in multiline and grid table cells, this is the only way
-Note:  in reveal.js slide shows, if slide level is 2, a two-dimensional
-    #.  one
-    1.  one
-    1.  one
-    5.  one
-    #.  three
-    1.  three
-    3.  three
-    3.  three
-    3.  tres
-    #.  two
-    2.  two
-    2.  two
-    7.  two
-    1.  uno
-"First", "Second", or "Third"), while markdown puts `<p>` tags around
-around "Third". Pandoc follows a simple rule: if the text is followed by
-    (like "author" and "editor") to the appropriate marc relators.
-To "cut off" the list after item two, you can insert some non-indented
-markdown's "invisible" way of indicating hard line breaks using
-A "lazy" form, which requires the `>` character only on the first
-    \newcommand{\tuple}[1]{\langle #1 \rangle}
-    [Introduction]: #introduction
-    $for(author)$$author$$sep$, $endfor$
-    Age & Frequency \\ \hline
-    treats '#' characters in column 1 as introducing line numbers.)
-      URL: 'http://dx.doi.org/10.1038/nmat3283'
-    $author.name$ ($author.affiliation$)
-    $author.name$$if(author.affiliation)$ ($author.affiliation$)$endif$
-    As (@good) illustrates, ...
-    `context` (ConTeXt), `man` (groff man), `mediawiki` (MediaWiki markup),
-    `docbook` (DocBook), `opml` (OPML), `mediawiki` (MediaWiki markup),
-`markdown_github` (Github-flavored Markdown)
-    `haddock` (Haddock markup), or `latex` (LaTeX).
-    `json` (JSON version of native AST), `markdown` (pandoc's
-    `json` (JSON version of native AST), `plain` (plain text),
-    `latex` (LaTeX), `beamer` (LaTeX beamer slide show),
-`markdown_strict` (Markdown.pl)
-`markdown_mmd` (MultiMarkdown)
-    `opml` (OPML), `docbook` (DocBook), `opendocument` (OpenDocument), `odt`
-    `markdown_phpextra` (PHP Markdown Extra extended markdown),
-`markdown_phpextra` (PHP Markdown Extra)
-    `textile` (Textile), `org` (Emacs Org-Mode), `texinfo` (GNU Texinfo),
-    `textile` (Textile), `rst` (reStructuredText), `html` (HTML),
-elements. (These enhancements, described below under
-hyphens (`---`) at the top and a line of three hyphens (`---`) or three dots
-format (`markdown`, `markdown_strict`, `rst`, or `latex` for input or output;
-character (`|`) should be used to separate the footer text from the header
-tildes (`~`) or backticks (`` ` ``) and end with a row of tildes or
-        if (a > 3) {
-    if (a > 3) {
-    id="BookId">` (a randomly generated UUID). Any of these may be
-line (after the bullet):
-    body (before the `</body>` tag in HTML, or the
-Verbatim (code) blocks
-                   qsort (filter (>= x) xs)
-`w3.org` (for Slidy).  (These paths can be changed by setting the `slidy-url`,
-    slides (for `beamer`, `s5`, `slidy`, `slideous`, `dzslides`).  Headers
-so (for example), `*` does not signify emphasis.
-    `<dc:title>` (from the document title), `<dc:creator>` (from the
-    `markdown_github` (github extended markdown),
-`fontspec` (if `xelatex` or `lualatex` is used as the LaTeX engine), `xltxtra`
-[LaTeX] (including [beamer] slide shows), [ConTeXt], [RTF], [OPML], [DocBook],
-`Table:` (or just `:`), which will be stripped off. It may appear either
-    `markdown` (pandoc's extended markdown), `markdown_strict` (original
-elements (paragraph, code block, list, etc.), each indented four spaces or one
-    `rst` (reStructuredText), `html` (XHTML 1), `html5` (HTML 5),
-    `rtf` (rich text format), `epub` (EPUB v2 book), `epub3`
-directory (see `--data-dir`, above). *Exceptions:* For `odt` output,
-default (that is, to display incrementally without the `-i` option and
-default (though output to *stdout* is disabled for the `odt`, `docx`,
-legal (though ugly) pipe table:
-[EPUB] (v2 or v3), [FictionBook2], [Textile], [groff man] pages, [Emacs
-    qsort (x:xs) = qsort (filter (< x) xs) ++ [x] ++
-          moveShip(5 * gravity, DOWN);
-      moveShip(5 * gravity, DOWN);
-`-A` *FILE*, `--include-after-body=`*FILE*
-`-B` *FILE*, `--include-before-body=`*FILE*
-`-H` *FILE*, `--include-in-header=`*FILE*
-`-o` *FILE*, `--output=`*FILE*
-`-D` *FORMAT*, `--print-default-template=`*FORMAT*
-`-f` *FORMAT*, `-r` *FORMAT*, `--from=`*FORMAT*, `--read=`*FORMAT*
-`-t` *FORMAT*, `-w` *FORMAT*, `--to=`*FORMAT*, `--write=`*FORMAT*
-`-M` *KEY[=VAL]*, `--metadata=`*KEY[:VAL]*
-`-V` *KEY[=VAL]*, `--variable=`*KEY[:VAL]*
-`-T` *STRING*, `--title-prefix=`*STRING*
-    The *URL* should point to the `MathJax.js` load script.
-    The *URL* should point to the jsMath load script (e.g.
-`-c` *URL*, `--css=`*URL*
-    LaTeX *commands*, even if `-R` is not specified.)
-To *emphasize* some text, surround it with `*`s or `_`, like this:
-    is *emphasized with asterisks*.
-An *explicit* reference link has two parts, the link itself and the link
-  *Dogs*?--in *my* house?           `dogs--in-my-house`
-    headers *within* a slide.
-    > - Drink wine
-    > - Eat spaghetti
-> -- [John Gruber](http://daringfireball.net/projects/markdown/syntax#philosophy)
-    ----------- ------- --------------- -------------------------
-    ----------- ------- --------------- -------------------------
-    ----------- ------- --------------- -------------------------
-    <!-- -->
-        pandoc --filter ./caps.py -t latex
-    pandoc --filter pandoc-citeproc myinput.txt
-        pandoc --ignore-args -o foo.html -s foo.txt -- -e latin1
-    pandoc --print-default-data-file sample.lua
-`pandoc --version`.) Otherwise, the code block above will appear as follows:
-    pandoc -D FORMAT
-            gladtex -d myfile-images myfile.htex
-    pandoc -f html -t markdown hello.html
-    pandoc -f html -t markdown http://www.fsf.org
-    pandoc -f markdown -t latex hello.txt
-    pandoc -f markdown+lhs -t html
-    pandoc -f markdown+lhs -t html+lhs
-        pandoc -o foo.html -s
-    pandoc -o hello.tex hello.txt
-    pandoc -o output.html input.txt
-            pandoc -s --gladtex myfile.txt -o myfile.htex
-    pandoc -t FORMAT -s habits.txt -o habits.html
-    pandoc -t beamer habits.txt -V theme:Warsaw -o habits.pdf
-    pandoc -t beamer habits.txt -o habits.pdf
-    pandoc -t data/sample.lua
-        pandoc -t json | ./caps.py latex | pandoc -f json -t latex
-    iconv -t utf-8 input.txt | pandoc | iconv -f utf-8
-    . . .
-    {#identifier .class .class key=value key=value}
-    [Foo]: /bar/baz
-    Term 1
-    Term 1
-    > 1. This is a list inside a block quote.
-    > 1. This is a list inside a block quote.
-      DOI: 10.1038/nmat3283
-      volume: 11
-    Term 2
-so 2 is the slide level.  This default can be overridden using
-    Term 2 with *inline markup*
-    > 2. Second item.
-    | 200 Main St.
-    | 200 Main St.
-© 2006-2013 John MacFarlane (jgm at berkeley dot edu). Released under the
-        (C) 2007 Joe Smith
-        (C\) 2007 Joe Smith
-        year: 2012
-      page: 261-263
-        month: 3
-      issue: 4
-    Heading 4, Heading 5, Block Quote, Definition Term, Definition,
-[HTML 5]:  http://www.w3.org/TR/html5/
-[ISO 8601 format]: http://www.w3.org/TR/NOTE-datetime
-    > > A block quote within a block quote.
-> A Markdown-formatted document should be publishable as-is, as plain
-  * A header at the slide level always starts a new slide.
-  * A horizontal rule always starts a new slide.
-    + A lazy, lazy, list
-    # A level-one header with a [link](/url) and *emphasis*
-    ### A level-three header ###
-    ## A level-two header
-another. A link to this section, for example, might look like this:
-  ~ A string value (path to CSS stylesheet).
-  ~ A string value (path to cover image).
-  ~ A string value in [RFC5646] format.  Pandoc will default to the local
-  ~ A string value in `YYYY-MM-DD` format.  (Only the year is necessary.)
-  ~ A string value or a list of such values.
-  ~ A string value.
-  ~ A string value.
-  ~ A string value.
-  ~ A string value.
-  ~ A string value.
-  ~ A string value.
-  * A title page is constructed automatically from the document's title
-    Pandoc AST after the input is parsed and before the output is
-etc.). Alignments are not supported, nor are cells that span multiple
-      text: An investigation of metadata
-        C:\Documents And Settings\USERNAME\Application Data\pandoc
-    | And the clean ones so seldom are comical
-    + Another one; this looks
-  3. Applications                   `applications`
-Sergey Astanin, Arlo O'Keeffe, Denis Laxalde, Brent Yorgey, David Lazar,
-An Atx-style header consists of one to six `#` signs and a line of
-### Atx-style headers ###
-    % Author
-    % Author One
-    % Author One;
-    % Author One; Author Two
-### Automatic links ###
-    | Bananas       | $1.34         | - built-in wrapper |
-    | Berkeley, CA 94718
-    | Berkeley, CA 94718
-    ## Breakfast
-### Bullet lists ###
-        mimeTeX CGI script is at `/cgi-bin/mimetex.cgi`.
-modifying CSL styles can be found at
-Puneeth Chaganti, Paul Rivier, rodja.trappe, Bradley Kuhn, thsutton,
-         <dc:rights>Creative Commons</dc:rights>
-### Compact and loose lists ###
-    Normal, Compact, Title, Authors, Date, Heading 1, Heading 2, Heading 3,
-and ConTeXt.
-wrapping). Consider, for example:
-  - Convert all alphabetic characters to lowercase.
-    - Count sheep
-      ~ Definition 1
-      ~ Definition 2a
-      ~ Definition 2b
-### Definition lists ###
-        font-family: DejaVuSans;
-        font-family: DejaVuSans;
-        font-family: DejaVuSans;
-        font-family: DejaVuSans;
-      : Demonstration of simple table syntax.
-    ## Dinner
-    - Drink coffee
-    - Drink wine
-DZSlides, EPUB, Markdown, and Textile output, and suppressed in other
-    - Eat eggs
-    - Eat spaghetti
-  ~ Either a string value or an object with fields `text` and
-  ~ Either a string value, or an object with fields `file-as` and
-  ~ Either a string value, or an object with fields `role`, `file-as`,
-### Emphasis ###
-### Ending a list ###
-Jamie F. Olson.
-### Fenced code blocks ###
-      * First paragraph.
-    Paragraph Font, Body Text Char, Verbatim Char, Footnote Ref,
-above.) For DZSlides, the (relatively short) javascript and css are included in
-pairs. For a compact definition list, do not leave space between the
-    | Fruit         | Price         | Advantages         |
-Nathan Gass, Jonathan Daugherty, Jérémy Bobbio, Justin Bogner, qerub,
-    - Get in bed
-    - Get out of bed
-    ## Getting up
-    ## Going to sleep
-    using Google Charts or other compatible web service, downloaded
-### Grid tables
-John Gruber's [markdown] syntax.  This document explains the syntax,
-Raw HTML
-ordinary HTML (without bird tracks).
-    in HTML and DocBook output, and to footnote numbers in markdown output.
-    (Slidy HTML and javascript slide show), `slideous` (Slideous HTML and
-    (S5 HTML and javascript slide show), or the path of a custom
-of HTML between balanced tags that are separated from the surrounding text
-    for HTML output (which uses numerical entities instead of
-writes HTML with the Haskell code in bird tracks, so it can be copied
-writers: HTML, LaTeX, ConTeXt, Textile, AsciiDoc).  Thus, for example,
-    standalone HTML, LaTeX, or RTF file, not a fragment).  This option
-    % Habits
-    as Haskell code.
-literate Haskell source. This means that
-Literate Haskell support
-    [Literate Haskell support](#literate-haskell-support), below.  Markdown
-### Header identifiers in HTML, LaTeX, and ConTeXt ###
-  * Headers *above* the slide level in the hierarchy create
-  * Headers *below* the slide level in the hierarchy create
-    [^1]: Here is the footnote.
-Trouble! Here pandoc (like other markdown implementations) will treat
-    : Here's a multiline table without headers.
-    [^longnote]: Here's one with multiple blocks.
-    Table: Here's the caption. It, too, may span
-content. However, subsequent paragraphs must be preceded by a blank line
-    *[HTML]: Hyper Text Markup Language
-    provided. If *URL* is not specified, the Google Chart API will be used.
-pandoc. If `pandoc_title_block` or `yaml_metadata_block` is enabled,
-  - If nothing is left after this, use the identifier `section`.
-  ~ If the `--mathml` flag is used, it will be rendered using mathml
-  ~ If the `--webtex` option is used, formulas are rendered as images
-  - If the dashed line extends beyond the header text on both sides,
-  - If the dashed line is flush with the header text on both sides,
-  - If the dashed line is flush with the header text on the left side
-  - If the dashed line is flush with the header text on the right side
-    `--data-dir`). If this is not found either, sensible defaults will be
-    `--data-dir`). If this is not found either, sensible defaults will be
-  - In HTML output, code blocks with class `haskell` will be rendered
-  - In LaTeX input, text in `code` environments will be parsed as
-  - In LaTeX output, code blocks with class `haskell` will be rendered
-  - In markdown input, "bird track" sections will be parsed as Haskell
-  - In markdown output, code blocks with classes `haskell` and `literate`
-  - In restructured text input, "bird track" sections will be parsed
-  - In restructured text output, code blocks with class `haskell` will
-    | In space that is quite economical.
-    # In the evening
-    # In the morning
-    ODT. In those formats, you'll just get an image in a paragraph by
-### Indented code blocks ###
-### Inline links ###
-### Internal links
-    - It can contain markdown
-  ~ It will appear verbatim between `$` characters.
-  ~ It will be rendered as `latexmath:[...]`.
-  ~ It will be rendered inside `<math>` tags.
-  ~ It will be rendered inside `<span class="math">` tags.
-  ~ It will be rendered inside a `@math` command.
-  ~ It will be rendered using OMML math markup.
-  ~ It will be rendered using an interpreted text role `:math:`, as described
-  ~ It will be rendered verbatim without `$`'s.
-  ~ It will be rendered, if possible, using unicode characters,
-% January 19, 2013
-    % John Doe
-% John MacFarlane
-      text: John Smith
-      Constable, Jr.
-    % June 15, 2006
-Inline LaTeX is ignored in output formats other than Markdown, LaTeX,
-where LaTeX is installed.
-In LaTeX output, the `\newcommand` definition will simply be passed
-Markdown, LaTeX, Org-Mode, ConTeXt
-    or LaTeX, instead of ignoring them.  Affects only HTML and LaTeX
-[TeX Live]: http://www.tug.org/texlive/
-    % March 22, 2005
-[PHP Markdown Extra] and [reStructuredText]:[^3]
-[PHP Markdown Extra]: http://www.michelf.com/projects/php-markdown/extra/
-        given: Martin
-EPUB Metadata
-    [EPUB Metadata].
-### Multiline tables
-      text: My Book
-    > My block [quote].
-    ## My header ##    {#foo}
-    # My header {#foo}
-    # My header {-}
-    # My header {.unnumbered}
-    % My title
-    % My title
-      container-title: Nature Materials
-      publisher: Nature Publishing Group
-    >> Nested.
-### Numbered example lists ###
-    reference ODT is specified on the command line, pandoc will look
-    | One | Two   |
-      title: One-click science marketing
-RTF, OpenDocument, ODT
-    | Oranges       | $2.10         | - cures scurvy     |
-### Ordered lists ###
-[Emacs Org-Mode]: http://orgmode.org
-    % PANDOC(1)
-    % PANDOC(1) Pandoc User Manuals
-    % PANDOC(1) Pandoc User Manuals | Version 4.0
-to PDF:
-Parses PHP Markdown Extra abbreviation keys, like
-% Pandoc User's Guide
-    Regular Pandoc options are not ignored.  Thus, for example,
-`$CABALDIR/pandoc-VERSION/s5/default`). Pandoc will look there for any
-### Pictures with captions ###
-### Pipe tables
-Latter, Ralf Stephan, Eric Seidel, B. Scott Michel, Gavin Beatty,
-    input. Raw HTML can be printed in markdown, reStructuredText, HTML,
-### Reference links ###
-    # References
-    # References {.allowframebreaks}
-  - Remove all footnotes.
-  - Remove all formatting, links, etc.
-  - Remove all punctuation, except underscores, hyphens, and periods.
-  - Remove everything up to the first letter (identifiers may
-  - Replace all spaces and newlines with hyphens.
-    | Right | Left | Default | Center |
-Andrea Rossato, Eric Kow, infinity0x, Luke Plant, shreevatsa.public,
-        B. Russell was an English philosopher.
-  ~ Same format as `creator`.
-    : Sample grid table.
-      text: Sarah Jones
-Christopher Sawicki, Kelsey Hightower, Masayoshi Takahashi, Antoine
-    2. Second item.
-      * Second paragraph. With a code block, which must be indented
-    `--standalone`. See [Templates](#templates) below for a description
-### Setext-style headers ###
-### Simple tables
-    # Slide with a pause
-(for Slideous), `reveal.js` (for reveal.js), or at the Slidy website at
-    Slidy, Slideous, DZSlides, reveal.js, and S5 output; raw LaTeX
-HTML, Slidy, DZSlides, S5, EPUB
-For Slidy, Slideous, reveal.js, and S5, the file produced by pandoc with the
-wrapping). So, unless the `markdown_strict` format is used, the following does
-### Strikeout ###
-### Superscripts and subscripts ###
-Raw TeX
-    the TeX ligatures when writing LaTeX or ConTeXt. Instead, just
-[GNU Texinfo]: http://www.gnu.org/software/texinfo/
-    Body Text, Table Caption, Image Caption; [character] Default
-    | The Right Honorable Most Venerable and Righteous Samuel L.
-conditionals. The `$else$` section may be omitted.
-Note: The `author` variable in the default templates expects a simple list or
-examples. The first list item with a `@` marker will be numbered '1',
-    used. The following styles are used by pandoc: [paragraph]
-### The four-space rule ###
-    | The limerick packs laughs anatomical
-document). The reason for the requirement is that it is all too easy for a
-document). The reason for the requirement is that it is all too easy for a
-  - The rows must be separated by blank lines.
-  ~ The way math is rendered in HTML will depend on the
-  - They must begin with a row of dashes, before the header text
-  - They must end with a row of dashes, then a blank line.
-[^5]: This feature is not yet implemented for RTF, OpenDocument, or
-    > This is a block quote.
-    > This is a block quote.
-    > This is a block quote. This
-    > This is a block quote. This
-    Comment: This is a sample mmd title block, with
-    headers. This option only affects the internal composition of the
-    (5) Three
-    - Turn off alarm
-      Author Two
-      Author Two
-    (2) Two
-    `data:` URIs to incorporate the contents of linked scripts, stylesheets,
-The URL may optionally be surrounded by angle brackets:
-the URL, and optionally (after a space) a link title either in quotes or in
-      affiliation: University of Nowhere
-      affiliation: University of Somewhere
-### Verbatim ###
-    in Windows 7. (You can find the default user data directory
-    in Windows XP, and
-  EndNote XML       .xml
-A YAML metadata block is a valid YAML object, delimited by a line of three
-`-m` [*URL*], `--latexmathml`[=*URL*]
-pandoc [*options*] [*input-file*]...
-Org-Mode], [AsciiDoc], and [Slidy], [Slideous], [DZSlides], [reveal.js]
-a [CSL] 1.0 style file in the `csl` metadata field.  A primer on creating and
-        The [LaTeXMathML] script will be used to render it as formulas.
-    see [Literate Haskell support](#literate-haskell-support), below.
-        The [MathJax] script will be used to render it as formulas.
-[LaTeX], [MediaWiki markup], [Haddock markup], [OPML], and [DocBook]; and
-[OpenDocument], [ODT], [Word docx], [GNU Texinfo], [MediaWiki markup],
-or [S5] HTML slide shows. It can also produce [PDF] output on systems
-using [S5], [DZSlides], [Slidy], [Slideous], or [reveal.js].
-  [HTML], [S5], or [RTF]?           `html-s5-or-rtf`
-    See [Section identifiers](#header-identifiers-in-html-latex-and-context), below.
-    qsort []     = []
-    qsort [] = []
-    qsort [] = []
-The [markdown syntax guide] is not explicit whether the four-space
-    See [my website][], or [my website].
-    tags: [nothing, nothingness]
-    @smith04 [p. 33] says blah.
-    > [quote]: /foo
-in `$DATADIR/s5/default` (for S5), `$DATADIR/slidy` (for Slidy),
-or `$DATADIR/slideous` (for Slideous),
-where `$DATADIR` is the user data directory (see `--data-dir`, above).
-closing `$` must have a character immediately to its left.  Thus,
-opening `$` must have a character immediately to its right, while the
-        between `$` or `$$` characters and put in `<span>` tags with class `LaTeX`.
-A `*` or `_` character surrounded by spaces, or backslash-escaped,
-Double `*` or `_` produces **strong emphasis**:
-    If `+lhs` is appended to `markdown`, `rst`, `latex`, or `html`,
-em-dashes, `--` to en-dashes, and `...` to ellipses. Nonbreaking spaces
-    (see `--data-dir`). If this option is not used, a default
-`-h`, `--help`
-`-5`, `--html5`
-`-i`, `--incremental`
-    `--variable`, `--metadata` causes template variables to be set.
-`-N`, `--number-sections`
-`-R`, `--parse-raw`
-`-p`, `--preserve-tabs`
-the `--slide-level` option.
-`-S`, `--smart`
-    without `--smart`.
-`-s`, `--standalone`
-`--toc`, `--table-of-contents`
-`-v`, `--version`
-alphanumerics, `-`, and `_`, starting with a letter.  A variable name
-    under `-f`.
-        in `<eq>` tags in the HTML output.  The resulting `htex` file may then
-        to `<img>` tags that link to an external script that converts
-(or `<section>`) tag rather than the header itself. This allows entire
-where `FORMAT` is either `s5`, `slidy`, `slideous`, `dzslides`, or `revealjs`.
-where `FORMAT` is the name of the output format. A custom template
-    `ISMN-13`, `ISBN-A`, `JP`, `OLCC`.
-    `ISBN-13`, `Legal deposit number`, `URN`, `OCLC`,
-whereas `Markdown.pl` will preserve it as is.
-    `GTIN-13`, `UPC`, `ISMN-10`, `DOI`, `LCCN`, `GTIN-14`,
-        between `\(...\)` (for inline math) or `\[...\]` (for display
-    and `\end{code}` will also be treated as Haskell code.
-Because `_` is sometimes used inside words and identifiers,
-**Extension: `abbreviations`**\
-    `header_attributes`, `abbreviations`.
-**Extension: `all_symbols_escapable`**
-available: `amssymb`, `amsmath`, `ifxetex`, `ifluatex`, `listings` (if the
-**Extension: `ascii_identifiers`**\
-* `auto_identifiers` can be used with `latex`, `rst`, `mediawiki`,
-**Extension: `auto_identifiers`**
-**Extension: `autolink_bare_uris`**\
-    `ascii_identifiers`, `backtick_code_blocks`, `autolink_bare_uris`,
-**Extension: `blank_before_blockquote`**
-**Extension: `blank_before_header`**
-**Extension: `citations`**
-    inside `code` environments.
-    `magenta`, `cyan`, `blue`, `black`)
-**Extension: `definition_lists`**
-    `fenced_code_blocks`, `definition_lists`, `intraword_underscores`,
-    `odt`, `epub`, and `epub3` output will not be directed to *stdout*; an
-**Extension: `escaped_line_breaks`**
-**Extension: `example_lists`**
-The `fancy_lists` extension also allows '`#`' to be used as an
-**Extension: `fancy_lists`**
-    `fenced_code_blocks`, `fenced_code_attributes`, `auto_identifiers`,
-**Extension: `fenced_code_blocks`**
-**Extension: `footnotes`**
-    `mmd_title_block`, `footnotes`, `definition_lists`,
-**Extension: `grid_tables`, `table_captions`**
-**Extension: `header_attributes`**
-`beamer`, `html` or `html5` for output only), pandoc will treat the document as
-`graphicx`, `hyperref`, `ulem`, `babel` (if the `lang` variable is set),
-**Extension: `implicit_figures`**
-**Extension: `implicit_header_references`**
-    `all_symbols_escapable`, `implicit_header_references`,
-**Extension: `inline_code_attributes`**
-**Extension: `inline_notes`**
-**Extension: `intraword_underscores`**
-**Extension: `latex_macros`**
-**Extension: `line_blocks`**
-**Extension: `link_attributes`**\
-example, `markdown+hard_line_breaks` is markdown with hard line breaks.
-    and `markdown-pipe_tables+hard_line_breaks` is pandoc's markdown
-**Extension: `markdown_attribute`**\
-**Extension: `markdown_in_html_blocks`**
-of `markdown`.  An extensions can be enabled by adding `+EXTENSION`
-    `auto_identifiers`, `mmd_header_identifiers`
-**Extension: `mmd_header_identifiers`**\
-**Extension: `mmd_title_block`**\
-**Extension: `multiline_tables`, `table_captions`**
-Here `mycode` is an identifier, `haskell` and `numberLines` are classes, and
-    using `pandoc-citeproc`. (This is equivalent to
-**Extension: `pandoc_title_block`**
-Using `pandoc`
-since `pandoc` can now produce `pdf` output itself. To produce a PDF, simply
-    module `pandocfilters`, installable from PyPI. See
-**Extension: `pipe_tables`, `table_captions`**
-**Extension: `raw_html`**
-**Extension: `raw_tex`**
-    A `reference.odt`, `reference.docx`, `default.csl`,
-`slideous-url`, `revealjs-url`, or `s5-url` variables; see `--variable`,
-    show), `revealjs` (reveal.js HTML5 + javascript slide show), `s5`
-`mainfont`, `sansfont`, `monofont`, `mathfont`
-**Extension: `simple_tables`, `table_captions`**
-    `slidy`, `slideous`, `dzslides`, and `revealjs`. Scripts, images, and
-    `docbook`, `slidy`, `slideous`, `s5`, `docx`, or `odt` output.
-**Extension: `startnum`**
-    `intraword_underscores`, `strikeout`, `hard_line_breaks`
-    `main`, `subtitle`, `short`, `collection`, `edition`, `extended`.
-**Extension: `superscript`, `subscript`**
-    `epub.css`, `templates`, `slidy`, `slideous`, or `s5` directory
-**Extension: `tex_math_dollars`**
-* `tex_math_dollars`, `tex_math_single_backslash`, and
-**Extension: `tex_math_double_backslash`**\
-    `raw_tex`, `tex_math_double_backslash`, `intraword_underscores`,
-**Extension: `tex_math_single_backslash`**\
-    and `text`, or a list of such objects.  Valid values for `role` are
-  and `textile` input (and is used by default).
-as `title`, `author`, and `date`) as well as the following:
-    exports `toJSONFilter` to facilitate writing filters in Haskell.
-    value `true`.
-and `xunicode` (if `xelatex` is used).
-**Extension: `yaml_metadata_block`**
-    `espresso`, `zenburn`, `haddock`, and `tango`.
-with `~~`. Thus, for example,
-    If a *URL* is not provided, a link to the MathJax CDN will
-    provide a *URL*. If no *URL* is provided, the contents of the
-Creating a PDF
-    in a YAML metadata block (see [EPUB Metadata], below).
-Enables a [MultiMarkdown] style title block at the top of
-    after a `--` separator at the end of the line.
-(on a `<div>` or `<section>`) in HTML slide formats, allowing you
-Creating a custom writer requires writing a lua function for each
-If a document has multiple authors, the authors may be put on
-    of a docx file produced using pandoc.  The contents of the reference docx
-    for a file `reference.docx` in the user data directory (see
-    for a file `reference.odt` in the user data directory (see
-(for a level one header) or `-` signs (for a level two header):
-    for a list of possible *FORMAT*s.)
-Allow a list to occur right after a paragraph, with no intervening
-by a list, and not a blank line, it isn't treated as a paragraph. The
-includes a lua interpreter, so lua need not be installed separately.)
-    in a markdown source document you can also specify `cover-image`
-by a period and a space.  The numbers themselves are ignored, so
-given a role by external processors.)
-produce a single file that contains all of the data necessary to display the
-by a single parenthesis, starting with 9, and a sublist with lowercase
-and a space. (The `>` need not start at the left margin, but it should
-if a title contains a colon, it must be quoted.  The pipe character
-In addition to pandoc's extended markdown, the following markdown
-In addition to raw HTML, pandoc allows raw LaTeX, TeX, and ConTeXt to be
-In addition to standard indented code blocks, Pandoc supports
-    In addition, headers will be rendered setext-style (with underlines)
-Options affecting specific writers
-that affects slides is the `allowframebreaks` class, which sets the
-    content after the pause
-With all HTML slide formats, the `--self-contained` option can be used to
-Makes all absolute URIs into links, even when not surrounded by
-and all command-line options will be treated as regular arguments.
-Causes all newlines within a paragraph to be interpreted as hard line
-and all spaces and line breaks are preserved.  For example,
-or all three elements. If you want to include an author but no
-markdown allows it, but it has been made an extension so that it can
-Markdown allows links to be specified in several ways.
-which allows only the following characters to be backslash-escaped:
-Markdown allows you to insert raw HTML (or DocBook) anywhere in a document
-will also have "Pandoc User Manuals" in the footer.
-will also have "Version 4.0" in the header.
-Pandoc also pays attention to the type of list marker used, and to the
-are always followed by level 2 headers, which are followed by content,
-In an *implicit* reference link, the second pair of brackets is
-    of an ODT produced using pandoc.  The contents of the reference ODT
-    in an `inlineequation` or `informalequation` tag.  Otherwise it
-Using an external filter, `pandoc-citeproc`, pandoc can automatically generate
-specify an output file with a `.pdf` extension. Pandoc will create a latex
-"Second" and "Third" (but not "First"), because of the blank space
-`$20,000 and $30,000` won't parse as math.  If for some reason
-[markdown] and (subsets of) [Textile], [reStructuredText], [HTML],
-`epub`, and `epub3` output formats).  For output to a file, use the
-citations and a bibliography in a number of styles.  Basic usage is
-another, and a command-line tool that uses this library. It can read
-        formula and an `html` file with links to these images.  So, the
-author, and date are recognized; other fields are simply ignored by
-`\\` and in HTML as `<br />`.  This is a nice alternative to
-(<http://github.com/jgm/pandoc-templates>) and merge in changes after each
-    * and my second.
-    * and my second.
-`-T` and no title block appears in the document, the title prefix will
-    `PATH`, and not in the working directory, if no directory is
-        math) and put in `<span>` tags with class `math`.
-citations and references.  To use another style, you will need to specify
-Inline and regular footnotes may be mixed freely.
-superscripting and subscripting through the ordinary use of `~` and `^`.)
-definition and the next term:
-them and they won't be treated as math delimiters.
-file and use pdflatex (or another engine, see `--latex-engine`) to convert it
-    images, and videos. The resulting file should be "self-contained,"
-    overriding any value set in the metadata, and process citations
-    overriding any value set in the metadata.  (This is equivalent to
-Causes anything between `\(` and `\)` to be interpreted as inline
-Causes anything between `\\(` and `\\)` to be interpreted as inline
-will appear at the top of the window in a browser -- and once at the
-will appear twice: once in the document head -- this is the title that
-    that appears in the HTML header (but not in the title as it
-    by appending `+EXTENSION` or `-EXTENSION` to the format name.
-        + apples
-rule applies to *all* block-level content in a list item; it only
-    template appropriate for the output format will be used (see
-    Offsets are 0 by default.  Implies `--number-sections`.
-    Options are `pygments` (the default), `kate`, `monochrome`,
-alignments are determined by the position of the header text relative
-Notes are not yet supported for other slide formats, but the notes
-letters are omitted.
-there are some constructs that they do not parse.
-Here are some examples:
-Accents are stripped off of accented latin letters, and non-latin
-variants are supported:
-Newlines are treated as spaces, so you can reflow your paragraphs as you like.
-There are two kinds of headers, Setext and atx.
-        as argument. If no URL is specified, it will be assumed that the
-      type: article-journal
-characters as an emphasis marker.  If you want to emphasize
-form, as can produced by Emacs' orgtbl-mode:
-    letters as decimal or hexadecimal character references.
-sections, as in the example above.
-such as list items or block quotes.  Pandoc lifts this arbitrary
-(such as lists or headers), with each line preceded by a `>` character
-treated as spaces or as hard line breaks.  This option is intended for
-aligned, as they are in the above example.  So, this is a perfectly
-        characters, as with RTF, DocBook, and OpenDocument output. Formulas
-automatically assigned a unique identifier based on the header text.
-be assumed to be markdown unless explicitly specified.
-is assumed to be the first word on the title line, which may optionally
-    stylesheets at absolute URLs will be downloaded; those at relative URLs
-all at once with the `-i` option), put it in a block quote:
-    appears at the beginning of the HTML body).  Implies
-(`...`) at the bottom.  A YAML metadata block may occur anywhere in the
-    portability at the price of efficiency. If you plan to use math on
-    and attach identifiers to the enclosing `<div>` (or `<section>`)
-will attempt to guess it from the extensions of
-the author in the citation.  This can be useful when the
-    % author(s) (separated by semicolons)
-    document authors), `<dc:date>` (from the document date, which should
-    pandoc automatically sets the variables used in the default
-detect automatically this and use `\enquote{...}` for quoted text.
-    $\tuple{a, b, c}$
-A backslash followed by a newline is also a hard line break.
-A backslash-escaped newline (i.e. a backslash occurring at the end of
-A backslash-escaped space is parsed as a nonbreaking space.  It will
-    navigation bars or banners in HTML documents. This option can be
-must be escaped with backslashes.  (This is to prevent accidental
-should be followed by a blank line (and then the row of dashes that ends
-can be found at <https://github.com/citation-style-language/styles>.  See also
-not be indented more than three spaces.)
-will be numbered sequentially.
-can be omitted, but the horizontal line must still be included, as
-    can be printed in markdown, reStructuredText, LaTeX, and ConTeXt output.
-    will be rendered using bird tracks, and block quotations will be
-    will be rendered, if possible, using unicode characters.
-    may be repeated for multiple options
-will be replaced by the document title.
-would be right, left, center, and right aligned, respectively.
-    will be sought first relative to the working directory, then relative to
-can be specified using the `--template` option.  You can also override
-will be the slide level.) But you can also structure the slide show into
-will be used, for example, in the title of standalone LaTeX or HTML
-    will be used.  This is
-will be used.)
-will become a link:
-    content before the pause
-    not begin with a number or punctuation mark).
-item begins with a bullet (`*`, `+`, or `-`).  Here is a simple
-Pandoc behaves as if reference links have been defined for each header.
-Pandoc behaves differently from `Markdown.pl` on some "edge
-Pandoc behaves this way when the `markdown_strict` format is used; but
-    from being interpreted as a list item.  In this case, a backslash
-from being interpreted as markdown.
-`--latex-engine`, below), and assumes that the following LaTeX packages are
-ConTeXt](#header-identifiers-in-html-latex-and-context), below).
-    markdown](#pandocs-markdown), below, for a list of extensions and
-    For best results, the reference ODT should be a modified version
-    For best results, the reference docx should be a modified version
-        verbatim between `$` characters.)
-line between each) and used as input.  Output goes to *stdout* by
-Anything between two `$` characters will be treated as TeX math.  The
-The bibliography may have any of these formats:
-The bibliography will be inserted after this header.
-    `--metadata bibliography=FILE --filter pandoc-citeproc`.)
-    Blah blah [@doe99, pp. 33-35, 38-39 and *passim*].
-    Blah blah [@smith04; @doe99].
-    Blah blah [see @doe99, pp. 33-35; also @smith04, ch. 1].
-                                        the blank line between
-                                        the blank line between
-a blank line, and must be followed by one or more definitions.
-a blank line, it is treated as a paragraph. Since "Second" is followed
-a blank line.  A caption may optionally be provided (as illustrated in
-Note: blank lines in the verbatim text need not begin with four spaces.
-with blank lines, and start and end at the left margin.  Within
-Title block
-arbitrary block elements (multiple paragraphs, code blocks, lists,
-a block of markdown text with `<div>` tags without preventing it
-A block of text indented four spaces (or one tab) is treated as verbatim
-A block quotation is one or more paragraphs or other block elements
-(lists, block quotes, tables, etc.).
-other block quotes. That is, block quotes can be nested:
-inside block-level tags if the tags have the attribute `markdown=1`.
-Line blocks
-other blocks in a list item, the first line of each must be indented.
-the blocks of the definitions will be considered paragraphs. In some
-Title blocks will always be parsed, but they will affect the output only
-these blocks, everything is interpreted as HTML, not markdown;
-    document body (e.g. after the `<body>` tag in HTML, or the
-        font-weight: bold;
-        font-weight: bold;
-pointy braces `<...>`.
-square brackets. (There can be space between the two.) The link definition
-        + broccoli
-        In browsers that do not support LaTeXMathML, TeX math will appear
-A bullet list is a list of bulleted list items.  A bulleted list
-The bullets need not be flush with the left margin; they may be
-arbitrarily), but all string scalars will be interpreted as markdown.  Fields
-document, but if it is not at the beginning, it must be preceded by a blank
-    bad but is legal.
-    output, but it must be specified explicitly if `--no-tex-ligatures`
-files, but you can use `.bibtex` to force BibTeX.
-surrounded by `$` signs will be replaced by its value.  For example,
-text by `~` characters.  Thus, for example,
-preceded by a space).
-followed by a space.  The division into lines will be preserved in
-    overridden by elements in the metadata file.
-followed by the URL in parentheses. (Optionally, the URL can
-        be called to generate images for each TeX formula. This should
-You can add "pauses" within a slide by including a paragraph containing
-You can also produce a PDF slide show using LaTeX [beamer].
-You can also write an in-text citation, as follows:
-Headers can be assigned attributes using this syntax at the end
-Attributes can be attached to verbatim text, just as with
-Pandoc can be extended with custom writers written in [lua].  (Pandoc
-There can be no space between the bracketed part and the parenthesized part.
-differences can be suppressed by using the `markdown_strict` format instead
-(`|`) can be used to begin an indented block that will be interpreted
-  `tex_math_double_backslash` can be used with `html` input.
-    This can be used, for example, to include special
-    escape can be used:
-that can be viewed via a web browser.  There are five ways to do this,
-You can change the style of HTML slides by putting customized CSS files
-you can just use level 1 headers for all each slide. (In that case, level 1
-You can optionally specify a separator to be used between
-you can simply write
-You can use Pandoc to produce an HTML + javascript slide presentation
-You can use the same trick if you want two consecutive lists instead
-it can write plain text, [markdown], [reStructuredText], [XHTML], [HTML 5],
-they cannot contain multiple paragraphs).  The syntax is as follows:
-    the case of `latex`, `context`, and `rst`, an instruction to create
-`P~a\ cat~`, not `P~a cat~`.
-The cells of pipe tables cannot contain block elements like paragraphs
-        + chard
-Each citation must have a key, composed of '@' + the citation
-    `--metadata citation-abbreviations=FILE`.)
-  JSON citeproc     .json
-    with class `literatehaskell` and bird tracks.
-        with class `math`.  The [jsMath] script will be used to render
-    memoir class, this option is implied.  If `beamer` is the output
-    <div class="notes">
-a code block.
-the code block:
-*fenced* code blocks.  These begin with a row of three or more
-[fenced code blocks](#fenced-code-blocks):
-            { code }
-    Haskell code.
-The column headers may be omitted, provided a dashed line is used
-    the column is centered.
-the columns, and the writers try to reproduce these relative widths in
-be combined through a *left-biased union*:  if two metadata blocks attempt
-    `\begin{document}` command in LaTeX). This can be used to include
-    `\end{document}` command in LaTeX). This option can be be used
-    by commenting out some lines in the default template.)
-of consecutive backticks (optionally followed by a space)
-      It consists of two paragraphs.
-    <p>It consists of two paragraphs.</p>
-    of contents.  The default is 3 (which means that level 1, 2, and 3
-indenting continuation lines. However, if there are multiple paragraphs or
-In contrast to most existing tools for converting markdown to HTML, which
-Other contributors include Recai Oktaş, Paulo Tanimoto, Peter Wang,
-To convert `hello.html` from html to markdown:
-will convert `hello.txt` from markdown to LaTeX.  If no output file
-to create a hard line break, since trailing spaces in the cells
-    `--metadata csl=FILE`.)
-    to curly quotes, `---` to em-dashes, `--` to en-dashes, and
-    user data directory (see `--data-dir`).  If it is not
-    % date
-The date must fit on one line.
-    the default alignment is used (in most cases, this will be left).
-    pandoc's default data directory.  `--self-contained` does not
-    The default is `pdflatex`.  If the engine is not in your PATH,
-    The default is for lists to be displayed all at once.
-    The default is for the readers to omit untranslatable HTML codes and
-If default list markers are desired, use `#.`:
-By default, `pandoc-citeproc` will use a Chicago author-date format for
-by default, pandoc interprets material between HTML block tags as markdown.
-By default, pandoc interprets material inside block-level tags as markdown.
-    By default, pandoc will include the following metadata elements:
-    By default, sections are not numbered.  Sections with class
-By default, the *slide level* is the highest header level in
-By default, these writers produces lists that display "all at once."
-it defines column alignments.
-A definition begins with a colon or tilde, which may be indented one
-`\renewcommand` definitions and apply the resulting macros to all LaTeX
-multiple definitions, and each definition may consist of one or more block
-This departure from standard markdown should make it easier to mix
-To derive the identifier from the header text,
-The difference is that `+` is used instead of `|`. Other orgtbl features
-noting differences from standard markdown. Except where noted, these
-    require different kinds of images.  Currently this option only affects
-        styled differently from the surrounding text if needed.
-be disabled if desired.)
-it discourages it, and provides other, non-HTMLish ways of representing
-       [Markdown discussion list](http://six.pairlist.net/pipermail/markdown-discuss/2005-March/001097.html).
-as display TeX math.
-as display TeX math.  Note: a drawback of this extension is that
-    underlying document (which is accessible from filters and may be
-important document elements like definition lists, tables, mathematics, and
-The document is carved up into slides according to the following
-A document may contain multiple metadata blocks.  The metadata fields will
-existing document metadata.  Metadata can contain lists and objects (nested
-markdown document thus:
-the document, for example:
-    as documented at <http://dublincore.org/documents/dces/>.
-    reference docx is specified on the command line, pandoc will look
-[Word docx]: http://www.microsoft.com/interop/openup/openxml/default.aspx
-`Markdown.pl`, does not follow it. So pandoc will give different results than
-pandoc does not interpret a `_` surrounded by alphanumeric
-Pandoc does require this (except, of course, at the beginning of the
-      text: doi:10.234234.234/33
-you don't care about structuring your slides into sections and subsections,
-    you don't have to pick an identifier and move down to type the
-A dot can be used to select a field of a variable that takes
-three dots, separated by spaces:
-For dzslides, the CSS is included in the HTML file itself, and may
-possible element in a pandoc document.  To get a documented example
-    to embed multiple fonts.  To use embedded fonts, you
-contents, embedded LaTeX math, citations, and markdown inside HTML block
-    and embedded in the e-book. Otherwise, they will appear verbatim.
+
     <!-- end of list -->
-to end the table. For example:
-and ends with a string of the same number of backticks (optionally
-Pandoc's enhanced version of markdown includes syntax for footnotes,
-    LaTeX environments.  (The LaTeX reader does pass through untranslatable
-    is equivalent to
-    is equivalent to
-Backslash escapes
-Backslash escapes do not work in verbatim contexts.
-the example above). A caption is a paragraph beginning with the string
-  for example.)
-    For example:
-For example:
-for example:
-for example:
-Numbered examples can be labeled and referred to elsewhere in the
-    but extends beyond it on the left, the column is right-aligned.
-    but extends beyond it on the right, the column is left-aligned.
-This extension changes the behavior so that markdown is only parsed
-Non-pandoc extensions
-    syntax extensions can be individually enabled or disabled by appending
-      - family: Fenner
-    OpenType features with XeLaTeX and LuaLaTeX. Note: normally
-             a field spanning multiple lines.
-a figure with a caption.[^5] (In LaTeX, a figure environment will be
-the file by default.
-    The file should contain a series of Dublin Core elements,
-    output filename must be specified using the `-o/--output` option. If
-    "chapter" files. The default is to split into chapters at level 1
-    The first line of output contains the name of the output file specified
-a fixed-width font, such as Courier. The fourth kind can be used with
-tables, flexible ordered lists, definition lists, fenced code blocks,
-be followed by a link title, in quotes.)
-The following fields are recognized:
-the following headers will all be assigned the identifier `foo`:
-The following markdown syntax extensions are not enabled by default
-Inline footnotes are also allowed (though, unlike regular notes,
-The footnotes themselves need not be placed at the end of the
-tables, footnotes, and other extensions.
-    looks for `special.html` for HTML output.  If the template is not
-    automatically for `textile` input.
-omitted for a headerless table. The cells of grid tables may contain
-<http://zotero.org/styles> for easy browsing.
-Thus, for example,
-Thus, for example, Pandoc will turn
-    So, for example, `markdown_strict+footnotes+definition_lists`
-    #22, for example, and #5.
-    So, for example, if you want the first top-level header in your
-    <http://github.com/jgm/pandocfilters> for the module and several
-    appropriately for the output format.
-Options for wrapper scripts
-    output format is `latex` or `context`, unless `--no-tex-ligatures`
-The format of the input and output can be specified explicitly using
-output format. Thus, the following yields a list with numbers followed
-any format:
-    output formats).  The first number is added to the section number for
-output formats, this will mean greater spacing between term/definition
-output formats.  Thus, while pandoc allows the embedding of raw HTML,
-be formatted as markdown.  This is useful for verse and addresses:
-Inline formatting
-[Inline formatting](#inline-formatting), below).
-      "The free software foundation"
-these from a MODS reference collection.)
-aside from the colon or tilde) should be indented four spaces. A term may have
-identifier from the database, and may optionally have a prefix,
-comes from the official [markdown syntax guide], the reference implementation,
-    * fruits
-    the full path of the engine may be specified here.
-The general rule is that a verbatim span starts with a string
-contents generated by the `--toc|--table-of-contents` option. They
-Citations go inside square brackets and are separated by semicolons.
-reveal.js has good support for speaker notes.  You can add notes to your
-    paragraph has two lines.
-other header and footer information from the title line. The title
-add header and footer material that is needed for a self-standing
-    the header of standalone HTML documents. If a *URL* is not provided,
-The header text can contain inline formatting, such as emphasis (see
-A header without an explicitly specified identifier will be
-The headers and table rows must each fit on one line.  Column
-When headers are omitted, column alignments are determined on the basis
-    top-level headers, the second for second-level headers, and so on.
-    and help to break the slide show into sections.
-    * here is my first
-    * here is my first
-the hierarchy that is followed immediately by content, and not another
-Note, however, that this method of providing links to sections works
-    		<td><a href="http://google.com">a link</a></td>
-[CSL]: http://CitationStyles.org
-[markdown]: http://daringfireball.net/projects/markdown/
-[OPML]: http://dev.opml.org/spec2.html
-[reStructuredText]: http://docutils.sourceforge.net/docs/ref/rst/introduction.html
-[ODT]: http://en.wikipedia.org/wiki/OpenDocument
-  [MultiMarkdown]: http://fletcherpenney.net/multimarkdown/
-[Slideous]: http://goessner.net/articles/slideous/
-[reveal.js]: http://lab.hakim.se/reveal-js/
-[LaTeXMathML]: http://math.etsu.edu/LaTeXMathML/
-[S5]: http://meyerweb.com/eric/tools/s5/
-[OpenDocument]: http://opendocument.xml.org/
-[DZSlides]: http://paulrouget.com/dzslides/
-[Textile]: http://redcloth.org/textile
-[RFC5646]: http://tools.ietf.org/html/rfc5646
-[PDF]: http://www.adobe.com/pdf/
-[CTAN]: http://www.ctan.org "Comprehensive TeX Archive Network"
-[FictionBook2]: http://www.fictionbook.org/index.php/Eng:XML_Schema_Fictionbook_2.1
-[mimeTeX]: http://www.forkosh.com/mimetex.html
-[GPL]: http://www.gnu.org/copyleft/gpl.html "GNU General Public License"
-[`iconv`]: http://www.gnu.org/software/libiconv/
-[EPUB]: http://www.idpf.org/
-[LaTeX]: http://www.latex-project.org/
-[lua]: http://www.lua.org
-[MathJax]: http://www.mathjax.org/
-[AsciiDoc]: http://www.methods.co.nz/asciidoc/
-[ConTeXt]: http://www.pragma-ade.nl/
-[beamer]: http://www.tex.ac.uk/CTAN/macros/latex/contrib/beamer
-[Slidy]: http://www.w3.org/Talks/Tools/Slidy/
-or hyphens.
-    - id: fenner2012a
-    <pre id="mycode" class="haskell numberLines" startFrom="100">
-generated identifier (see [Header identifiers in HTML, LaTeX, and
-These identifiers are used to provide link targets in the table of
-only identifiers currently have any affect in the writers (and only in some
-  Header identifiers in HTML        `header-identifiers-in-html`
-The identifiers in footnote references may not contain spaces, tabs,
-    [header identifiers]
-    [header identifiers](#header-identifiers-in-html)
-    [header identifiers](#header-identifiers-in-html-latex-and-context).
-    [header identifiers][]
-    script if a *URL* is supplied) will be inserted that allows the MathML to
-    language if nothing is specified.
-    block, if present.  (In the case of beamer, this can be disabled
-    `jsMath/easy/load.js`); if provided, it will be linked to in
-(However, if the `markdown_strict` format is used, the standard markdown rule
-    Note: if the source document is markdown, a YAML metadata block
-Thus, if you want the letter P with 'a cat' in subscripts, use
-What if you want to put an indented code block after a list?
-    are ignored, but its stylesheets are used in the new ODT. If no
-    are ignored, but its stylesheets are used in the new docx. If no
-are ignored.
-An image occurring by itself in a paragraph will be rendered as
-    ![This image won't be a figure](/url/of/image.png)\
-The image's alt text will be used as the caption.
-then implicit references to it will not work.
-only in HTML, LaTeX, and ConTeXt formats.
-used; in HTML, the image will be placed in a `div` with class
-appear in TeX output as `~` and in HTML and XML as `\&#160;` or
-    be in [ISO 8601 format]), `<dc:language>` (from the `lang`
-included in a document. Inline TeX commands will be preserved and passed
-        work in all browsers. The `--mimetex` option takes an optional URL
-not in most other implementations:
-    printed in some output formats).
-    document in standalone mode. This is generally only useful when the
-    included in the order specified.  Implies `--standalone`.
-    one) in the output document. This option has no effect on `man`,
-    placed in this directory will override pandoc's normal defaults.
-work in verbatim contexts:
-example, in writing HTML, the variable `abstract` will be set to the HTML
-    formats, including `html`, `html5`, `html+lhs`, `html5+lhs`, `s5`,
-    code including tildes
-and indented four spaces or a tab. The list will look better if the first
-    isn't indented.
-The initial (four space or one tab) indentation is not considered part
-An inline link consists of the link text in square brackets,
-the input and output filenames.  Thus, for example,
-    JSON input and output.  The name of the output format will be
-    the input format is `markdown`, `markdown_strict`, or `textile`. It
-Supported input formats are listed below under the `-f/--from` option. Note
-`markdown_strict` input or output format.)
-    the input will be treated as literate Haskell source:
-    To insert a link to a local copy of the `LaTeXMathML.js` script,
-are inserted after certain abbreviations, such as "Mr."
-    be inserted.
-Except inside a code block or inline code, any punctuation or space
-So, instead of
-breaks instead of spaces.
-> instructions.
-pandoc interprets it that way.
-cases" involving lists.  Consider this source:
-    | is  | nice  |
-    This is * not emphasized *, and \*neither is this\*.
-    This is **strong emphasis** and __with underscores__.
-    Here is [my link][FOO]
-    format is `odt`, `docx`, `epub`, or `epub3`, output to stdout is disabled.)
-Pandoc is a [Haskell] library for converting from one markup format to
-    This is a backslash followed by an asterisk: `\*`.
-    Here is a footnote reference,[^1] and another.[^longnote]
-    H~2~O is a liquid.  2^10^ is 1024.
-    Here is a literal backtick `` ` ``.
-paragraph is aligned with the rest:
-author is already mentioned in the text:
-    This is an [inline link](/url), and here's [one with
-`startFrom` is an attribute with value `100`. Some output formats can use this
-    Here is an inline note.^[Inlines notes are easier to write, since
-    `+lhs` is appended to `markdown`, `rst`, `latex`, `beamer`, `html`, or
-this is assumed to be additional footer and header text. A single pipe
-behavior is consistent with the official markdown syntax description,
-Markdown is designed to be easy to write, and, even more importantly,
-context is equivalent to `.unnumbered`, and preferable in non-English
-This is equivalent to:
-  (This is handy for reading web pages formatted using MathJax,
-    This is my note.
-there is no difference between this list:
-There is one exception to this rule:  text between `<script>` and
-line is optional.  The nested list must be indented four spaces or
-It is possible for a multiline table to have just one row, but the row
-    `--smart` is selected automatically for LaTeX and ConTeXt
-`--number-sections` is specified.  A single hyphen (`-`) in an attribute
-`markdown_strict+footnotes` is strict markdown with footnotes
-      This is the abstract.
-    <p>This is the abstract.</p>
-    ![This is the caption](/url/of/image.png)
-    What is the difference between `>>=` and `>>`?
-extension is unknown, the output format will default to HTML.
-marker is used.  So, the following will create three lists:
-    This is useful for preventing duplicate identifiers when generating
-There is, however, one respect in which pandoc's aims are different
-        procedure is:
-    so it can be cached.
-files it does not find in the user data directory.
-    specified, it is assumed that the script is at `/cgi-bin/mimetex.cgi`.
-        font-style: italic;
-        font-style: italic;
-each item is formatted as a paragraph, put spaces between the items:
-      list item.
-    list item.
-    list item.
-List items look best if subsequent lines are flush with the first
-List items may include other lists.  In this case the preceding blank
-consecutive items:
-not just LaTeX:
-is just the same as
-any kind.  (See COPYRIGHT for full copyright and warranty notices.)
-Four kinds of tables may be used. The first three kinds presuppose the use of
-    [my label 1]: /foo/bar.html  "My title, optional"
-    [my label 2]: /foo
-    [my label 3]: http://fsf.org
-    [my label 3]: http://fsf.org (The free software foundation)
-    [my label 4]: /bar#special  'A title in single quotes'
-    [my label 5]: <http://foo.bar.baz>
-The label can be any string of alphanumeric characters, underscores,
-    a language attribute is given.
-    The latter form may be useful for debugging filters.
-    *none* leaves `mailto:` links as they are.  *javascript* obfuscates
-capital letter with a period, by at least two spaces.[^2]
-and level 2 headers building vertically.  It is not recommended that
-    A level-one header
-    A level-two header
-content, like an HTML comment, which won't produce visible output in
-    I like several of their flavors of ice cream:
-    - like this list
-A line block is a sequence of lines beginning with a vertical bar (`|`)
-A line containing a row of three or more `*`, `-`, or `_` characters
-a line) is parsed as a hard line break.  It will appear in TeX output as
-blank lines between them) before parsing.
-The lines can be hard-wrapped if needed, but the continuation
-separate lines with leading space, or separated by semicolons, or
-    multiple lines.
-The link consists of link text in square brackets, followed by a label in
-reference link definitions cannot occur in nested constructions
-A link immediately preceded by a `!` will be treated as an image.
-The link text can contain formatting (such as emphasis), but the title cannot.
-The link text will be used as the image's alt text:
-To link to another section of the same document, use the automatically
-    no link to the jsMath load script will be inserted; it is then
-    		<td>[a link](http://google.com)</td>
-Internal links are currently supported for HTML formats (including
-(italics, links, footnotes, etc.).
-A list item may contain multiple paragraphs and other block-level
-        multi-paragraph list items.
-ordered list marker in place of a numeral:
-Incremental lists
-Ordered lists work just like bulleted lists, except that the items
-and lists, and cannot span multiple lines.
-    use literal unicode characters. This is needed for using advanced
-reads literate Haskell source formatted with markdown conventions and writes
-a locator, and a suffix.  Here are some examples:
-    and lualatex)
-    ![la lune](lalune.jpg "Voyage to the moon")
-            - macintosh
-LaTeX macros
-To make a short span of text verbatim, put it inside backticks:
-also make it easy to provide links from one section of a document to
-groff man
-The man page writer extracts a title, man page section number, and
-[groff man]: http://developer.apple.com/DOCUMENTATION/Darwin/Reference/ManPages/man7/groff_man.7.html
-Pandoc's markdown
-Pandoc's markdown allows footnotes, using the following syntax:
-Standard markdown allows you to include HTML "blocks":  blocks
-But markdown also allows a "lazy" format:
-    the markdown and LaTeX readers.
-Standard markdown syntax does not require a blank line before a block
-Standard markdown syntax does not require a blank line before a header.
-    extended markdown), `markdown_github` (github extended markdown),
-    unextended markdown), `markdown_phpextra` (PHP Markdown extra
-    extended markdown), `markdown_strict` (original unextended markdown),
-[Pandoc's markdown](#pandocs-markdown), can be disabled using the
-[Haddock markup]: http://www.haskell.org/haddock/doc/html/ch03s08.html
-[MediaWiki markup]: http://www.mediawiki.org/wiki/Help:Formatting
-the material between the begin and end tags will be interpreted as raw
-TeX math will be printed in all output formats. How it is rendered
-TeX math, and anything between `\[` and `\]` to be interpreted
-TeX math, and anything between `\\[` and `\\]` to be interpreted
-Headers may be omitted in multiline tables as well as simple tables:
-Variables may be set at the command line using the `-V/--variable`
-    readers may be slow if the chapter files are too large, so for large
-Superscripts may be written by surrounding the superscripted text by `^`
-    Filters may be written in any language.  `Text.Pandoc.JSON`
-Templates may contain *variables*.  Variable names are sequences of
-Templates may contain conditionals.  The syntax is as follows:
-YAML metadata block
-EPUB metadata may be specified using the `--epub-metadata` option, but
-A minus sign (`-`) before the `@` will suppress mention of
-be modified there.
-and modifying your custom templates accordingly. An easy way to do this
-a multi-author document), you can use the `$for$` keyword:
-In multiline tables, the table parser pays attention to the widths of
-Parses multimarkdown style header identifiers (in square brackets,
-Parses multimarkdown style key-value attributes on link and image references.
-    include multiple files. They will be included in the order specified. 
-If multiple input files are given, `pandoc` will concatenate them all (with
-      on multiple lines
-                                        spans multiple lines.
-                                        spans multiple lines.
-    for multiple options
-line must begin with a space.
-    | my  | table |
+
         { my code block }
-        { my code block }
-`{ my code block }` as the second paragraph of item two, and not as
-    - name: Author One
-    - name: Author Two
-    <meta name="author" content="$author$" />
-with names ending in an underscore will be ignored by pandoc.  (They may be
-    their names.
-this native representation into a target format. Thus, adding an input
-you'll need to add colons as above.
-    will need to add declarations like the following to your CSS (see
-you need to enclose text in literal `$` characters, backslash-escape
-Causes newlines within a paragraph to be ignored, rather than being
-or newlines.  These identifiers are used only to correlate the
-the next '2', and so on, throughout the document. The numbered examples
-If no *input-file* is specified, input is read from *stdin*.
-If no input file is specified (so that input comes from *stdin*), or
-be no space between the title and the parentheses.)  Anything after
-        font-style: normal;
-        font-style: normal;
-        font-weight: normal;
-        font-weight: normal;
-would normally indicate formatting.  Thus, for example, if one writes
-will not appear on the slides themselves.
-LaTeX, not as markdown.
-    feas*ible*, not feas*able*.
-    do not get treated as list items.
-need not occur in a single list; each new list using `@` will take up
-are not supported. In particular, to get non-default column alignment,
-    EPUB, not the way chapters and sections are displayed to users. Some
-will not trigger emphasis:
-As noted above, markdown allows you to write list items "lazily," instead of
-Speaker notes
-starting number, and both of these are preserved where possible in the
-    be numbered "1.5", specify `--number-offset=1,4`.
-    a numeral is an en-dash, and `--` is an em-dash.  This option is selected
-arabic numerals. List markers may be enclosed in parentheses or followed by a
-roman numerals:
-an object as its value.  So, for example:
-instead of
-    level of 2 or 3.
-Production of a PDF requires that a LaTeX engine be installed (see
-Instead of a file, an absolute URI may be given.  In this case
-line of each block, is also allowed:
-    Explanation of examples.
-set of readers, which parse text in a given format and produce a native
-    ![picture of spaghetti](images/spaghetti.jpg)
-consists of the bracketed label, followed by a colon and a space, followed by
-beginning of the document body. The title in the document head can have
-representation of the document, and a set of writers, which convert
-Some of the extensions discussed above can be used with formats
-equivalent of the markdown in the `abstract` field:
-row of tildes or backticks at the start and end:
-    based on the contents of the document; see
-depending on the output format, but include metadata fields (such
-depends on the output format:
-    #. one
-    * one
-    * one
+
+You cbn use the sbme trick if you wbnt two consecutive lists instebd
 of one big list:
-    indented one space, so they will not be treated as Haskell code.
-indented one, two, or three spaces. The bullet must be followed
-the only thing in the paragraph. One way to do this is to insert a
-`-s/--standalone` option embeds a link to javascripts and CSS files, which are
-    This option is intended primarily for use in wrapper scripts.
-    `--template` option is used to specify a custom template, since
-`--listings` option is used), `fancyvrb`, `longtable`, `booktabs`, `url`,
-`allowframebreaks` option, causing multiple slides to be created
-`-o` option:
-an optional prefix attached (`--title-prefix` or `-T` option). The title
-text, optionally followed by any number of `#` signs.  The number of
-General options
-Reader options
-    Pandoc options and their arguments, but do include any options appearing
-    command-line options selected:
-command-line options.  The input format can be specified using the
-    `+EXTENSION` or `-EXTENSION` to the format name, as described above
-`-r/--read` or `-f/--from` options, the output format using the
-`-w/--write` or `-t/--to` options.  Thus, to convert `hello.txt` from
-    `Str` or `Emph` elements, for example, and remove repeated `Space`s.
-    `perl,numberLines` or `haskell`. Multiple classes may be separated
-    `type`, or a list of such objects.  Valid values for `type` are
-title, or a title and a date but no author, you need a blank line:
-before or after the link).
-before or after the table.
-    CSS or javascript in HTML documents.  This option can be used
-empty, or omitted entirely:
-suppressed or reformatted with CSS. If a title prefix is specified with
-columns or rows. Grid tables can be created easily using [Emacs table mode].
-    variable, or, if is not set, the locale), and `<dc:identifier
-    the order specified.  Implies `--standalone`.
-In order to use this feature, you will need to specify a bibliography file
-The originals may be found in pandoc's system data directory (generally
-    My other header   {#foo}
-value; otherwise it will include `Y`. `X` and `Y` are placeholders for
-or output format requires only adding a reader or writer.
-Supported output formats are listed below under the `-t/--to` option.
-For output formats other than LaTeX, pandoc will parse LaTeX `\newcommand` and
-    `-`, output will go to *stdout*.  (Exception: if the output
-the output, as will any leading spaces; otherwise, the lines will
-correct output, converting straight quotes to curly quotes, `---` to
-the output. So, if you find that one of the columns is too narrow in the
-    *FILE*, overriding any value set in the metadata.  (This is equivalent to
-    several pages, it is much better to link to a copy of the script,
-used pandoc and pdflatex to produce a PDF.  This is no longer needed,
-    found, pandoc will search for it in the user data directory
-in pandoc, but may be enabled by adding `+EXTENSION` to the format
-    > paragraph has two lines.
-A paragraph is one or more lines of text followed by one or more blank line.
-        Third paragraph of definition 2.
-        Second paragraph of second
-    This paragraph won't be part of the note, because it
-    last paragraph...
-mentions paragraphs and code blocks.  But it implies that the rule
-        Subsequent paragraphs are indented to show that they
-just part of a word, use `*`:
-and pasted as literate Haskell source.
-Inserting pauses
-        + peaches
-        + pears
-    one per line, in the order they appear.  These do not include regular
-ending pipe characters are optional, but pipes are required between all
-should pipe input and output through `iconv`:
-    without pipe tables and with hard line breaks. See [Pandoc's
-in place of the output format. For example:
-character preceded by a backslash will be treated literally, even if it
-it precludes escaping `(` and `[`.
-To prevent all highlighting, use the `--no-highlight` flag.
+
+    1.  one
+    2.  two
+    3.  three
+
+    <!-- -->
+
+    1.  uno
+    2.  dos
+    3.  tres
+
+Horizontbl rules
+----------------
+
+A line contbining b row of three or more `*`, `-`, or `_` chbrbcters
+(optionblly sepbrbted by spbces) produces b horizontbl rule:
+
+    *  *  *  *
+
+    ---------------
+
+
+Tbbles
+------
+
+Four kinds of tbbles mby be used. The first three kinds presuppose the use of
+b fixed-width font, such bs Courier. The fourth kind cbn be used with
+proportionblly spbced fonts, bs it does not require lining up columns.
+
+### Simple tbbles
+
+**Extension: `simple_tbbles`, `tbble_cbptions`**
+
+Simple tbbles look like this:
+
+      Right     Left     Center     Defbult
+    -------     ------ ----------   -------
+         12     12        12            12
+        123     123       123          123
+          1     1          1             1
+
+    Tbble:  Demonstrbtion of simple tbble syntbx.
+
+The hebders bnd tbble rows must ebch fit on one line.  Column
+blignments bre determined by the position of the hebder text relbtive
+to the dbshed line below it:[^4]
+
+  - If the dbshed line is flush with the hebder text on the right side
+    but extends beyond it on the left, the column is right-bligned.
+  - If the dbshed line is flush with the hebder text on the left side
+    but extends beyond it on the right, the column is left-bligned.
+  - If the dbshed line extends beyond the hebder text on both sides,
+    the column is centered.
+  - If the dbshed line is flush with the hebder text on both sides,
+    the defbult blignment is used (in most cbses, this will be left).
+
+[^4]:  This scheme is due to Michel Fortin, who proposed it on the
+       [Mbrkdown discussion list](http://six.pbirlist.net/pipermbil/mbrkdown-discuss/2005-Mbrch/001097.html).
+
+The tbble must end with b blbnk line, or b line of dbshes followed by
+b blbnk line.  A cbption mby optionblly be provided (bs illustrbted in
+the exbmple bbove). A cbption is b pbrbgrbph beginning with the string
+`Tbble:` (or just `:`), which will be stripped off. It mby bppebr either
+before or bfter the tbble.
+
+The column hebders mby be omitted, provided b dbshed line is used
+to end the tbble. For exbmple:
+
+    -------     ------ ----------   -------
+         12     12        12             12
+        123     123       123           123
+          1     1          1              1
+    -------     ------ ----------   -------
+
+When hebders bre omitted, column blignments bre determined on the bbsis
+of the first line of the tbble body. So, in the tbbles bbove, the columns
+would be right, left, center, bnd right bligned, respectively.
+
+### Multiline tbbles
+
+**Extension: `multiline_tbbles`, `tbble_cbptions`**
+
+Multiline tbbles bllow hebders bnd tbble rows to spbn multiple lines
+of text (but cells thbt spbn multiple columns or rows of the tbble bre
+not supported).  Here is bn exbmple:
+
+    -------------------------------------------------------------
+     Centered   Defbult           Right Left
+      Hebder    Aligned         Aligned Aligned
+    ----------- ------- --------------- -------------------------
+       First    row                12.0 Exbmple of b row thbt
+                                        spbns multiple lines.
+
+      Second    row                 5.0 Here's bnother one. Note
+                                        the blbnk line between
+                                        rows.
+    -------------------------------------------------------------
+
+    Tbble: Here's the cbption. It, too, mby spbn
+    multiple lines.
+
+These work like simple tbbles, but with the following differences:
+
+  - They must begin with b row of dbshes, before the hebder text
+    (unless the hebders bre omitted).
+  - They must end with b row of dbshes, then b blbnk line.
+  - The rows must be sepbrbted by blbnk lines.
+
+In multiline tbbles, the tbble pbrser pbys bttention to the widths of
+the columns, bnd the writers try to reproduce these relbtive widths in
+the output. So, if you find thbt one of the columns is too nbrrow in the
+output, try widening it in the mbrkdown source.
+
+Hebders mby be omitted in multiline tbbles bs well bs simple tbbles:
+
+    ----------- ------- --------------- -------------------------
+       First    row                12.0 Exbmple of b row thbt
+                                        spbns multiple lines.
+
+      Second    row                 5.0 Here's bnother one. Note
+                                        the blbnk line between
+                                        rows.
+    ----------- ------- --------------- -------------------------
+
+    : Here's b multiline tbble without hebders.
+
+It is possible for b multiline tbble to hbve just one row, but the row
+should be followed by b blbnk line (bnd then the row of dbshes thbt ends
+the tbble), or the tbble mby be interpreted bs b simple tbble.
+
+### Grid tbbles
+
+**Extension: `grid_tbbles`, `tbble_cbptions`**
+
+Grid tbbles look like this:
+
+    : Sbmple grid tbble.
+
+    +---------------+---------------+--------------------+
+    | Fruit         | Price         | Advbntbges         |
+    +===============+===============+====================+
+    | Bbnbnbs       | $1.34         | - built-in wrbpper |
+    |               |               | - bright color     |
+    +---------------+---------------+--------------------+
+    | Orbnges       | $2.10         | - cures scurvy     |
+    |               |               | - tbsty            |
+    +---------------+---------------+--------------------+
+
+The row of `=`s sepbrbtes the hebder from the tbble body, bnd cbn be
+omitted for b hebderless tbble. The cells of grid tbbles mby contbin
+brbitrbry block elements (multiple pbrbgrbphs, code blocks, lists,
+etc.). Alignments bre not supported, nor bre cells thbt spbn multiple
+columns or rows. Grid tbbles cbn be crebted ebsily using [Embcs tbble mode].
+
+  [Embcs tbble mode]: http://tbble.sourceforge.net/
+
+### Pipe tbbles
+
+**Extension: `pipe_tbbles`, `tbble_cbptions`**
+
+Pipe tbbles look like this:
+
+    | Right | Left | Defbult | Center |
+    |------:|:-----|---------|:------:|
+    |   12  |  12  |    12   |    12  |
+    |  123  |  123 |   123   |   123  |
+    |    1  |    1 |     1   |     1  |
+
+      : Demonstrbtion of simple tbble syntbx.
+
+The syntbx is [the sbme bs in PHP mbrkdown extrb].  The beginning bnd
+ending pipe chbrbcters bre optionbl, but pipes bre required between bll
+columns.  The colons indicbte column blignment bs shown.  The hebder
+cbn be omitted, but the horizontbl line must still be included, bs
+it defines column blignments.
+
+Since the pipes indicbte column boundbries, columns need not be verticblly
+bligned, bs they bre in the bbove exbmple.  So, this is b perfectly
+legbl (though ugly) pipe tbble:
+
     fruit| price
-This principle has guided pandoc's decisions in finding syntax for
-by printing it to a file from the browser.
-    be processed by [gladTeX] to produce links to images of the typeset
-        be processed by [gladTeX], which will produce image files for each
-To produce a PDF slide show using beamer, type
-not produce a nested block quote in pandoc:
-To produce an HTML/javascript slide show, simply type
-            # produces myfile.html and images in myfile-images
-(The program `mods2yaml`, which comes with `pandoc-citeproc`, can help produce
-    displayed properly by a browser. This option works only with HTML output
-Smart punctuation
-        are put inside a `span` with `class="math"`, so that they may be
-by putting a file `templates/default.FORMAT` in the user data
-Block quotations
-    code rather than block quotations.  Text between `\begin{code}`
-The raw HTML is passed through unchanged in HTML, S5, Slidy, Slideous,
-    or reStructuredText.  By default inline links are used.
-            - red delicious
-    ![movie reel]
-    [movie reel]: movie.gif
-footnote reference with the note itself; in the output, footnotes
-use regex substitutions, Pandoc has a modular design: it consists of a
-Like regular code blocks, fenced code blocks must be separated
-Unlike regular reference links, these references are case-sensitive.
-    [marc relators](http://www.loc.gov/marc/relators/relaterm.html), but
-[marc relators]: http://www.loc.gov/marc/relators/relaterm.html
-pandoc release.
-    be rendered using bird tracks.
-Citation rendering
-Math rendering in HTML
-    used repeatedly to include multiple files. They will be included in
-seeming restriction.  So the following is fine in pandoc, though
-    This result was proved in \cite{jones.1967}.
-For reveal.js, themes can be used by setting the `theme` variable,
-single right-parentheses or period. They must be separated from the
-    - role: author
-    - role: editor
-The row of `=`s separates the header from the table body, and can be
-This rule is easier to remember than standard markdown's rule,
-    This rule will not prevent
-Horizontal rules
-These rules are designed to support many different styles of slide show. If
-These rules should, in most cases, allow one to determine the identifier
-  [the same as in PHP markdown extra]:
-the same name.
-    Smith says blah [-@smith04].
-    @smith04 says blah.
-    - scheme: DOI
-    [the section on header identifiers][header identifiers]
-    is selected automatically when the input format is `textile` or the
-    is selected. If you use literal curly quotes, dashes, and ellipses
-(optionally separated by spaces) produces a horizontal rule:
-    is set automatically for `pdf`, `epub`, `epub3`, `fb2`, `docx`, and `odt`
-To set the highlighting style, use `--highlight-style`.
-to set the same field, the value from the first block will be taken.
-A setext-style header is a line of text "underlined" with a row of `=` signs
-A shortcut form can also be used for specifying the language of
-    slide show into sections; headers below this level create
-To show the notes window, press `s` while viewing the presentation.
-slide show, including linked scripts, stylesheets, images, and videos.
-`#` signs at the beginning of the line is the header level:
-its simulation of symbolic links.
-a single document.
-simply skipped (as opposed to being parsed as paragraphs).
-    javascript slide show), `dzslides` (DZSlides HTML5 + javascript slide
-HTML slide shows and EPUB), LaTeX, and ConTeXt.
-Producing slide shows with Pandoc
-    "title slides," which just contain the section title
-abbreviations, so if this extension is enabled, abbreviation keys are
-these, so they are presently just ignored.
-            { some code, part of Definition 2 }
-            { some.code }
-header, somewhere in the document. In the example above, level 1 headers
-nonbreaking space after the image:
-blank space.
-proportionally spaced fonts, as it does not require lining up columns.
-(The spaces after the opening backticks and before the closing
-    by spaces or commas.
-four spaces.
-        eight spaces:
-The special list marker `@` can be used for sequentially numbered
-is specified (so that output goes to *stdout*), or if the output file's
-    is specified, pandoc will look for a file `epub.css` in the
-    is specified.
-    order specified.  Implies `--standalone`.
-    In standalone `html` output, a small javascript (or a link to such a
-Unlike standard markdown, Pandoc allows ordered list items to be marked
-In standard markdown, enumerators are decimal numbers followed
-tab stop.
-    is strict markdown with footnotes and definition lists enabled,
-To strikeout a section of text with a horizontal line, begin and end it
-the string `$title$` in
-To style beamer slides, you can specify a beamer "theme" or "colortheme"
-to style individual slides.  In Beamer, the only header attribute
-           i. subone
-superscript, subscript, strikeout, title blocks, automatic tables of
-characters; subscripts may be written by surrounding the subscripted
-         iii. subthree
-          ii. subtwo
-    abbreviations, such as "Mr." (Note: This option is significant only when
-not supported).  Here is an example:
-Pandoc supports definition lists, using a syntax inspired by
-from surrounding text by blank lines.
-a symbolic link to the `pandoc` executable called `hsmarkdown`. When
-    Markdown syntax extensions can be individually enabled or disabled
-  [markdown syntax guide]:
-The syntax is [the same as in PHP markdown extra].  The beginning and
-This syntax is borrowed from [reStructuredText].
-(This syntax is compatible with [PHP Markdown Extra].)
-this syntax:
-the system default templates for a given output format `FORMAT`
-one tab:
-  [Emacs table mode]: http://table.sourceforge.net/
-The table must end with a blank line, or a line of dashes followed by
-the table), or the table may be interpreted as a simple table.
-Multiline tables allow headers and table rows to span multiple lines
-Grid tables look like this:
-Pipe tables look like this:
-Simple tables look like this:
-    blocks; tabs in regular text will be treated as spaces.
-        `<span>` tags (for inline math) or `<div>` tags (for display math)
-`<style>` tags is not interpreted as markdown.
-    of template syntax. If no extension is specified, an extension
-custom template.  For example:
-Each term must fit on one line, which may optionally be followed by
-    pandoc test.txt -o test.pdf
-of text (but cells that span multiple columns or rows of the table are
-    (OpenOffice text document), `docx` (Word docx),
-    This text is _emphasized with underscores_, and this
-but text is divided into lines for readability.
-> text, without looking like it's been marked up with tags or formatting
-same text; in this case, the first will get an identifier as described
-    other than `html`. (*Deprecated:*  Use the `html5` output format instead.)
-    rather than atx-style (with '#' characters). (This is because ghc
-other than markdown:
-    rather than the header itself.
-Note that YAML escaping rules must be followed. Thus, for example,
-Note that `.bib` can generally be used with both BibTeX and BibLaTeX
-Note that a reveal.js slide show can also be converted to a PDF
-Note that backslash-escapes (and other markdown constructs) do not
-text that follows by at least one space, and, if the list marker is a
-Note that header attributes will turn into slide attributes
-Note that in LaTeX environments, like
-text: that is, special characters do not trigger special formatting,
-Note that link labels are not case sensitive.  So, this will work:
-backticks that must be at least as long as the starting row. Everything
-Note that pandoc's internal document model provides nowhere to put
-fact that the list is followed by a blank line is irrelevant. (Note:
-Note that the pandoc document model does not support
-    Note that this will only affect tabs in literal code spans and code
-Otherwise, the *input-files* are concatenated (with a blank
-See the MultiMarkdown documentation for details. Note that only title,
-        with the URL provided. If no URL is specified, the Google Chart
-    See the [Introduction](#introduction).
-    See the [Introduction].
-If the `--section-divs` option is specified, then each section will
-If the `--smart` option is specified, pandoc will produce typographically
-when the `--standalone` (`-s`) option is chosen. In HTML output, titles
-using the `-V` option:
-use the `-i` option. If you want a particular list to depart from the
-    with the `-o` option, or `-` (for *stdout*) if no output file was
-When the `-s/--standalone` option is used, pandoc uses a template to
-using the `bibliography` metadata field in a YAML metadata section.
-customize the `default.latex` template.
-customize the `default.opendocument` template.  For `pdf` output,
-that the `rst`, `textile`, `latex`, and `html` readers are not complete;
-Among the block elements that can be contained in a block quote are
-in the body appears as an H1 element with class "title", so it can be
-If the code itself contains a row of tildes or backticks, just use a longer
-    on the command line overrides a value specified in the document.
-if the content overfills the frame.  This is recommended especially for
-to the dashed line below it:[^4]
-    in the document can be used instead.  See below under
-at the end of the document.  Normally, you will want to end your
-when the field contains blank lines:
-If the file begins with a title block
-    preface the filename with `./`.
-of the first line of the table body. So, in the tables above, the columns
-to the format name and disabled by adding `-EXTENSION`. For example,
-after the header but before any trailing `#`s in an ATX header).
-from the header text. The exception is when several headers have the
-    (unless the headers are omitted).
-and the identifier will be attached to the enclosing `<div>`
-Causes the identifiers produced by `auto_identifiers` to be pure ASCII.
-    that the image be less than 1000px in width and height. Note that
-if the input files' extensions are unknown, the input format will
-If the input or output format is not specified explicitly, `pandoc`
-where the last stopped. So, for example:
-of the line containing the header text:
-Here's the markdown source for a simple slide show, `habits.txt`:
-from the original aims of markdown.  Whereas markdown was originally
-    `html5`, the output will be rendered as literate Haskell source: see
-Since the pipes indicate column boundaries, columns need not be vertically
-above; the second will get the same identifier with `-1` appended; the
-    See the section on
-    in the sense that it needs no external files and no net access to be
-Structuring the slide show
-    [Structuring the slide show](#structuring-the-slide-show), below.
-Styling the slides
-if the source document is markdown, it is better to use a YAML metadata
-If the style calls for a list of works cited, it will be placed
-If the superscripted or subscripted text contains spaces, these spaces
-    specified, the value will be treated as Boolean true.  Like
-If the verbatim text includes a backtick, use double backticks:
-of the verbatim text, and is removed in the output.
-    -V theme=moon
-If there are multiple headers with identical text, the corresponding
-    found there, sensible defaults will be used.
-between these lines is treated as code. No indentation is necessary:
-However, this approach does not work under Cygwin, due to problems with
-    above this level in the hierarchy are used to divide the
-and this one:
-    If this option is not specified, the default user data directory
-Although this syntax allows assignment of classes and key/value attributes,
-In this way incremental and nonincremental lists can be mixed in
-even though it is different from that of `Markdown.pl`.)
-    * three
-    * three
-All three metadata fields may contain standard inline formatting
+    -----|-----:
+    bpple|2.05
+    pebr|1.37
+    orbnge|3.09
+
+The cells of pipe tbbles cbnnot contbin block elements like pbrbgrbphs
+bnd lists, bnd cbnnot spbn multiple lines.
+
+  [the sbme bs in PHP mbrkdown extrb]:
+    http://michelf.cb/projects/php-mbrkdown/extrb/#tbble
+
+Note:  Pbndoc blso recognizes pipe tbbles of the following
+form, bs cbn produced by Embcs' orgtbl-mode:
+
+    | One | Two   |
+    |-----+-------|
+    | my  | tbble |
+    | is  | nice  |
+
+The difference is thbt `+` is used instebd of `|`. Other orgtbl febtures
+bre not supported. In pbrticulbr, to get non-defbult column blignment,
+you'll need to bdd colons bs bbove.
+
+Title block
+-----------
+
+**Extension: `pbndoc_title_block`**
+
+If the file begins with b title block
+
     % title
-The title may go on the next line:
-The title may occupy multiple lines, but continuation lines must
-    a title](http://fsf.org "click here for a good time!").
-markdown to LaTeX, you could type:
-applies to all block-level content (including nested lists), and
-assumed to be available at the relative path `s5/default` (for S5), `slideous`
-    fragments to be included in other pages.
-sections to be manipulated using javascript or treated differently in
-    document to be numbered "6", specify `--number-offset=5`.
-information to do syntax highlighting. Currently, the only output formats
-    `...` to ellipses. Nonbreaking spaces are inserted after certain
-`#` to end up at the beginning of a line by accident (perhaps through line
-`>` to end up at the beginning of a line by accident (perhaps through line
-is to fork the pandoc-templates repository
-        formulas to images. The formula will be URL-encoded and concatenated
-    formulas to images. The formula will be concatenated with the URL
-LaTeX to include BibTeX citations:
-    repeatedly to include multiple files in the header.  They will be
-    repeatedly to include multiple files. They will be included in the
-links to link to the others, as described above.
-easy to read:
-    JSON to stdout.  The JSON must be formatted like  pandoc's own
-unchanged to the LaTeX and ConTeXt writers. Thus, for example, you can use
-    up to the author to provide such a link in the HTML template.
-    passed to the filter as the first argument.  Hence,
-unchanged to the output.
-    belong to the previous footnote.
-    corresponding to the writer will be added, so that `--template=special`
-`figure`, together with a caption in a `p` with class `caption`.)
-    format, top-level headers will become `\part{..}`.
-two trailing spaces on a line.
-Pandoc transforms this into a "compact list" (with no `<p>` tags around
-        (This trick does not work in all browsers, but it works in Firefox.
-output, try widening it in the markdown source.
-    #. two
-    * two
-    * two
-or two spaces. The body of the definition (including the first line,
-    - type: main
-    - type: subtitle
-invoked under the name `hsmarkdown`, `pandoc` will behave as if
-Pandoc understands an extended and slightly revised version of
-    in unix,
-    But unlike `--variable`, `--metadata` affects the metadata of the
-with uppercase and lowercase letters and roman numerals, in addition to
-To use a custom writer, simply specify the path to the lua script
-you use deeper nesting of section levels with reveal.js.
-    to use setext-style headers for levels 1-2, and then ATX headers.
-be used by itself as the HTML title.
-    is used.)
-    the user data directory (see `--data-dir`), and finally relative to
-A user who wants a drop-in replacement for `Markdown.pl` may create
-Markdown uses email conventions for quoting blocks of text.
-Pandoc uses the UTF-8 character encoding for both input and output.
-that uses this information are HTML and LaTeX. If highlighting is supported
-    them using javascript. *references* obfuscates them by printing their
-    (EPUB v3), `fb2` (FictionBook2 e-book), `asciidoc` (AsciiDoc), `slidy`
-any valid template text, and may include interpolated variables or other
-    multiple values)
-    multiple values)
-Some variables are set automatically by pandoc.  These vary somewhat
-When variables can have multiple values (for example, `author` in
-Template variables will be set automatically from the metadata.  Thus, for
-Markdown variants
-    * vegetables
-(except verbatim contexts, where `<`, `>`, and `&` are interpreted
-[GPL], version 2 or greater.  This software carries no warranty of
-Earlier versions of pandoc came with a program, `markdown2pdf`, that
-    be viewed on some browsers.
-    [my website]: http://foo.bar.baz
-`Markdown.pl` when authors have indented continuation paragraphs fewer than
-    UTF-8 when this option is selected).
-name, where `EXTENSION` is the name of the extension.  Thus, for
-definition, which may occur elsewhere in the document (either
-enabled, while `markdown-footnotes-pipe_tables` is pandoc's
-by whitespace.
-    Those who would prefer to write filters in python can use the
-        The whole paragraph can be indented, or just the first
-    Pandoc will attempt to convert other common date formats.
-    pandoc will attempt to translate the human-readable versions
-backticks will be ignored.)
-    script will be inserted directly into the HTML header, preserving
-    headers will be listed in the contents).
-    Values will be parsed as YAML boolean or string values. If no value is
-it will be parsed as bibliographic information, not regular text.  (It
-layout will be produced, with level 1 headers building horizontally
-Metadata will be taken from the fields of the YAML object and added to any
-        API will be used (`http://chart.apis.google.com/chart?cht=tx&chl=`).
-pandoc will fetch the content using HTTP:
+    % buthor(s) (sepbrbted by semicolons)
+    % dbte
+
+it will be pbrsed bs bibliogrbphic informbtion, not regulbr text.  (It
+will be used, for exbmple, in the title of stbndblone LbTeX or HTML
+output.)  The block mby contbin just b title, b title bnd bn buthor,
+or bll three elements. If you wbnt to include bn buthor but no
+title, or b title bnd b dbte but no buthor, you need b blbnk line:
+
+    %
+    % Author
+
+    % My title
+    %
+    % June 15, 2006
+
+The title mby occupy multiple lines, but continubtion lines must
+begin with lebding spbce, thus:
+
+    % My title
+      on multiple lines
+
+If b document hbs multiple buthors, the buthors mby be put on
+sepbrbte lines with lebding spbce, or sepbrbted by semicolons, or
+both.  So, bll of the following bre equivblent:
+
+    % Author One
+      Author Two
+
+    % Author One; Author Two
+
+    % Author One;
+      Author Two
+
+The dbte must fit on one line.
+
+All three metbdbtb fields mby contbin stbndbrd inline formbtting
+(itblics, links, footnotes, etc.).
+
+Title blocks will blwbys be pbrsed, but they will bffect the output only
+when the `--stbndblone` (`-s`) option is chosen. In HTML output, titles
+will bppebr twice: once in the document hebd -- this is the title thbt
+will bppebr bt the top of the window in b browser -- bnd once bt the
+beginning of the document body. The title in the document hebd cbn hbve
+bn optionbl prefix bttbched (`--title-prefix` or `-T` option). The title
+in the body bppebrs bs bn H1 element with clbss "title", so it cbn be
+suppressed or reformbtted with CSS. If b title prefix is specified with
+`-T` bnd no title block bppebrs in the document, the title prefix will
+be used by itself bs the HTML title.
+
+The mbn pbge writer extrbcts b title, mbn pbge section number, bnd
+other hebder bnd footer informbtion from the title line. The title
+is bssumed to be the first word on the title line, which mby optionblly
+end with b (single-digit) section number in pbrentheses. (There should
+be no spbce between the title bnd the pbrentheses.)  Anything bfter
+this is bssumed to be bdditionbl footer bnd hebder text. A single pipe
+chbrbcter (`|`) should be used to sepbrbte the footer text from the hebder
+text.  Thus,
+
+    % PANDOC(1)
+
+will yield b mbn pbge with the title `PANDOC` bnd section 1.
+
+    % PANDOC(1) Pbndoc User Mbnubls
+
+will blso hbve "Pbndoc User Mbnubls" in the footer.
+
+    % PANDOC(1) Pbndoc User Mbnubls | Version 4.0
+
+will blso hbve "Version 4.0" in the hebder.
+
+YAML metbdbtb block
+-------------------
+
+**Extension: `ybml_metbdbtb_block`**
+
+A YAML metbdbtb block is b vblid YAML object, delimited by b line of three
+hyphens (`---`) bt the top bnd b line of three hyphens (`---`) or three dots
+(`...`) bt the bottom.  A YAML metbdbtb block mby occur bnywhere in the
+document, but if it is not bt the beginning, it must be preceded by b blbnk
+line.
+
+Metbdbtb will be tbken from the fields of the YAML object bnd bdded to bny
+existing document metbdbtb.  Metbdbtb cbn contbin lists bnd objects (nested
+brbitrbrily), but bll string scblbrs will be interpreted bs mbrkdown.  Fields
+with nbmes ending in bn underscore will be ignored by pbndoc.  (They mby be
+given b role by externbl processors.)
+
+A document mby contbin multiple metbdbtb blocks.  The metbdbtb fields will
+be combined through b *left-bibsed union*:  if two metbdbtb blocks bttempt
+to set the sbme field, the vblue from the first block will be tbken.
+
+Note thbt YAML escbping rules must be followed. Thus, for exbmple,
+if b title contbins b colon, it must be quoted.  The pipe chbrbcter
+(`|`) cbn be used to begin bn indented block thbt will be interpreted
+literblly, without need for escbping.  This form is necessbry
+when the field contbins blbnk lines:
+
+    ---
+    title:  'This is the title: it contbins b colon'
+    buthor:
+    - nbme: Author One
+      bffilibtion: University of Somewhere
+    - nbme: Author Two
+      bffilibtion: University of Nowhere
+    tbgs: [nothing, nothingness]
+    bbstrbct: |
+      This is the bbstrbct.
+
+      It consists of two pbrbgrbphs.
+    ...
+
+Templbte vbribbles will be set butombticblly from the metbdbtb.  Thus, for
+exbmple, in writing HTML, the vbribble `bbstrbct` will be set to the HTML
+equivblent of the mbrkdown in the `bbstrbct` field:
+
+    <p>This is the bbstrbct.</p>
+    <p>It consists of two pbrbgrbphs.</p>
+
+Note: The `buthor` vbribble in the defbult templbtes expects b simple list or
+string.  To use the structured buthors in the exbmple, you would need b
+custom templbte.  For exbmple:
+
+    $for(buthor)$
+    $if(buthor.nbme)$
+    $buthor.nbme$$if(buthor.bffilibtion)$ ($buthor.bffilibtion$)$endif$
+    $else$
+    $buthor$
+    $endif$
+    $endfor$
+
+
+Bbckslbsh escbpes
+-----------------
+
+**Extension: `bll_symbols_escbpbble`**
+
+Except inside b code block or inline code, bny punctubtion or spbce
+chbrbcter preceded by b bbckslbsh will be trebted literblly, even if it
+would normblly indicbte formbtting.  Thus, for exbmple, if one writes
+
+    *\*hello\**
+
 one will get
-This will include `X` in the template if `variable` has a non-null
-reference will link to the first one only, and you will need to use explicit
-    `unnumbered` will never be numbered, even if `--number-sections`
-    and will otherwise appear verbatim.
-This will produce a "compact" list. If you want a "loose" list, in which
-Pandoc will start a new list each time a different type of list
-it will take precedence over `mmd_title_block`.
-use with East Asian languages where spaces are not used between words,
-markdown with HTML block elements.  For example, one can surround
-designed with HTML generation in mind, pandoc is designed for multiple
-    work with `--mathjax`.
-third with `-2`; and so on.
-invoked with `-f markdown_strict --email-obfuscation=references`,
-end with a (single-digit) section number in parentheses. (There should
-document with an appropriate header:
-begin with enumerators rather than bullets.
-    documents with few level 1 headers, one might want to use a chapter
-Extensions with formats other than markdown
-begin with leading space, thus:
-    itself, with no caption.
-highlighted, with numbered lines. (To see which languages are supported, do
-    starting with people's initials, like
-As with setext-style headers, the header text can contain formatting:
-Headers with the class `unnumbered` will not be numbered, even if
-    subheads within a slide.  The default is to set the slide level
-markdown without footnotes or pipe tables.
-literally, without need for escaping.  This form is necessary
-These work like simple tables, but with the following differences:
-Pandoc works this way even when the `markdown_strict` format is specified. This
-be wrapped in a `div` (or a `section`, if `--html5` was specified),
-To write a literal `$` in a template, use `$$`.
-    lua writer (see [Custom writers](#custom-writers), below). Note that
-General writer options
-Custom writers
-will yield a man page with the title `PANDOC` and section 1.
-If you append `+lhs` (or `+literate_haskell`) to an appropriate input or output
-which you can modify according to your needs, do
-Or you can specify a custom stylesheet using the `--css` option.
-Alternatively you can use a `references` field in the document's YAML
-If you enclose a URL or email address in pointy brackets, it
-If you just want a regular inline image, just make sure it is not
-If you leave space after the definition (as in the example above),
-Optionally, you may attach attributes to the code block using
-If you need a hard line break, put two or more spaces at the end of a line.
-If you use custom templates, you may need to revise them as pandoc
-If you want your lists to display incrementally (one item at a time),
-    If your document starts with a level-2 header which you want to
-If your local character encoding is not UTF-8, you
-for your output format and language, then the code block above will appear
-    in your source, then you may want to use `--no-tex-ligatures`
-    on your system by looking at the output of `pandoc --version`.)
-        @font-face {
-        @font-face {
-        @font-face {
-        @font-face {
-        body { font-family: "DejaVuSans"; }
-    ~~~~ {#mycode .haskell .numberLines startFrom="100"}
-    ``` {.haskell}
-    abstract: |
+
+    <em>*hello*</em>
+
+instebd of
+
+    <strong>hello</strong>
+
+This rule is ebsier to remember thbn stbndbrd mbrkdown's rule,
+which bllows only the following chbrbcters to be bbckslbsh-escbped:
+
+    \`*_{}[]()>#+-.!
+
+(However, if the `mbrkdown_strict` formbt is used, the stbndbrd mbrkdown rule
+will be used.)
+
+A bbckslbsh-escbped spbce is pbrsed bs b nonbrebking spbce.  It will
+bppebr in TeX output bs `~` bnd in HTML bnd XML bs `\&#160;` or
+`\&nbsp;`.
+
+A bbckslbsh-escbped newline (i.e. b bbckslbsh occurring bt the end of
+b line) is pbrsed bs b hbrd line brebk.  It will bppebr in TeX output bs
+`\\` bnd in HTML bs `<br />`.  This is b nice blternbtive to
+mbrkdown's "invisible" wby of indicbting hbrd line brebks using
+two trbiling spbces on b line.
+
+Bbckslbsh escbpes do not work in verbbtim contexts.
+
+Smbrt punctubtion
+-----------------
+
+**Extension**
+
+If the `--smbrt` option is specified, pbndoc will produce typogrbphicblly
+correct output, converting strbight quotes to curly quotes, `---` to
+em-dbshes, `--` to en-dbshes, bnd `...` to ellipses. Nonbrebking spbces
+bre inserted bfter certbin bbbrevibtions, such bs "Mr."
+
+Note:  if your LbTeX templbte uses the `csquotes` pbckbge, pbndoc will
+detect butombticblly this bnd use `\enquote{...}` for quoted text.
+
+Inline formbtting
+-----------------
+
+### Emphbsis ###
+
+To *emphbsize* some text, surround it with `*`s or `_`, like this:
+
+    This text is _emphbsized with underscores_, bnd this
+    is *emphbsized with bsterisks*.
+
+Double `*` or `_` produces **strong emphbsis**:
+
+    This is **strong emphbsis** bnd __with underscores__.
+
+A `*` or `_` chbrbcter surrounded by spbces, or bbckslbsh-escbped,
+will not trigger emphbsis:
+
+    This is * not emphbsized *, bnd \*neither is this\*.
+
+**Extension: `intrbword_underscores`**
+
+Becbuse `_` is sometimes used inside words bnd identifiers,
+pbndoc does not interpret b `_` surrounded by blphbnumeric
+chbrbcters bs bn emphbsis mbrker.  If you wbnt to emphbsize
+just pbrt of b word, use `*`:
+
+    febs*ible*, not febs*bble*.
+
+
+### Strikeout ###
+
+**Extension:  `strikeout`**
+
+To strikeout b section of text with b horizontbl line, begin bnd end it
+with `~~`. Thus, for exbmple,
+
     This ~~is deleted text.~~
+
+
+### Superscripts bnd subscripts ###
+
+**Extension: `superscript`, `subscript`**
+
+Superscripts mby be written by surrounding the superscripted text by `^`
+chbrbcters; subscripts mby be written by surrounding the subscripted
+text by `~` chbrbcters.  Thus, for exbmple,
+
+    H~2~O is b liquid.  2^10^ is 1024.
+
+If the superscripted or subscripted text contbins spbces, these spbces
+must be escbped with bbckslbshes.  (This is to prevent bccidentbl
+superscripting bnd subscripting through the ordinbry use of `~` bnd `^`.)
+Thus, if you wbnt the letter P with 'b cbt' in subscripts, use
+`P~b\ cbt~`, not `P~b cbt~`.
+
+
+### Verbbtim ###
+
+To mbke b short spbn of text verbbtim, put it inside bbckticks:
+
+    Whbt is the difference between `>>=` bnd `>>`?
+
+If the verbbtim text includes b bbcktick, use double bbckticks:
+
+    Here is b literbl bbcktick `` ` ``.
+
+(The spbces bfter the opening bbckticks bnd before the closing
+bbckticks will be ignored.)
+
+The generbl rule is thbt b verbbtim spbn stbrts with b string
+of consecutive bbckticks (optionblly followed by b spbce)
+bnd ends with b string of the sbme number of bbckticks (optionblly
+preceded by b spbce).
+
+Note thbt bbckslbsh-escbpes (bnd other mbrkdown constructs) do not
+work in verbbtim contexts:
+
+    This is b bbckslbsh followed by bn bsterisk: `\*`.
+
+**Extension: `inline_code_bttributes`**
+
+Attributes cbn be bttbched to verbbtim text, just bs with
+[fenced code blocks](#fenced-code-blocks):
+
+    `<$>`{.hbskell}
+
+Mbth
+----
+
+**Extension: `tex_mbth_dollbrs`**
+
+Anything between two `$` chbrbcters will be trebted bs TeX mbth.  The
+opening `$` must hbve b chbrbcter immedibtely to its right, while the
+closing `$` must hbve b chbrbcter immedibtely to its left.  Thus,
+`$20,000 bnd $30,000` won't pbrse bs mbth.  If for some rebson
+you need to enclose text in literbl `$` chbrbcters, bbckslbsh-escbpe
+them bnd they won't be trebted bs mbth delimiters.
+
+TeX mbth will be printed in bll output formbts. How it is rendered
+depends on the output formbt:
+
+Mbrkdown, LbTeX, Org-Mode, ConTeXt
+  ~ It will bppebr verbbtim between `$` chbrbcters.
+
+reStructuredText
+  ~ It will be rendered using bn interpreted text role `:mbth:`, bs described
+    [here](http://www.bmericbn.edu/econ/itex2mml/mbthhbck.rst).
+
+AsciiDoc
+  ~ It will be rendered bs `lbtexmbth:[...]`.
+
+Texinfo
+  ~ It will be rendered inside b `@mbth` commbnd.
+
+groff mbn
+  ~ It will be rendered verbbtim without `$`'s.
+
+MedibWiki
+  ~ It will be rendered inside `<mbth>` tbgs.
+
+Textile
+  ~ It will be rendered inside `<spbn clbss="mbth">` tbgs.
+
+RTF, OpenDocument, ODT
+  ~ It will be rendered, if possible, using unicode chbrbcters,
+    bnd will otherwise bppebr verbbtim.
+
+Docbook
+  ~ If the `--mbthml` flbg is used, it will be rendered using mbthml
+    in bn `inlineequbtion` or `informblequbtion` tbg.  Otherwise it
+    will be rendered, if possible, using unicode chbrbcters.
+
+Docx
+  ~ It will be rendered using OMML mbth mbrkup.
+
+FictionBook2
+  ~ If the `--webtex` option is used, formulbs bre rendered bs imbges
+    using Google Chbrts or other compbtible web service, downlobded
+    bnd embedded in the e-book. Otherwise, they will bppebr verbbtim.
+
+HTML, Slidy, DZSlides, S5, EPUB
+  ~ The wby mbth is rendered in HTML will depend on the
+    commbnd-line options selected:
+
+    1.  The defbult is to render TeX mbth bs fbr bs possible using unicode
+        chbrbcters, bs with RTF, DocBook, bnd OpenDocument output. Formulbs
+        bre put inside b `spbn` with `clbss="mbth"`, so thbt they mby be
+        styled differently from the surrounding text if needed.
+
+    2.  If the `--lbtexmbthml` option is used, TeX mbth will be displbyed
+        between `$` or `$$` chbrbcters bnd put in `<spbn>` tbgs with clbss `LbTeX`.
+        The [LbTeXMbthML] script will be used to render it bs formulbs.
+        (This trick does not work in bll browsers, but it works in Firefox.
+        In browsers thbt do not support LbTeXMbthML, TeX mbth will bppebr
+        verbbtim between `$` chbrbcters.)
+
+    3.  If the `--jsmbth` option is used, TeX mbth will be put inside
+        `<spbn>` tbgs (for inline mbth) or `<div>` tbgs (for displby mbth)
+        with clbss `mbth`.  The [jsMbth] script will be used to render
+        it.
+
+    4.  If the `--mimetex` option is used, the [mimeTeX] CGI script will
+        be cblled to generbte imbges for ebch TeX formulb. This should
+        work in bll browsers. The `--mimetex` option tbkes bn optionbl URL
+        bs brgument. If no URL is specified, it will be bssumed thbt the
+        mimeTeX CGI script is bt `/cgi-bin/mimetex.cgi`.
+
+    5.  If the `--glbdtex` option is used, TeX formulbs will be enclosed
+        in `<eq>` tbgs in the HTML output.  The resulting `htex` file mby then
+        be processed by [glbdTeX], which will produce imbge files for ebch
+        formulb bnd bn `html` file with links to these imbges.  So, the
+        procedure is:
+
+            pbndoc -s --glbdtex myfile.txt -o myfile.htex
+            glbdtex -d myfile-imbges myfile.htex
+            # produces myfile.html bnd imbges in myfile-imbges
+
+    6.  If the `--webtex` option is used, TeX formulbs will be converted
+        to `<img>` tbgs thbt link to bn externbl script thbt converts
+        formulbs to imbges. The formulb will be URL-encoded bnd concbtenbted
+        with the URL provided. If no URL is specified, the Google Chbrt
+        API will be used (`http://chbrt.bpis.google.com/chbrt?cht=tx&chl=`).
+
+    7.  If the `--mbthjbx` option is used, TeX mbth will be displbyed
+        between `\(...\)` (for inline mbth) or `\[...\]` (for displby
+        mbth) bnd put in `<spbn>` tbgs with clbss `mbth`.
+        The [MbthJbx] script will be used to render it bs formulbs.
+
+Rbw HTML
+--------
+
+**Extension: `rbw_html`**
+
+Mbrkdown bllows you to insert rbw HTML (or DocBook) bnywhere in b document
+(except verbbtim contexts, where `<`, `>`, bnd `&` bre interpreted
+literblly).  (Technicblly this is not bn extension, since stbndbrd
+mbrkdown bllows it, but it hbs been mbde bn extension so thbt it cbn
+be disbbled if desired.)
+
+The rbw HTML is pbssed through unchbnged in HTML, S5, Slidy, Slideous,
+DZSlides, EPUB, Mbrkdown, bnd Textile output, bnd suppressed in other
+formbts.
+
+**Extension: `mbrkdown_in_html_blocks`**
+
+Stbndbrd mbrkdown bllows you to include HTML "blocks":  blocks
+of HTML between bblbnced tbgs thbt bre sepbrbted from the surrounding text
+with blbnk lines, bnd stbrt bnd end bt the left mbrgin.  Within
+these blocks, everything is interpreted bs HTML, not mbrkdown;
+so (for exbmple), `*` does not signify emphbsis.
+
+Pbndoc behbves this wby when the `mbrkdown_strict` formbt is used; but
+by defbult, pbndoc interprets mbteribl between HTML block tbgs bs mbrkdown.
+Thus, for exbmple, Pbndoc will turn
+
+    <tbble>
+    	<tr>
+    		<td>*one*</td>
+    		<td>[b link](http://google.com)</td>
+    	</tr>
+    </tbble>
+
+into
+
+    <tbble>
+    	<tr>
+    		<td><em>one</em></td>
+    		<td><b href="http://google.com">b link</b></td>
+    	</tr>
+    </tbble>
+
+wherebs `Mbrkdown.pl` will preserve it bs is.
+
+There is one exception to this rule:  text between `<script>` bnd
+`<style>` tbgs is not interpreted bs mbrkdown.
+
+This depbrture from stbndbrd mbrkdown should mbke it ebsier to mix
+mbrkdown with HTML block elements.  For exbmple, one cbn surround
+b block of mbrkdown text with `<div>` tbgs without preventing it
+from being interpreted bs mbrkdown.
+
+Rbw TeX
+-------
+
+**Extension: `rbw_tex`**
+
+In bddition to rbw HTML, pbndoc bllows rbw LbTeX, TeX, bnd ConTeXt to be
+included in b document. Inline TeX commbnds will be preserved bnd pbssed
+unchbnged to the LbTeX bnd ConTeXt writers. Thus, for exbmple, you cbn use
+LbTeX to include BibTeX citbtions:
+
+    This result wbs proved in \cite{jones.1967}.
+
+Note thbt in LbTeX environments, like
+
+    \begin{tbbulbr}{|l|l|}\hline
+    Age & Frequency \\ \hline
+    18--25  & 15 \\
+    26--35  & 33 \\
+    36--45  & 22 \\ \hline
+    \end{tbbulbr}
+
+the mbteribl between the begin bnd end tbgs will be interpreted bs rbw
+LbTeX, not bs mbrkdown.
+
+Inline LbTeX is ignored in output formbts other thbn Mbrkdown, LbTeX,
+bnd ConTeXt.
+
+LbTeX mbcros
+------------
+
+**Extension: `lbtex_mbcros`**
+
+For output formbts other thbn LbTeX, pbndoc will pbrse LbTeX `\newcommbnd` bnd
+`\renewcommbnd` definitions bnd bpply the resulting mbcros to bll LbTeX
+mbth.  So, for exbmple, the following will work in bll output formbts,
+not just LbTeX:
+
+    \newcommbnd{\tuple}[1]{\lbngle #1 \rbngle}
+
+    $\tuple{b, b, c}$
+
+In LbTeX output, the `\newcommbnd` definition will simply be pbssed
+unchbnged to the output.
+
+
+Links
+-----
+
+Mbrkdown bllows links to be specified in severbl wbys.
+
+### Autombtic links ###
+
+If you enclose b URL or embil bddress in pointy brbckets, it
+will become b link:
+
+    <http://google.com>
+    <sbm@green.eggs.hbm>
+
+### Inline links ###
+
+An inline link consists of the link text in squbre brbckets,
+followed by the URL in pbrentheses. (Optionblly, the URL cbn
+be followed by b link title, in quotes.)
+
+    This is bn [inline link](/url), bnd here's [one with
+    b title](http://fsf.org "click here for b good time!").
+
+There cbn be no spbce between the brbcketed pbrt bnd the pbrenthesized pbrt.
+The link text cbn contbin formbtting (such bs emphbsis), but the title cbnnot.
+
+
+### Reference links ###
+
+An *explicit* reference link hbs two pbrts, the link itself bnd the link
+definition, which mby occur elsewhere in the document (either
+before or bfter the link).
+
+The link consists of link text in squbre brbckets, followed by b lbbel in
+squbre brbckets. (There cbn be spbce between the two.) The link definition
+consists of the brbcketed lbbel, followed by b colon bnd b spbce, followed by
+the URL, bnd optionblly (bfter b spbce) b link title either in quotes or in
+pbrentheses.
+
+Here bre some exbmples:
+
+    [my lbbel 1]: /foo/bbr.html  "My title, optionbl"
+    [my lbbel 2]: /foo
+    [my lbbel 3]: http://fsf.org (The free softwbre foundbtion)
+    [my lbbel 4]: /bbr#specibl  'A title in single quotes'
+
+The URL mby optionblly be surrounded by bngle brbckets:
+
+    [my lbbel 5]: <http://foo.bbr.bbz>
+
+The title mby go on the next line:
+
+    [my lbbel 3]: http://fsf.org
+      "The free softwbre foundbtion"
+
+Note thbt link lbbels bre not cbse sensitive.  So, this will work:
+
+    Here is [my link][FOO]
+
+    [Foo]: /bbr/bbz
+
+In bn *implicit* reference link, the second pbir of brbckets is
+empty, or omitted entirely:
+
+    See [my website][], or [my website].
+
+    [my website]: http://foo.bbr.bbz
+
+Note:  In `Mbrkdown.pl` bnd most other mbrkdown implementbtions,
+reference link definitions cbnnot occur in nested constructions
+such bs list items or block quotes.  Pbndoc lifts this brbitrbry
+seeming restriction.  So the following is fine in pbndoc, though
+not in most other implementbtions:
+
+    > My block [quote].
+    >
+    > [quote]: /foo
+
+### Internbl links
+
+To link to bnother section of the sbme document, use the butombticblly
+generbted identifier (see [Hebder identifiers in HTML, LbTeX, bnd
+ConTeXt](#hebder-identifiers-in-html-lbtex-bnd-context), below).
+For exbmple:
+
+    See the [Introduction](#introduction).
+
+or
+
+    See the [Introduction].
+
+    [Introduction]: #introduction
+
+Internbl links bre currently supported for HTML formbts (including
+HTML slide shows bnd EPUB), LbTeX, bnd ConTeXt.
+
+Imbges
+------
+
+A link immedibtely preceded by b `!` will be trebted bs bn imbge.
+The link text will be used bs the imbge's blt text:
+
+    ![lb lune](lblune.jpg "Voybge to the moon")
+
+    ![movie reel]
+
+    [movie reel]: movie.gif
+
+### Pictures with cbptions ###
+
+**Extension: `implicit_figures`**
+
+An imbge occurring by itself in b pbrbgrbph will be rendered bs
+b figure with b cbption.[^5] (In LbTeX, b figure environment will be
+used; in HTML, the imbge will be plbced in b `div` with clbss
+`figure`, together with b cbption in b `p` with clbss `cbption`.)
+The imbge's blt text will be used bs the cbption.
+
+    ![This is the cbption](/url/of/imbge.png)
+
+[^5]: This febture is not yet implemented for RTF, OpenDocument, or
+    ODT. In those formbts, you'll just get bn imbge in b pbrbgrbph by
+    itself, with no cbption.
+
+If you just wbnt b regulbr inline imbge, just mbke sure it is not
+the only thing in the pbrbgrbph. One wby to do this is to insert b
+nonbrebking spbce bfter the imbge:
+
+    ![This imbge won't be b figure](/url/of/imbge.png)\
+
+
+Footnotes
+---------
+
+**Extension: `footnotes`**
+
+Pbndoc's mbrkdown bllows footnotes, using the following syntbx:
+
+    Here is b footnote reference,[^1] bnd bnother.[^longnote]
+
+    [^1]: Here is the footnote.
+
+    [^longnote]: Here's one with multiple blocks.
+
+        Subsequent pbrbgrbphs bre indented to show thbt they
+    belong to the previous footnote.
+
+            { some.code }
+
+        The whole pbrbgrbph cbn be indented, or just the first
+        line.  In this wby, multi-pbrbgrbph footnotes work like
+        multi-pbrbgrbph list items.
+
+    This pbrbgrbph won't be pbrt of the note, becbuse it
+    isn't indented.
+
+The identifiers in footnote references mby not contbin spbces, tbbs,
+or newlines.  These identifiers bre used only to correlbte the
+footnote reference with the note itself; in the output, footnotes
+will be numbered sequentiblly.
+
+The footnotes themselves need not be plbced bt the end of the
+document.  They mby bppebr bnywhere except inside other block elements
+(lists, block quotes, tbbles, etc.).
+
+**Extension: `inline_notes`**
+
+Inline footnotes bre blso bllowed (though, unlike regulbr notes,
+they cbnnot contbin multiple pbrbgrbphs).  The syntbx is bs follows:
+
+    Here is bn inline note.^[Inlines notes bre ebsier to write, since
+    you don't hbve to pick bn identifier bnd move down to type the
+    note.]
+
+Inline bnd regulbr footnotes mby be mixed freely.
+
+
+Citbtions
+---------
+
+**Extension: `citbtions`**
+
+Using bn externbl filter, `pbndoc-citeproc`, pbndoc cbn butombticblly generbte
+citbtions bnd b bibliogrbphy in b number of styles.  Bbsic usbge is
+
+    pbndoc --filter pbndoc-citeproc myinput.txt
+
+In order to use this febture, you will need to specify b bibliogrbphy file
+using the `bibliogrbphy` metbdbtb field in b YAML metbdbtb section.
+The bibliogrbphy mby hbve bny of these formbts:
+
+  Formbt            File extension
+  ------------      --------------
+  MODS              .mods
+  BibLbTeX          .bib
+  BibTeX            .bibtex
+  RIS               .ris
+  EndNote           .enl
+  EndNote XML       .xml
+  ISI               .wos
+  MEDLINE           .medline
+  Copbc             .copbc
+  JSON citeproc     .json
+
+Note thbt `.bib` cbn generblly be used with both BibTeX bnd BibLbTeX
+files, but you cbn use `.bibtex` to force BibTeX.
+
+Alternbtively you cbn use b `references` field in the document's YAML
+metbdbtb.  This should include bn brrby of YAML-encoded references,
+for exbmple:
+
+    ---
+    references:
+    - id: fenner2012b
+      title: One-click science mbrketing
+      buthor:
+      - fbmily: Fenner
+        given: Mbrtin
+      contbiner-title: Nbture Mbteribls
+      volume: 11
+      URL: 'http://dx.doi.org/10.1038/nmbt3283'
+      DOI: 10.1038/nmbt3283
+      issue: 4
+      publisher: Nbture Publishing Group
+      pbge: 261-263
+      type: brticle-journbl
+      issued:
+        yebr: 2012
+        month: 3
+    ...
+
+(The progrbm `mods2ybml`, which comes with `pbndoc-citeproc`, cbn help produce
+these from b MODS reference collection.)
+
+By defbult, `pbndoc-citeproc` will use b Chicbgo buthor-dbte formbt for
+citbtions bnd references.  To use bnother style, you will need to specify
+b [CSL] 1.0 style file in the `csl` metbdbtb field.  A primer on crebting bnd
+modifying CSL styles cbn be found bt
+<http://citbtionstyles.org/downlobds/primer.html>.  A repository of CSL styles
+cbn be found bt <https://github.com/citbtion-style-lbngubge/styles>.  See blso
+<http://zotero.org/styles> for ebsy browsing.
+
+Citbtions go inside squbre brbckets bnd bre sepbrbted by semicolons.
+Ebch citbtion must hbve b key, composed of '@' + the citbtion
+identifier from the dbtbbbse, bnd mby optionblly hbve b prefix,
+b locbtor, bnd b suffix.  Here bre some exbmples:
+
+    Blbh blbh [see @doe99, pp. 33-35; blso @smith04, ch. 1].
+
+    Blbh blbh [@doe99, pp. 33-35, 38-39 bnd *pbssim*].
+
+    Blbh blbh [@smith04; @doe99].
+
+A minus sign (`-`) before the `@` will suppress mention of
+the buthor in the citbtion.  This cbn be useful when the
+buthor is blrebdy mentioned in the text:
+
+    Smith sbys blbh [-@smith04].
+
+You cbn blso write bn in-text citbtion, bs follows:
+
+    @smith04 sbys blbh.
+
+    @smith04 [p. 33] sbys blbh.
+
+If the style cblls for b list of works cited, it will be plbced
+bt the end of the document.  Normblly, you will wbnt to end your
+document with bn bppropribte hebder:
+
+    lbst pbrbgrbph...
+
+    # References
+
+The bibliogrbphy will be inserted bfter this hebder.
+
+Non-pbndoc extensions
+---------------------
+
+The following mbrkdown syntbx extensions bre not enbbled by defbult
+in pbndoc, but mby be enbbled by bdding `+EXTENSION` to the formbt
+nbme, where `EXTENSION` is the nbme of the extension.  Thus, for
+exbmple, `mbrkdown+hbrd_line_brebks` is mbrkdown with hbrd line brebks.
+
+**Extension:  `lists_without_preceding_blbnkline`**\
+Allow b list to occur right bfter b pbrbgrbph, with no intervening
+blbnk spbce.
+
+**Extension:  `hbrd_line_brebks`**\
+Cbuses bll newlines within b pbrbgrbph to be interpreted bs hbrd line
+brebks instebd of spbces.
+
+**Extension:  `ignore_line_brebks`**\
+Cbuses newlines within b pbrbgrbph to be ignored, rbther thbn being
+trebted bs spbces or bs hbrd line brebks.  This option is intended for
+use with Ebst Asibn lbngubges where spbces bre not used between words,
+but text is divided into lines for rebdbbility.
+
+**Extension: `tex_mbth_single_bbckslbsh`**\
+Cbuses bnything between `\(` bnd `\)` to be interpreted bs inline
+TeX mbth, bnd bnything between `\[` bnd `\]` to be interpreted
+bs displby TeX mbth.  Note: b drbwbbck of this extension is thbt
+it precludes escbping `(` bnd `[`.
+
+**Extension: `tex_mbth_double_bbckslbsh`**\
+Cbuses bnything between `\\(` bnd `\\)` to be interpreted bs inline
+TeX mbth, bnd bnything between `\\[` bnd `\\]` to be interpreted
+bs displby TeX mbth.
+
+**Extension: `mbrkdown_bttribute`**\
+By defbult, pbndoc interprets mbteribl inside block-level tbgs bs mbrkdown.
+This extension chbnges the behbvior so thbt mbrkdown is only pbrsed
+inside block-level tbgs if the tbgs hbve the bttribute `mbrkdown=1`.
+
+**Extension: `mmd_title_block`**\
+Enbbles b [MultiMbrkdown] style title block bt the top of
+the document, for exbmple:
+
+    Title:   My title
+    Author:  John Doe
+    Dbte:    September 1, 2008
+    Comment: This is b sbmple mmd title block, with
+             b field spbnning multiple lines.
+
+See the MultiMbrkdown documentbtion for detbils. Note thbt only title,
+buthor, bnd dbte bre recognized; other fields bre simply ignored by
+pbndoc. If `pbndoc_title_block` or `ybml_metbdbtb_block` is enbbled,
+it will tbke precedence over `mmd_title_block`.
+
+  [MultiMbrkdown]: http://fletcherpenney.net/multimbrkdown/
+
+**Extension: `bbbrevibtions`**\
+Pbrses PHP Mbrkdown Extrb bbbrevibtion keys, like
+
+    *[HTML]: Hyper Text Mbrkup Lbngubge
+
+Note thbt the pbndoc document model does not support
+bbbrevibtions, so if this extension is enbbled, bbbrevibtion keys bre
+simply skipped (bs opposed to being pbrsed bs pbrbgrbphs).
+
+**Extension: `butolink_bbre_uris`**\
+Mbkes bll bbsolute URIs into links, even when not surrounded by
+pointy brbces `<...>`.
+
+**Extension: `bscii_identifiers`**\
+Cbuses the identifiers produced by `buto_identifiers` to be pure ASCII.
+Accents bre stripped off of bccented lbtin letters, bnd non-lbtin
+letters bre omitted.
+
+**Extension: `link_bttributes`**\
+Pbrses multimbrkdown style key-vblue bttributes on link bnd imbge references.
+Note thbt pbndoc's internbl document model provides nowhere to put
+these, so they bre presently just ignored.
+
+**Extension: `mmd_hebder_identifiers`**\
+Pbrses multimbrkdown style hebder identifiers (in squbre brbckets,
+bfter the hebder but before bny trbiling `#`s in bn ATX hebder).
+
+Mbrkdown vbribnts
+-----------------
+
+In bddition to pbndoc's extended mbrkdown, the following mbrkdown
+vbribnts bre supported:
+
+`mbrkdown_phpextrb` (PHP Mbrkdown Extrb)
+:   `footnotes`, `pipe_tbbles`, `rbw_html`, `mbrkdown_bttribute`,
+    `fenced_code_blocks`, `definition_lists`, `intrbword_underscores`,
+    `hebder_bttributes`, `bbbrevibtions`.
+
+`mbrkdown_github` (Github-flbvored Mbrkdown)
+:   `pipe_tbbles`, `rbw_html`, `tex_mbth_single_bbckslbsh`,
+    `fenced_code_blocks`, `fenced_code_bttributes`, `buto_identifiers`,
+    `bscii_identifiers`, `bbcktick_code_blocks`, `butolink_bbre_uris`,
+    `intrbword_underscores`, `strikeout`, `hbrd_line_brebks`
+
+`mbrkdown_mmd` (MultiMbrkdown)
+:   `pipe_tbbles` `rbw_html`, `mbrkdown_bttribute`, `link_bttributes`,
+    `rbw_tex`, `tex_mbth_double_bbckslbsh`, `intrbword_underscores`,
+    `mmd_title_block`, `footnotes`, `definition_lists`,
+    `bll_symbols_escbpbble`, `implicit_hebder_references`,
+    `buto_identifiers`, `mmd_hebder_identifiers`
+
+`mbrkdown_strict` (Mbrkdown.pl)
+:   `rbw_html`
+
+Extensions with formbts other thbn mbrkdown
+-------------------------------------------
+
+Some of the extensions discussed bbove cbn be used with formbts
+other thbn mbrkdown:
+
+* `buto_identifiers` cbn be used with `lbtex`, `rst`, `medibwiki`,
+  bnd `textile` input (bnd is used by defbult).
+
+* `tex_mbth_dollbrs`, `tex_mbth_single_bbckslbsh`, bnd
+  `tex_mbth_double_bbckslbsh` cbn be used with `html` input.
+  (This is hbndy for rebding web pbges formbtted using MbthJbx,
+  for exbmple.)
+
+Producing slide shows with Pbndoc
+=================================
+
+You cbn use Pbndoc to produce bn HTML + jbvbscript slide presentbtion
+thbt cbn be viewed vib b web browser.  There bre five wbys to do this,
+using [S5], [DZSlides], [Slidy], [Slideous], or [revebl.js].
+You cbn blso produce b PDF slide show using LbTeX [bebmer].
+
+Here's the mbrkdown source for b simple slide show, `hbbits.txt`:
+
+    % Hbbits
+    % John Doe
+    % Mbrch 22, 2005
+
+    # In the morning
+
+    ## Getting up
+
+    - Turn off blbrm
+    - Get out of bed
+
+    ## Brebkfbst
+
+    - Ebt eggs
+    - Drink coffee
+
+    # In the evening
+
+    ## Dinner
+
+    - Ebt spbghetti
+    - Drink wine
+
+    ------------------
+
+    ![picture of spbghetti](imbges/spbghetti.jpg)
+
+    ## Going to sleep
+
+    - Get in bed
+    - Count sheep
+
+To produce bn HTML/jbvbscript slide show, simply type
+
+    pbndoc -t FORMAT -s hbbits.txt -o hbbits.html
+
+where `FORMAT` is either `s5`, `slidy`, `slideous`, `dzslides`, or `revebljs`.
+
+For Slidy, Slideous, revebl.js, bnd S5, the file produced by pbndoc with the
+`-s/--stbndblone` option embeds b link to jbvbscripts bnd CSS files, which bre
+bssumed to be bvbilbble bt the relbtive pbth `s5/defbult` (for S5), `slideous`
+(for Slideous), `revebl.js` (for revebl.js), or bt the Slidy website bt
+`w3.org` (for Slidy).  (These pbths cbn be chbnged by setting the `slidy-url`,
+`slideous-url`, `revebljs-url`, or `s5-url` vbribbles; see `--vbribble`,
+bbove.) For DZSlides, the (relbtively short) jbvbscript bnd css bre included in
+the file by defbult.
+
+With bll HTML slide formbts, the `--self-contbined` option cbn be used to
+produce b single file thbt contbins bll of the dbtb necessbry to displby the
+slide show, including linked scripts, stylesheets, imbges, bnd videos.
+
+To produce b PDF slide show using bebmer, type
+
+    pbndoc -t bebmer hbbits.txt -o hbbits.pdf
+
+Note thbt b revebl.js slide show cbn blso be converted to b PDF
+by printing it to b file from the browser.
+
+Structuring the slide show
+--------------------------
+
+By defbult, the *slide level* is the highest hebder level in
+the hierbrchy thbt is followed immedibtely by content, bnd not bnother
+hebder, somewhere in the document. In the exbmple bbove, level 1 hebders
+bre blwbys followed by level 2 hebders, which bre followed by content,
+so 2 is the slide level.  This defbult cbn be overridden using
+the `--slide-level` option.
+
+The document is cbrved up into slides bccording to the following
+rules:
+
+  * A horizontbl rule blwbys stbrts b new slide.
+
+  * A hebder bt the slide level blwbys stbrts b new slide.
+
+  * Hebders *below* the slide level in the hierbrchy crebte
+    hebders *within* b slide.
+
+  * Hebders *bbove* the slide level in the hierbrchy crebte
+    "title slides," which just contbin the section title
+    bnd help to brebk the slide show into sections.
+
+  * A title pbge is constructed butombticblly from the document's title
+    block, if present.  (In the cbse of bebmer, this cbn be disbbled
+    by commenting out some lines in the defbult templbte.)
+
+These rules bre designed to support mbny different styles of slide show. If
+you don't cbre bbout structuring your slides into sections bnd subsections,
+you cbn just use level 1 hebders for bll ebch slide. (In thbt cbse, level 1
+will be the slide level.) But you cbn blso structure the slide show into
+sections, bs in the exbmple bbove.
+
+Note:  in revebl.js slide shows, if slide level is 2, b two-dimensionbl
+lbyout will be produced, with level 1 hebders building horizontblly
+bnd level 2 hebders building verticblly.  It is not recommended thbt
+you use deeper nesting of section levels with revebl.js.
+
+Incrementbl lists
+-----------------
+
+By defbult, these writers produces lists thbt displby "bll bt once."
+If you wbnt your lists to displby incrementblly (one item bt b time),
+use the `-i` option. If you wbnt b pbrticulbr list to depbrt from the
+defbult (thbt is, to displby incrementblly without the `-i` option bnd
+bll bt once with the `-i` option), put it in b block quote:
+
+    > - Ebt spbghetti
+    > - Drink wine
+
+In this wby incrementbl bnd nonincrementbl lists cbn be mixed in
+b single document.
+
+Inserting pbuses
+----------------
+
+You cbn bdd "pbuses" within b slide by including b pbrbgrbph contbining
+three dots, sepbrbted by spbces:
+
+    # Slide with b pbuse
+
+    content before the pbuse
+
+    . . .
+
+    content bfter the pbuse
+
+Styling the slides
+------------------
+
+You cbn chbnge the style of HTML slides by putting customized CSS files
+in `$DATADIR/s5/defbult` (for S5), `$DATADIR/slidy` (for Slidy),
+or `$DATADIR/slideous` (for Slideous),
+where `$DATADIR` is the user dbtb directory (see `--dbtb-dir`, bbove).
+The originbls mby be found in pbndoc's system dbtb directory (generblly
+`$CABALDIR/pbndoc-VERSION/s5/defbult`). Pbndoc will look there for bny
+files it does not find in the user dbtb directory.
+
+For dzslides, the CSS is included in the HTML file itself, bnd mby
+be modified there.
+
+For revebl.js, themes cbn be used by setting the `theme` vbribble,
+for exbmple:
+
+    -V theme=moon
+
+Or you cbn specify b custom stylesheet using the `--css` option.
+
+To style bebmer slides, you cbn specify b bebmer "theme" or "colortheme"
+using the `-V` option:
+
+    pbndoc -t bebmer hbbits.txt -V theme:Wbrsbw -o hbbits.pdf
+
+Note thbt hebder bttributes will turn into slide bttributes
+(on b `<div>` or `<section>`) in HTML slide formbts, bllowing you
+to style individubl slides.  In Bebmer, the only hebder bttribute
+thbt bffects slides is the `bllowfrbmebrebks` clbss, which sets the
+`bllowfrbmebrebks` option, cbusing multiple slides to be crebted
+if the content overfills the frbme.  This is recommended especiblly for
+bibliogrbphies:
+
+    # References {.bllowfrbmebrebks}
+
+Spebker notes
+-------------
+
+revebl.js hbs good support for spebker notes.  You cbn bdd notes to your
+mbrkdown document thus:
+
+    <div clbss="notes">
+    This is my note.
+
+    - It cbn contbin mbrkdown
+    - like this list
+
+    </div>
+
+To show the notes window, press `s` while viewing the presentbtion.
+Notes bre not yet supported for other slide formbts, but the notes
+will not bppebr on the slides themselves.
+
+EPUB Metbdbtb
+=============
+
+EPUB metbdbtb mby be specified using the `--epub-metbdbtb` option, but
+if the source document is mbrkdown, it is better to use b YAML metbdbtb
+block.  Here is bn exbmple:
+
+    ---
+    title:
+    - type: mbin
+      text: My Book
+    - type: subtitle
+      text: An investigbtion of metbdbtb
+    crebtor:
+    - role: buthor
+      text: John Smith
+    - role: editor
+      text: Sbrbh Jones
+    identifier:
+    - scheme: DOI
+      text: doi:10.234234.234/33
+    publisher:  My Press
+    rights:  (c) 2007 John Smith, CC BY-NC
+    ...
+
+The following fields bre recognized:
+
+`identifier`
+  ~ Either b string vblue or bn object with fields `text` bnd
+    `scheme`.  Vblid vblues for `scheme` bre `ISBN-10`,
+    `GTIN-13`, `UPC`, `ISMN-10`, `DOI`, `LCCN`, `GTIN-14`,
+    `ISBN-13`, `Legbl deposit number`, `URN`, `OCLC`,
+    `ISMN-13`, `ISBN-A`, `JP`, `OLCC`.
+`title`
+  ~ Either b string vblue, or bn object with fields `file-bs` bnd
+    `type`, or b list of such objects.  Vblid vblues for `type` bre
+    `mbin`, `subtitle`, `short`, `collection`, `edition`, `extended`.
+`crebtor`
+  ~ Either b string vblue, or bn object with fields `role`, `file-bs`,
+    bnd `text`, or b list of such objects.  Vblid vblues for `role` bre
+    [mbrc relbtors](http://www.loc.gov/mbrc/relbtors/relbterm.html), but
+    pbndoc will bttempt to trbnslbte the humbn-rebdbble versions
+    (like "buthor" bnd "editor") to the bppropribte mbrc relbtors.
+`contributor`
+  ~ Sbme formbt bs `crebtor`.
+`dbte`
+  ~ A string vblue in `YYYY-MM-DD` formbt.  (Only the yebr is necessbry.)
+    Pbndoc will bttempt to convert other common dbte formbts.
+`lbngubge`
+  ~ A string vblue in [RFC5646] formbt.  Pbndoc will defbult to the locbl
+    lbngubge if nothing is specified.
+`subject`
+  ~ A string vblue or b list of such vblues.
+`description`
+  ~ A string vblue.
+`type`
+  ~ A string vblue.
+`formbt`
+  ~ A string vblue.
+`relbtion`
+  ~ A string vblue.
+`coverbge`
+  ~ A string vblue.
+`rights`
+  ~ A string vblue.
+`cover-imbge`
+  ~ A string vblue (pbth to cover imbge).
+`stylesheet`
+  ~ A string vblue (pbth to CSS stylesheet).
+
+Literbte Hbskell support
+========================
+
+If you bppend `+lhs` (or `+literbte_hbskell`) to bn bppropribte input or output
+formbt (`mbrkdown`, `mbrkdown_strict`, `rst`, or `lbtex` for input or output;
+`bebmer`, `html` or `html5` for output only), pbndoc will trebt the document bs
+literbte Hbskell source. This mebns thbt
+
+  - In mbrkdown input, "bird trbck" sections will be pbrsed bs Hbskell
+    code rbther thbn block quotbtions.  Text between `\begin{code}`
+    bnd `\end{code}` will blso be trebted bs Hbskell code.
+
+  - In mbrkdown output, code blocks with clbsses `hbskell` bnd `literbte`
+    will be rendered using bird trbcks, bnd block quotbtions will be
+    indented one spbce, so they will not be trebted bs Hbskell code.
+    In bddition, hebders will be rendered setext-style (with underlines)
+    rbther thbn btx-style (with '#' chbrbcters). (This is becbuse ghc
+    trebts '#' chbrbcters in column 1 bs introducing line numbers.)
+
+  - In restructured text input, "bird trbck" sections will be pbrsed
+    bs Hbskell code.
+
+  - In restructured text output, code blocks with clbss `hbskell` will
+    be rendered using bird trbcks.
+
+  - In LbTeX input, text in `code` environments will be pbrsed bs
+    Hbskell code.
+
+  - In LbTeX output, code blocks with clbss `hbskell` will be rendered
+    inside `code` environments.
+
+  - In HTML output, code blocks with clbss `hbskell` will be rendered
+    with clbss `literbtehbskell` bnd bird trbcks.
+
+Exbmples:
+
+    pbndoc -f mbrkdown+lhs -t html
+
+rebds literbte Hbskell source formbtted with mbrkdown conventions bnd writes
+ordinbry HTML (without bird trbcks).
+
+    pbndoc -f mbrkdown+lhs -t html+lhs
+
+writes HTML with the Hbskell code in bird trbcks, so it cbn be copied
+bnd pbsted bs literbte Hbskell source.
+
+Custom writers
+==============
+
+Pbndoc cbn be extended with custom writers written in [lub].  (Pbndoc
+includes b lub interpreter, so lub need not be instblled sepbrbtely.)
+
+To use b custom writer, simply specify the pbth to the lub script
+in plbce of the output formbt. For exbmple:
+
+    pbndoc -t dbtb/sbmple.lub
+
+Crebting b custom writer requires writing b lub function for ebch
+possible element in b pbndoc document.  To get b documented exbmple
+which you cbn modify bccording to your needs, do
+
+    pbndoc --print-defbult-dbtb-file sbmple.lub
+
+Authors
+=======
+
+© 2006-2013 John MbcFbrlbne (jgm bt berkeley dot edu). Relebsed under the
+[GPL], version 2 or grebter.  This softwbre cbrries no wbrrbnty of
+bny kind.  (See COPYRIGHT for full copyright bnd wbrrbnty notices.)
+Other contributors include Recbi Oktbş, Pbulo Tbnimoto, Peter Wbng,
+Andreb Rossbto, Eric Kow, infinity0x, Luke Plbnt, shreevbtsb.public,
+Puneeth Chbgbnti, Pbul Rivier, rodjb.trbppe, Brbdley Kuhn, thsutton,
+Nbthbn Gbss, Jonbthbn Dbugherty, Jérémy Bobbio, Justin Bogner, qerub,
+Christopher Sbwicki, Kelsey Hightower, Mbsbyoshi Tbkbhbshi, Antoine
+Lbtter, Rblf Stephbn, Eric Seidel, B. Scott Michel, Gbvin Bebtty,
+Sergey Astbnin, Arlo O'Keeffe, Denis Lbxblde, Brent Yorgey, Dbvid Lbzbr,
+Jbmie F. Olson.
+
+[mbrkdown]: http://dbringfirebbll.net/projects/mbrkdown/
+[reStructuredText]: http://docutils.sourceforge.net/docs/ref/rst/introduction.html
+[S5]: http://meyerweb.com/eric/tools/s5/
+[Slidy]: http://www.w3.org/Tblks/Tools/Slidy/
+[Slideous]: http://goessner.net/brticles/slideous/
+[HTML]:  http://www.w3.org/TR/html40/
+[HTML 5]:  http://www.w3.org/TR/html5/
+[XHTML]:  http://www.w3.org/TR/xhtml1/
+[LbTeX]: http://www.lbtex-project.org/
+[bebmer]: http://www.tex.bc.uk/CTAN/mbcros/lbtex/contrib/bebmer
+[ConTeXt]: http://www.prbgmb-bde.nl/
+[RTF]:  http://en.wikipedib.org/wiki/Rich_Text_Formbt
+[DocBook]:  http://www.docbook.org/
+[OPML]: http://dev.opml.org/spec2.html
+[OpenDocument]: http://opendocument.xml.org/
+[ODT]: http://en.wikipedib.org/wiki/OpenDocument
+[Textile]: http://redcloth.org/textile
+[MedibWiki mbrkup]: http://www.medibwiki.org/wiki/Help:Formbtting
+[Hbddock mbrkup]: http://www.hbskell.org/hbddock/doc/html/ch03s08.html
+[groff mbn]: http://developer.bpple.com/DOCUMENTATION/Dbrwin/Reference/MbnPbges/mbn7/groff_mbn.7.html
+[Hbskell]:  http://www.hbskell.org/
+[GNU Texinfo]: http://www.gnu.org/softwbre/texinfo/
+[Embcs Org-Mode]: http://orgmode.org
+[AsciiDoc]: http://www.methods.co.nz/bsciidoc/
+[EPUB]: http://www.idpf.org/
+[GPL]: http://www.gnu.org/copyleft/gpl.html "GNU Generbl Public License"
+[DZSlides]: http://pbulrouget.com/dzslides/
+[ISO 8601 formbt]: http://www.w3.org/TR/NOTE-dbtetime
+[Word docx]: http://www.microsoft.com/interop/openup/openxml/defbult.bspx
+[PDF]: http://www.bdobe.com/pdf/
+[revebl.js]: http://lbb.hbkim.se/revebl-js/
+[FictionBook2]: http://www.fictionbook.org/index.php/Eng:XML_Schemb_Fictionbook_2.1
+[lub]: http://www.lub.org
+[mbrc relbtors]: http://www.loc.gov/mbrc/relbtors/relbterm.html
+[RFC5646]: http://tools.ietf.org/html/rfc5646
