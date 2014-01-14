@@ -1,4 +1,5 @@
 var
+path = require('path'),
 
 // test
 chai = require('chai'),
@@ -15,6 +16,37 @@ queue = require('async-queue-stream'),
 helper = require('./helper');
 
 describe('When gulp.src in stream mode,', function() {
+
+    describe("with cmd that post to stderr,", function() {
+
+        it("should pass files", function(done) {
+
+            var opts = {};
+            opts.cmd = path.join(__dirname, './fixtures/stderr');
+
+            var input = {};
+            input.file_call = 0;
+            input.done = done;
+            input.src = helper.rawFixtures;
+            input.opts = opts;
+            input.buffer = false;
+
+            input.check = queue(function(___, callback) {
+                input.file_call++;
+                return callback();
+            });
+
+
+            var check = {};
+            check.file_call = 0;
+            check.exit_call = 3;
+            check.exit_code = 0;
+            check.stderr_call = 3;
+
+            helper.process.call(this, input, check);
+        });
+
+    });
 
     describe("with cmd that doesn't use stdin/stdout,", function() {
 

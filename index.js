@@ -3,13 +3,11 @@ spawn = require('child_process').spawn,
 path = require("path"),
 fs = require('fs'),
 domain = require('domain'),
-// es = require('event-stream'),
 events = require('events'),
 
 tmp = require('tmp'),
 _queue = require('async-queue-stream'),
 gutil = require('gulp-util');
-// through = require('through');
 
 function gulp_spawn_shim(_opts) {
 
@@ -91,10 +89,10 @@ function gulp_spawn_shim(_opts) {
             if (err.code == "EPIPE" || err.code == "ENOENT") {
                 return bus.emit('publish');
             }
-            // console.log('CAUGHT ERROR: ' + err);
-            // console.log('FILE: ' + file.path);
+
             bus.emit('publish', err);
         });
+
 
 
         var child = spawn(opts.cmd, opts.args, opts.options);
@@ -105,6 +103,7 @@ function gulp_spawn_shim(_opts) {
         err_catcher.add(child.stdout);
         err_catcher.add(child.stderr);
         err_catcher.add(file.contents);
+
 
 
         // capture spawn.stderr
@@ -125,6 +124,8 @@ function gulp_spawn_shim(_opts) {
 
         if (file.isStream()) {
 
+
+
             tmp.setGracefulCleanup();
 
             // 1. Create tmp file
@@ -143,9 +144,6 @@ function gulp_spawn_shim(_opts) {
                 var tmp_file = fs.createWriteStream(tmp_path);
 
 
-                // child.stdout.pipe(tmp_file);
-
-
                 var written_tmp = false;
                 child.stdout
                     // 2. Attempt to write to tmp file
@@ -162,11 +160,6 @@ function gulp_spawn_shim(_opts) {
                         }
 
                         file.contents = fs.createReadStream(tmp_path);
-
-                        // // REMOVE
-                        // file.contents.on('end', function() {
-                        //     console.log('closed tmp file:' + path.basename(file.path));
-                        // });
 
                         return bus.emit('publish', void 0, file);
                     });

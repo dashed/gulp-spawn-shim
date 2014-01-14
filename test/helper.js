@@ -116,10 +116,10 @@ helper.process = function(input_obj, check_obj) {
     // done event
     threshold++;
 
-
     gulp.src(input_obj.src, {buffer: input_obj.buffer})
         .pipe(spawn(input_obj.opts))
             .on('failure', function(err) {
+
                 // failure_call++;
 
                 // if(check_obj.failure_call !== void 0 && failure_call === check_obj.failure_call)
@@ -146,6 +146,7 @@ helper.process = function(input_obj, check_obj) {
             })
         .pipe(input_obj.check)
         .once('end', function() {
+
             bus.emit('done');
         });
 
