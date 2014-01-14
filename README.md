@@ -1,7 +1,7 @@
 [gulp](https://github.com/gulpjs/gulp)-spawn-shim
 ===============
 
-[![NPM version](https://badge.fury.io/js/gulp-watch.png)](https://npmjs.org/package/gulp-watch)
+[![NPM version](https://badge.fury.io/js/gulp-spawn-shim.png)](http://badge.fury.io/js/gulp-spawn-shim)
 [![Build Status](https://travis-ci.org/Dashed/gulp-spawn-shim.png?branch=master)](https://travis-ci.org/Dashed/gulp-spawn-shim)
 [![Coverage Status](https://coveralls.io/repos/Dashed/gulp-spawn-shim/badge.png?branch=master)](https://coveralls.io/r/Dashed/gulp-spawn-shim?branch=master)
 [![Dependency Status](https://david-dm.org/Dashed/gulp-spawn-shim.png)](https://david-dm.org/Dashed/gulp-spawn-shim)
