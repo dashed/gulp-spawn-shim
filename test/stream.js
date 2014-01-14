@@ -160,6 +160,8 @@ describe('When gulp.src in stream mode,', function() {
 
         it("should pass all files", function(done) {
 
+            this.timeout(0);
+
             var opts = {};
             opts.cmd = 'doesnotexist';
             opts.args = [];
