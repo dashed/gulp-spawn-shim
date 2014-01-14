@@ -19,7 +19,7 @@ describe('When gulp.src in buffer mode,', function() {
 
         it("should pass files", function(done) {
 
-            this.timeout(0);
+            this.timeout(4000);
 
             var opts = {};
             opts.cmd = path.join(__dirname, './fixtures/stderr');
