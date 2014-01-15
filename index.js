@@ -9,16 +9,21 @@ tmp = require('tmp'),
 _queue = require('async-queue-stream'),
 gutil = require('gulp-util');
 
-function gulp_spawn_shim(_opts) {
+function gulp_spawn_shim(_opts, cb) {
     'use strict';
 
+    if (typeof _opts === 'function') {
+        cb = _opts;
+        _opts = {};
+    } else {
+        if(!_opts.cmd)
+            throw new Error('Command for child_process.spawn is required');
+
+        if(typeof _opts.cmd !== 'string')
+            throw new Error('Command for child_process.spawn must be a string');
+    }
+
     var opts = _opts || {};
-
-    if(!opts.cmd)
-        throw new Error('Command for child_process.spawn is required');
-
-    if(typeof opts.cmd !== 'string')
-        throw new Error('Command for child_process.spawn must be a string');
 
 
     // Spawn args as defined in http://nodejs.org/api/child_process.html
@@ -31,6 +36,7 @@ function gulp_spawn_shim(_opts) {
     opts.template.basename = _opts.template.basename || "<%= basename %>";
     opts.template.extname = _opts.template.extname || "<%= extname %>";
     opts.template.filename = _opts.template.filename || "<%= filename %>";
+
 
     // micro-template args
     var config_args = function(file) {
@@ -48,6 +54,8 @@ function gulp_spawn_shim(_opts) {
 
     };
 
+
+
     /**
      * Custom events for stream:
      * - stderr
@@ -57,8 +65,9 @@ function gulp_spawn_shim(_opts) {
      */
     var super_bus = new events.EventEmitter();
 
+    // cb.call(null, file, opts, callback);
 
-    var _write = function(file, cb) {
+    var _write = function(opts, file, cb) {
 
         // pass along
         if (file.isNull()) return cb(null, file);
@@ -80,8 +89,6 @@ function gulp_spawn_shim(_opts) {
             return cb(err, _file);
         });
 
-        // micro-template args
-        config_args(file);
 
         // handle stream error appropriately
         err_catcher.once('error', function(err) {
@@ -94,7 +101,8 @@ function gulp_spawn_shim(_opts) {
             bus.emit('publish', err);
         });
 
-
+        // micro-template args
+        config_args(file);
 
         var child = spawn(opts.cmd, opts.args, opts.options);
 
@@ -194,7 +202,31 @@ function gulp_spawn_shim(_opts) {
 
     };
 
-    var stream = _queue(_write);
+    // TODO: clean up
+    var user_cb_wrapper = function(through_cb, file, opts) {
+
+        if(!opts.cmd)
+            return through_cb(new Error('Command for child_process.spawn is required'));
+
+        if(typeof opts.cmd !== 'string')
+            return through_cb(new Error('Command for child_process.spawn must be a string'));
+
+        return _write(opts, file, through_cb);
+    }
+
+    var _write_wrapper = function(file, through_cb) {
+        if(typeof cb === 'function') {
+
+            var binded_cb = user_cb_wrapper.bind(this, through_cb);
+
+            return cb.call(null, file, opts, binded_cb);
+        }
+
+        return _write(opts, file, through_cb);
+    };
+
+    // var stream = _queue(_write);
+    var stream = _queue(_write_wrapper);
 
     super_bus.on('stderr', function(stderr) {
         stream.emit('stderr', stderr);

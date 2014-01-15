@@ -23,11 +23,23 @@ An alternative to this plugin is [gulp-spawn](https://github.com/hparra/gulp-spa
 
 ## API
 
-### gspawn(options)
+### gspawn(options [, callback])
 
-**Arguments**
+### gspawn(callback)
+
+#### Arguments
 
 * `options` -- an object containing options for gulp-spawn-shim
+
+* `callback` -- callback function with signature `function(file, opts, cb)`
+
+   The callback function is invoked before `child_process.spawn(...)` is executed.
+
+   The callback function is passed the file (vinyl object), and opts (a filtered object of the one passed to `spawn()`).
+
+   If `options` is excluded, the callback function is passed an empty options objects from which you must populate. This is useful for when you want to dynamically execute different `child_process.spawn()` profiles on various files.
+
+##### Options
 
 [child_process.spawn](nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options) parameters:
 
