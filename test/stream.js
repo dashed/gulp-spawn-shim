@@ -112,7 +112,7 @@ describe('When gulp.src in stream mode,', function() {
 
         it("should output correct file", function(done) {
 
-            this.timeout(4000);
+            this.timeout(0);
 
             var opts = {};
             // opts.cmd = 'sort';
@@ -162,7 +162,7 @@ describe('When gulp.src in stream mode,', function() {
 
         it("should pass all files", function(done) {
 
-            this.timeout(4000);
+            this.timeout(0);
 
             var opts = {};
             opts.cmd = 'doesnotexist';
