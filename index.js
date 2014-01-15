@@ -219,7 +219,9 @@ function gulp_spawn_shim(_opts, cb) {
 
             var binded_cb = user_cb_wrapper.bind(this, through_cb);
 
-            return cb.call(null, file, opts, binded_cb);
+            var new_opts = JSON.parse(JSON.stringify(opts));
+
+            return cb.call(null, file, new_opts, binded_cb);
         }
 
         return _write(opts, file, through_cb);
