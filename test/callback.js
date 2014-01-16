@@ -26,7 +26,6 @@ describe('when callback is used,', function() {
             var
             opts = {},
             cb_calls = 0,
-            sum_calls = 0,
             pipe_calls = 0,
             fail_calls = 0;
 
@@ -49,14 +48,12 @@ describe('when callback is used,', function() {
                 try{
                     expect(cb_calls).to.equal(3);
                     expect(fail_calls).to.equal(3);
-                    expect(sum_calls).to.equal(0);
                     expect(pipe_calls).to.equal(0);
 
                     done();
                 } catch(err) {
                     return done(err);
                 }
-
 
             };
 
@@ -74,23 +71,6 @@ describe('when callback is used,', function() {
 
                     pipe_calls++;
 
-                    // ensure file is transformed via child_process.spawn(...)
-                    helper.get_actual_checksum(file, function(actual_checksum) {
-                        helper.get_buffer_checksum(file.contents, function(real_checksum) {
-                            // console.log(actual_checksum);
-                            // console.log(checksum + "\n");
-                            try {
-                                expect(real_checksum)
-                                    .to.equal(actual_checksum);
-
-                                sum_calls++;
-                            } catch(err) {
-                                done(err);
-                            }
-                            return cb();
-                        });
-                    });
-                    // console.log(file.tag);
                     try {
                         expect(file.tag).to.deep.equal('tagged');
                     } catch(err) {
@@ -187,6 +167,8 @@ describe('when callback is used,', function() {
                 // tag
                 file.tag = 'tagged';
 
+
+
                 cb_calls++;
 
                 return cb(file, opts);
@@ -222,22 +204,7 @@ describe('when callback is used,', function() {
 
                     pipe_calls++;
 
-                    // ensure file is transformed via child_process.spawn(...)
-                    helper.get_actual_checksum(file, function(actual_checksum) {
-                        helper.get_stream_checksum(file.contents, function(real_checksum) {
-                            // console.log(actual_checksum);
-                            // console.log(checksum + "\n");
-                            try {
-                                expect(real_checksum)
-                                    .to.equal(actual_checksum);
 
-                                sum_calls++;
-                            } catch(err) {
-                                done(err);
-                            }
-                            return cb();
-                        });
-                    });
                     // console.log(file.tag);
                     try {
                         expect(file.tag).to.deep.equal('tagged');
@@ -326,7 +293,6 @@ describe('when callback is used,', function() {
             var
             opts = {},
             cb_calls = 0,
-            sum_calls = 0,
             pipe_calls = 0,
             fail_calls = 0;
 
@@ -349,7 +315,6 @@ describe('when callback is used,', function() {
                 try{
                     expect(cb_calls).to.equal(3);
                     expect(fail_calls).to.equal(3);
-                    expect(sum_calls).to.equal(0);
                     expect(pipe_calls).to.equal(0);
 
                     done();
@@ -374,22 +339,6 @@ describe('when callback is used,', function() {
 
                     pipe_calls++;
 
-                    // ensure file is transformed via child_process.spawn(...)
-                    helper.get_actual_checksum(file, function(actual_checksum) {
-                        helper.get_buffer_checksum(file.contents, function(real_checksum) {
-                            // console.log(actual_checksum);
-                            // console.log(checksum + "\n");
-                            try {
-                                expect(real_checksum)
-                                    .to.equal(actual_checksum);
-
-                                sum_calls++;
-                            } catch(err) {
-                                done(err);
-                            }
-                            return cb();
-                        });
-                    });
                     // console.log(file.tag);
                     try {
                         expect(file.tag).to.deep.equal('tagged');
