@@ -15,6 +15,7 @@ helper = require('./helper');
 
 describe('When gulp.src in buffer mode,', function() {
 
+
     describe("with cmd that post to stderr,", function() {
 
         it("should pass files", function(done) {
@@ -113,10 +114,8 @@ describe('When gulp.src in buffer mode,', function() {
         it("should output correct file", function(done) {
 
             var opts = {};
-            // opts.cmd = 'sort';
             opts.cmd = 'sed';
             opts.args = [];
-            // opts.args.push('-k2');
             opts.args.push("s/a/b/g");
 
             var input = {};
@@ -136,8 +135,13 @@ describe('When gulp.src in buffer mode,', function() {
                         // console.log(real_checksum);
                         // console.log(actual_checksum);
 
-                        expect(real_checksum)
-                            .to.equal(actual_checksum);
+                        try {
+                            expect(real_checksum)
+                                .to.equal(actual_checksum);
+                        } catch(err) {
+                            done(err);
+                        }
+
 
                         return callback();
                     });

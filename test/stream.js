@@ -139,8 +139,12 @@ describe('When gulp.src in stream mode,', function() {
                         // console.log(real_checksum);
                         // console.log(actual_checksum);
 
-                        expect(real_checksum)
-                            .to.equal(actual_checksum);
+                        try {
+                            expect(real_checksum)
+                                .to.equal(actual_checksum);
+                        } catch(err) {
+                            done(err);
+                        }
 
                         return callback();
                     });
