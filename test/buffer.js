@@ -15,7 +15,6 @@ helper = require('./helper');
 
 describe('When gulp.src in buffer mode,', function() {
 
-
     describe("with cmd that post to stderr,", function() {
 
         it("should pass files", function(done) {
@@ -130,7 +129,7 @@ describe('When gulp.src in buffer mode,', function() {
                 helper.get_actual_checksum(file, function(actual_checksum) {
                     helper.get_buffer_checksum(file.contents, function(real_checksum) {
 
-                        input.file_call++;
+
 
                         // console.log(real_checksum);
                         // console.log(actual_checksum);
@@ -138,6 +137,8 @@ describe('When gulp.src in buffer mode,', function() {
                         try {
                             expect(real_checksum)
                                 .to.equal(actual_checksum);
+
+                            input.file_call++;
                         } catch(err) {
                             done(err);
                         }
