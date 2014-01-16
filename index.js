@@ -25,18 +25,10 @@ function gulp_spawn_shim(_opts, cb) {
 
     var opts = _opts || {};
 
-
     // Spawn args as defined in http://nodejs.org/api/child_process.html
     opts.cmd = _opts.cmd;
     opts.args = _opts.args || [];
     opts.options = _opts.options || void 0;
-
-    // file name templates
-    opts.template = _opts.template || {};
-    opts.template.basename = _opts.template.basename || "<%= basename %>";
-    opts.template.extname = _opts.template.extname || "<%= extname %>";
-    opts.template.filename = _opts.template.filename || "<%= filename %>";
-
 
     // micro-template args
     var config_args = function(file) {
@@ -53,8 +45,6 @@ function gulp_spawn_shim(_opts, cb) {
         });
 
     };
-
-
 
     /**
      * Custom events for stream:

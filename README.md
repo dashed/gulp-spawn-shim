@@ -49,17 +49,18 @@ An alternative to this plugin is [gulp-spawn](https://github.com/hparra/gulp-spa
 
 * `options.options` - ***(Object)*** options parameter of [child_process.spawn](nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options). ***Default:*** undefined
 
-args templates -- these are options to replace placeholder with file information in args (e.g. `cmd -o filename.pdf`):
+### Arg Templates
 
-* `opts.template` -- object containing args template info. ***Default:*** Object.
+Available for args are placeholders made available for you to use. These placeholders...
+
+* `<%= basename %>` - placeholder for file's basename (e.g. `quux.html`)
+
+* `<%= extname %>` - placeholder for file's extension (e.g. `.html`)
+
+* `<%= filename %>` - placeholder for file's filename (e.g. `quux`)
 
 **Note:** Template placeholders are done via [gulp-util.template()](https://github.com/gulpjs/gulp-util), which itself uses [lodash templates](http://lodash.com/docs#template).
 
-* `opts.basename` -- placeholder for file's basename. ***Default:*** `"<%= basename %>"`.
-
-* `opts.extname` -- placeholder for file's extension name. ***Default:*** `"<%= extname %>"`.
-
-* `opts.filename` -- placeholder for file's name. ***Default:*** `"<%= filename %>"`.
 
 ### Events
 
