@@ -27,6 +27,7 @@ describe('when callback is used,', function() {
             this.timeout(4000);
 
             var
+            bus = new events.EventEmitter(),
             opts = {},
             cb_calls = 0,
             pipe_calls = 0,
@@ -45,7 +46,13 @@ describe('when callback is used,', function() {
                 return cb(file, opts);
             };
 
-            var cleanup = function() {
+            var count = 0;
+            bus.on('done', function(err) {
+
+                count++;
+                if(count < 4) {
+                    return;
+                }
 
                 try{
                     expect(cb_calls).to.equal(3);
@@ -57,10 +64,11 @@ describe('when callback is used,', function() {
                     return done(err);
                 }
 
-            };
+            });
 
             var fail = function() {
                 fail_calls++;
+                bus.emit('done');
             };
 
             // pass options with function - buffer mode
@@ -74,7 +82,9 @@ describe('when callback is used,', function() {
                     pipe_calls++;
                     return cb();
                 }))
-                .on('end', cleanup);
+                .on('end', function() {
+                    bus.emit('done');
+                });
 
         });
 
@@ -178,7 +188,6 @@ describe('when callback is used,', function() {
                 if(count < 4) {
                     return;
                 }
-
 
                 try{
                     expect(cb_calls).to.equal(3);
