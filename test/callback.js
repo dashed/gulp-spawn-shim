@@ -73,10 +73,7 @@ describe.only('when callback is used,', function() {
                 .pipe(queue(function(file, cb) {
 
                     console.log('not supposed to be here');
-                    console.log(file.contents);
-
-
-
+                    console.log(file.contents.toString());
                     pipe_calls++;
                     return cb();
                 }))
