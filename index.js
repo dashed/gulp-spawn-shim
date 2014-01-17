@@ -74,6 +74,7 @@ function gulp_spawn_shim(_opts, cb) {
         bus.once('publish', function(err, _file) {
             if(err) {
                 bus.removeAllListeners();
+                return cb(err);
             }
 
             return cb(err, _file);

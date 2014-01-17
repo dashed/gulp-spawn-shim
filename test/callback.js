@@ -32,9 +32,8 @@ describe.only('when callback is used,', function() {
             pipe_calls = 0,
             fail_calls = 0;
 
-            opts.cmd = 'very broken command';
+            opts.cmd = 'verybrokencommand';
             opts.args = [];
-            opts.args.push("s/a/b/g");
 
             var magic = function(file, opts, cb) {
 
@@ -74,6 +73,9 @@ describe.only('when callback is used,', function() {
                 .pipe(queue(function(file, cb) {
 
                     console.log('not supposed to be here');
+                    console.log(file.contents);
+
+
 
                     pipe_calls++;
                     return cb();
@@ -160,9 +162,8 @@ describe.only('when callback is used,', function() {
             pipe_calls = 0,
             fail_calls = 0;
 
-            opts.cmd = 'very broken command';
+            opts.cmd = 'verybrokencommand';
             opts.args = [];
-            opts.args.push("s/a/b/g");
 
 
 
