@@ -1,5 +1,6 @@
 var
 path = require('path'),
+events = require('events'),
 
 // gulp stuff
 gulp = require('gulp'),
@@ -152,9 +153,9 @@ describe('when callback is used,', function() {
         it("should emit failure event on invalid opts params (stream mode),", function(done) {
 
             var
+            bus = new events.EventEmitter(),
             opts = {},
             cb_calls = 0,
-            sum_calls = 0,
             pipe_calls = 0,
             fail_calls = 0;
 
@@ -162,24 +163,30 @@ describe('when callback is used,', function() {
             opts.args = [];
             opts.args.push("s/a/b/g");
 
+
+
             var magic = function(file, opts, cb) {
 
                 // tag
                 file.tag = 'tagged';
-
-
 
                 cb_calls++;
 
                 return cb(file, opts);
             }
 
-            var cleanup = function() {
+            var count = 0;
+            bus.on('done', function(err) {
+
+                count++;
+                if(count < 4) {
+                    return;
+                }
+
 
                 try{
                     expect(cb_calls).to.equal(3);
                     expect(fail_calls).to.equal(3);
-                    expect(sum_calls).to.equal(0);
                     expect(pipe_calls).to.equal(0);
 
                     done();
@@ -188,10 +195,11 @@ describe('when callback is used,', function() {
                 }
 
 
-            };
+            });
 
-            var fail = function() {
+            var fail = function(err) {
                 fail_calls++;
+                bus.emit('done');
             };
 
             // pass options with function - stream mode
@@ -213,7 +221,9 @@ describe('when callback is used,', function() {
                     }
 
                 }))
-                .on('end', cleanup);
+                .on('end', function() {
+                    bus.emit('done');
+                });
 
         });
 
