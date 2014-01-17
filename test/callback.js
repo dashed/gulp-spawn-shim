@@ -18,7 +18,7 @@ queue = require('async-queue-stream'),
 // through = require('through'),
 helper = require('./helper');
 
-describe.only('when callback is used,', function() {
+describe('when callback is used,', function() {
 
     describe('passed with opts object,', function() {
 
