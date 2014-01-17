@@ -148,10 +148,9 @@ describe('when callback is used,', function() {
 
         it("should emit failure event on invalid opts params (stream mode),", function(done) {
 
-            this.timeout(0);
+            this.timeout(4000);
 
             var
-            bus = new events.EventEmitter(),
             opts = {},
             cb_calls = 0,
             pipe_calls = 0,
@@ -172,8 +171,7 @@ describe('when callback is used,', function() {
                 return cb(file, opts);
             };
 
-            var count = 0;
-            bus.on('done', function(err) {
+            var cleanup = function() {
 
                 count++;
                 if(count < 4) {
@@ -191,11 +189,10 @@ describe('when callback is used,', function() {
                 }
 
 
-            });
+            };
 
             var fail = function(err) {
                 fail_calls++;
-                bus.emit('done');
             };
 
             // pass options with function - stream mode
@@ -209,14 +206,9 @@ describe('when callback is used,', function() {
                     pipe_calls++;
 
                     console.log('not supposed to be here2');
-
-                    file.contents.end();
-
-                    return cb(null, file);
+                    return cb();
                 }))
-                .on('end', function() {
-                    bus.emit('done');
-                });
+                .on('end', cleanup);
 
         });
 
