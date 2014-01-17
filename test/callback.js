@@ -28,6 +28,7 @@ describe('when callback is used,', function() {
 
             var
             opts = {},
+            bus = new events.EventEmitter(),
             cb_calls = 0,
             pipe_calls = 0,
             fail_calls = 0;
@@ -45,7 +46,12 @@ describe('when callback is used,', function() {
                 return cb(file, _opts);
             };
 
-            var cleanup = function() {
+            var count = 0;
+            bus.on('done', function(err) {
+
+                count++;
+                if(count < 4)
+                    return;
 
                 try{
                     expect(cb_calls).to.equal(3);
@@ -57,16 +63,20 @@ describe('when callback is used,', function() {
                     return done(err);
                 }
 
-            };
+            });
 
-            var fail = function() {
-                fail_calls++;
+            var fail = function(exit_code) {
+
+                if(exit_code == -1)
+                    fail_calls++;
+
+                bus.emit('done');
             };
 
             // pass options with function - buffer mode
             gulp.src(helper.rawFixtures, {buffer: true})
                 .pipe(spawn(opts, magic))
-                    .on('failure', fail)
+                    .on('exit', fail)
 
                 // this should never be executed!!
                 .pipe(queue(function(file, cb) {
@@ -75,7 +85,9 @@ describe('when callback is used,', function() {
                     pipe_calls++;
                     return cb();
                 }))
-                .on('end', cleanup);
+                .on('end', function() {
+                    bus.emit('done');
+                });
 
         });
 
@@ -152,6 +164,7 @@ describe('when callback is used,', function() {
 
             var
             opts = {},
+            bus = new events.EventEmitter(),
             cb_calls = 0,
             pipe_calls = 0,
             fail_calls = 0;
@@ -171,11 +184,16 @@ describe('when callback is used,', function() {
                 return cb(file, opts);
             };
 
-            var cleanup = function() {
+            var count = 0;
+            bus.on('done', function(err) {
+
+                count++;
+                if(count < 4)
+                    return;
 
                 try{
                     expect(cb_calls).to.equal(3);
-                    expect(fail_calls).to.be.at.least(1);
+                    expect(fail_calls).to.equal(3);
                     expect(pipe_calls).to.equal(0);
 
                     done();
@@ -183,21 +201,21 @@ describe('when callback is used,', function() {
                     return done(err);
                 }
 
+            });
 
-            };
+            var fail = function(exit_code) {
+                // console.log('fail');
+                if(exit_code == -1)
+                    fail_calls++;
 
-            var fail = function(err) {
-                console.log('fail');
-                fail_calls++;
+                bus.emit('done');
             };
 
             // pass options with function - stream mode
             gulp.src(helper.rawFixtures, {buffer: false})
                 .pipe(spawn(opts, magic))
-                    .on('failure', fail)
-                    .on('exit', function(exit) {
-                        console.log('exit:' + exit);
-                    })
+                    // .on('failure', fail)
+                    .on('exit', fail)
 
                 // this should never be executed!!
                 .pipe(queue(function(file, cb) {
@@ -207,7 +225,7 @@ describe('when callback is used,', function() {
                     console.log('not supposed to be here2');
                     return cb();
                 }))
-                .on('end', cleanup);
+                .on('end', function() {bus.emit('done');});
 
         });
 
@@ -285,14 +303,10 @@ describe('when callback is used,', function() {
         it("should emit failure event on invalid opts params (buffer mode),", function(done) {
 
             var
-            opts = {},
+            bus = new events.EventEmitter(),
             cb_calls = 0,
             pipe_calls = 0,
             fail_calls = 0;
-
-            opts.cmd = 'very broken command';
-            opts.args = [];
-            opts.args.push("s/a/b/g");
 
             var magic = function(file, opts, cb) {
 
@@ -304,7 +318,12 @@ describe('when callback is used,', function() {
                 return cb(file, opts);
             };
 
-            var cleanup = function() {
+            var count = 0;
+            bus.on('done', function(err) {
+
+                count++;
+                if(count < 4)
+                    return;
 
                 try{
                     expect(cb_calls).to.equal(3);
@@ -316,22 +335,28 @@ describe('when callback is used,', function() {
                     return done(err);
                 }
 
-
-            };
+            });
 
             var fail = function() {
+
+
                 fail_calls++;
+
+                bus.emit('done');
             };
 
             // pass options with function - buffer mode
             gulp.src(helper.rawFixtures, {buffer: true})
                 .pipe(spawn(magic))
+                    // .on('exit', fail)
                     .on('failure', fail)
 
                 // this should never be executed!!
                 .pipe(queue(function(file, cb) {
 
                     pipe_calls++;
+
+                    console.log('not to be here')
 
                     // console.log(file.tag);
                     try {
@@ -341,7 +366,7 @@ describe('when callback is used,', function() {
                     }
 
                 }))
-                .on('end', cleanup);
+                .on('end', function() {bus.emit('done');});
 
         });
 
@@ -349,29 +374,39 @@ describe('when callback is used,', function() {
 
             var
             cb_calls = 0,
+            bus = new events.EventEmitter(),
             sum_calls = 0,
             pipe_calls = 0,
             fail_calls = 0;
 
-
+            var s = false;
             var magic = function(file, opts, cb) {
 
                 // tag
                 file.tag = 'tagged';
 
-                opts.cmd = [1];
+                if(s) {
+                    opts.cmd = [];
+                } else {
+                    opts.cmd = "lol";
+                    s = true;
+                }
 
                 cb_calls++;
 
                 return cb(file, opts);
             };
 
-            var cleanup = function() {
+            var count = 0;
+            bus.on('done', function(err) {
+
+                count++;
+                if(count < 4)
+                    return;
 
                 try{
                     expect(cb_calls).to.equal(3);
                     expect(fail_calls).to.equal(3);
-                    expect(sum_calls).to.equal(0);
                     expect(pipe_calls).to.equal(0);
 
                     done();
@@ -379,11 +414,13 @@ describe('when callback is used,', function() {
                     return done(err);
                 }
 
-
-            };
+            });
 
             var fail = function() {
+
                 fail_calls++;
+
+                bus.emit('done');
             };
 
             // pass options with function - stream mode
@@ -420,7 +457,7 @@ describe('when callback is used,', function() {
                     }
 
                 }))
-                .on('end', cleanup);
+                .on('end', function() {bus.emit('done');});
 
         });
 
