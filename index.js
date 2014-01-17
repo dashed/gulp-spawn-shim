@@ -68,10 +68,16 @@ function gulp_spawn_shim(_opts, cb) {
          * Available events:
          * publish
          */
-        var bus = new events.EventEmitter();
+        var
+        bus = new events.EventEmitter(),
+        fatal_error = false;
 
         // properly invoke callback once
         bus.once('publish', function(err, _file) {
+
+            if(fatal_error === true)
+                return cb();
+
             if(err) {
                 bus.removeAllListeners();
                 return cb(err);
@@ -83,6 +89,9 @@ function gulp_spawn_shim(_opts, cb) {
 
         // handle stream error appropriately
         err_catcher.once('error', function(err) {
+
+            if(err)
+                fatal_error = true;
 
             // Broken pipe
             if (err.code == "EPIPE" || err.code == "ENOENT") {
