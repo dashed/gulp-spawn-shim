@@ -173,11 +173,6 @@ describe('when callback is used,', function() {
 
             var cleanup = function() {
 
-                count++;
-                if(count < 4) {
-                    return;
-                }
-
                 try{
                     expect(cb_calls).to.equal(3);
                     expect(fail_calls).to.equal(3);
