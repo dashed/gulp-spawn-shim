@@ -183,15 +183,19 @@ function gulp_spawn_shim(_opts, cb) {
 
         } else if (file.isBuffer()) {
 
-            var output = new Buffer(0);
+            var
+            output = new Buffer(0),
+            rec_data = false;
 
             child.stdout.on("data", function (chunk) {
+                rec_data = true;
                 output = Buffer.concat([output, chunk]);
             });
 
             child.stdout.once("end", function () {
 
-                console.log('buf.length:' + buf.length);
+                if(rec_data === false)
+                    return bus.emit('publish', new Error("Received no output from stdout."));
 
                 file.contents = output;
                 return bus.emit('publish', void 0, file);
