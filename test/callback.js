@@ -72,11 +72,6 @@ describe('when callback is used,', function() {
 
                     pipe_calls++;
 
-                    try {
-                        expect(file.tag).to.deep.equal('tagged');
-                    } catch(err) {
-                        done(err);
-                    }
 
                 }))
                 .on('end', cleanup);
@@ -212,13 +207,8 @@ describe('when callback is used,', function() {
 
                     pipe_calls++;
 
+                    file.contents.end();
 
-                    // console.log(file.tag);
-                    try {
-                        expect(file.tag).to.deep.equal('tagged');
-                    } catch(err) {
-                        done(err);
-                    }
 
                 }))
                 .on('end', function() {
