@@ -195,6 +195,9 @@ describe('when callback is used,', function() {
             gulp.src(helper.rawFixtures, {buffer: false})
                 .pipe(spawn(opts, magic))
                     .on('failure', fail)
+                    .on('exit', function(exit) {
+                        console.log('exit:' + exit);
+                    })
 
                 // this should never be executed!!
                 .pipe(queue(function(file, cb) {
