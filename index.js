@@ -75,13 +75,13 @@ function gulp_spawn_shim(_opts, cb) {
         // properly invoke callback once
         bus.once('publish', function(err, _file) {
 
-            if(fatal_error === true)
-                return cb();
-
             if(err) {
                 bus.removeAllListeners();
                 return cb(err);
             }
+
+            if(fatal_error === true)
+                return cb();
 
             return cb(err, _file);
         });
