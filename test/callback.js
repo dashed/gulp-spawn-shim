@@ -18,7 +18,7 @@ queue = require('async-queue-stream'),
 // through = require('through'),
 helper = require('./helper');
 
-describe.only('when callback is used,', function() {
+describe('when callback is used,', function() {
 
     describe('passed with opts object,', function() {
 
@@ -49,7 +49,7 @@ describe.only('when callback is used,', function() {
 
                 try{
                     expect(cb_calls).to.equal(3);
-                    expect(fail_calls).to.be.at.least(1);
+                    expect(fail_calls).to.equal(3);
                     expect(pipe_calls).to.equal(0);
 
                     done();
@@ -60,7 +60,6 @@ describe.only('when callback is used,', function() {
             };
 
             var fail = function() {
-                console.log('failed');
                 fail_calls++;
             };
 
@@ -72,8 +71,6 @@ describe.only('when callback is used,', function() {
                 // this should never be executed!!
                 .pipe(queue(function(file, cb) {
 
-                    console.log('not supposed to be here');
-                    console.log(file.contents.toString());
                     pipe_calls++;
                     return cb();
                 }))
@@ -185,7 +182,7 @@ describe.only('when callback is used,', function() {
 
                 try{
                     expect(cb_calls).to.equal(3);
-                    expect(fail_calls).to.be.at.least(1);
+                    expect(fail_calls).to.equal(3);
                     expect(pipe_calls).to.equal(0);
 
                     done();
