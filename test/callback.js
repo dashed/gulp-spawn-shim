@@ -24,6 +24,8 @@ describe('when callback is used,', function() {
 
         it("should emit failure event on invalid opts params (buffer mode),", function(done) {
 
+            this.timeout(4000);
+
             var
             opts = {},
             cb_calls = 0,
@@ -144,6 +146,8 @@ describe('when callback is used,', function() {
         });
 
         it("should emit failure event on invalid opts params (stream mode),", function(done) {
+
+            this.timeout(4000);
 
             var
             bus = new events.EventEmitter(),
