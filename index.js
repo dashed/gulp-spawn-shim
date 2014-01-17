@@ -190,8 +190,11 @@ function gulp_spawn_shim(_opts, cb) {
             });
 
             child.stdout.once("end", function () {
-                    file.contents = output;
-                    return bus.emit('publish', void 0, file);
+
+                console.log('buf.length:' + buf.length);
+
+                file.contents = output;
+                return bus.emit('publish', void 0, file);
             });
 
             child.stdin.write(file.contents);

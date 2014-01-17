@@ -18,7 +18,7 @@ queue = require('async-queue-stream'),
 // through = require('through'),
 helper = require('./helper');
 
-describe('when callback is used,', function() {
+describe.only('when callback is used,', function() {
 
     describe('passed with opts object,', function() {
 
@@ -27,7 +27,6 @@ describe('when callback is used,', function() {
             this.timeout(4000);
 
             var
-            bus = new events.EventEmitter(),
             opts = {},
             cb_calls = 0,
             pipe_calls = 0,
@@ -36,23 +35,17 @@ describe('when callback is used,', function() {
             opts.cmd = 'verybrokencommand';
             opts.args = [];
 
-            var magic = function(file, opts, cb) {
+            var magic = function(file, _opts, cb) {
 
                 // tag
                 file.tag = 'tagged';
 
                 cb_calls++;
 
-                return cb(file, opts);
+                return cb(file, _opts);
             };
 
-            var count = 0;
-            bus.on('done', function(err) {
-
-                count++;
-                if(count < 4) {
-                    return;
-                }
+            var cleanup = function() {
 
                 try{
                     expect(cb_calls).to.equal(3);
@@ -64,11 +57,10 @@ describe('when callback is used,', function() {
                     return done(err);
                 }
 
-            });
+            };
 
             var fail = function() {
                 fail_calls++;
-                bus.emit('done');
             };
 
             // pass options with function - buffer mode
@@ -83,10 +75,7 @@ describe('when callback is used,', function() {
                     pipe_calls++;
                     return cb();
                 }))
-                .on('end', function() {
-                    console.log('end');
-                    bus.emit('done');
-                });
+                .on('end', cleanup);
 
         });
 
