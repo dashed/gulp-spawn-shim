@@ -4,7 +4,7 @@ events = require('events'),
 
 // gulp stuff
 gulp = require('gulp'),
-spawn = require('../')
+spawn = require('../'),
 
 // test
 chai = require('chai'),
@@ -18,13 +18,13 @@ queue = require('async-queue-stream'),
 // through = require('through'),
 helper = require('./helper');
 
-describe('when callback is used,', function() {
+describe.only('when callback is used,', function() {
 
     describe('passed with opts object,', function() {
 
         it("should emit failure event on invalid opts params (buffer mode),", function(done) {
 
-            this.timeout(0);
+            this.timeout(4000);
 
             var
             opts = {},
@@ -61,6 +61,7 @@ describe('when callback is used,', function() {
             };
 
             var fail = function() {
+                console.log('failed');
                 fail_calls++;
             };
 
@@ -71,8 +72,11 @@ describe('when callback is used,', function() {
 
                 // this should never be executed!!
                 .pipe(queue(function(file, cb) {
+
+                    console.log('not supposed to be here');
+
                     pipe_calls++;
-                    return cb(err, file);
+                    return cb();
                 }))
                 .on('end', cleanup);
 
@@ -97,7 +101,7 @@ describe('when callback is used,', function() {
                 cb_calls++;
 
                 return cb(file, opts);
-            }
+            };
 
             var cleanup = function() {
 
@@ -170,7 +174,7 @@ describe('when callback is used,', function() {
                 cb_calls++;
 
                 return cb(file, opts);
-            }
+            };
 
             var count = 0;
             bus.on('done', function(err) {
@@ -209,6 +213,8 @@ describe('when callback is used,', function() {
 
                     pipe_calls++;
 
+                    console.log('not supposed to be here2');
+
                     file.contents.end();
 
                     return cb(null, file);
@@ -238,7 +244,7 @@ describe('when callback is used,', function() {
                 cb_calls++;
 
                 return cb(file, opts);
-            }
+            };
 
             var cleanup = function() {
 
@@ -310,7 +316,7 @@ describe('when callback is used,', function() {
                 cb_calls++;
 
                 return cb(file, opts);
-            }
+            };
 
             var cleanup = function() {
 
@@ -372,7 +378,7 @@ describe('when callback is used,', function() {
                 cb_calls++;
 
                 return cb(file, opts);
-            }
+            };
 
             var cleanup = function() {
 
@@ -450,7 +456,7 @@ describe('when callback is used,', function() {
                 cb_calls++;
 
                 return cb(file, opts);
-            }
+            };
 
             var cleanup = function() {
 
@@ -522,7 +528,7 @@ describe('when callback is used,', function() {
                 cb_calls++;
 
                 return cb(file, opts);
-            }
+            };
 
             var cleanup = function() {
 
