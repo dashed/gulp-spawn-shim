@@ -79,10 +79,12 @@ describe('when callback is used,', function() {
                 // this should never be executed!!
                 .pipe(queue(function(file, cb) {
 
+                    console.log('not supposed to be here');
                     pipe_calls++;
                     return cb();
                 }))
                 .on('end', function() {
+                    console.log('end');
                     bus.emit('done');
                 });
 
