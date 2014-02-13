@@ -356,7 +356,7 @@ describe('when callback is used,', function() {
 
                     pipe_calls++;
 
-                    console.log('not to be here')
+                    console.log('not to be here');
 
                     // console.log(file.tag);
                     try {

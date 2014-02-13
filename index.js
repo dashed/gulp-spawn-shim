@@ -31,7 +31,7 @@ function gulp_spawn_shim(_opts, cb) {
     opts.options = _opts.options || void 0;
 
     // micro-template args
-    var config_args = function(file) {
+    var config_args = function(opts, file) {
 
         // template the args
         var exp = {};
@@ -102,7 +102,7 @@ function gulp_spawn_shim(_opts, cb) {
         });
 
         // micro-template args
-        config_args(file);
+        config_args(opts, file);
 
         var child = spawn(opts.cmd, opts.args, opts.options);
 
