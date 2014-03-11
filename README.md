@@ -93,7 +93,7 @@ opts.args = ['-t', 'html'];
 
 gulp.src('./notes/**/*.md')
     .pipe(spawn(opts))
-    .pipe(gulp.desct(...));
+    .pipe(gulp.dest(...));
 ```
 
 ## Under the hood
